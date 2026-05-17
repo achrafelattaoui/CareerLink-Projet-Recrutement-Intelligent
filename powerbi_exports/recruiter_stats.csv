@@ -1,0 +1,501 @@
+﻿company_name,recruiter_name,recruiter_email,sector,total_jobs,total_applicants,avg_applicants_per_job
+BMCE Bank of Africa,Hanane Jamali,hanane.jamali@bmcebankofafrica.ma,IT,64,1097,17.14
+CGI Maroc,Nadia Sbai,nadia.sbai@cgimaroc.ma,Energy,105,1097,10.45
+OCP Group,,,Construction,113,1097,9.71
+Glovo Maroc,,,Healthcare,110,1097,9.97
+Renault Maroc,,,Construction,184,1097,5.96
+Teleperformance Maroc,,,Healthcare,23,1097,47.7
+Managem,,,Healthcare,134,1096,8.18
+Microsoft Maroc,,,Energy,20,1096,54.8
+Maroc Telecom,,,Finance,96,1096,11.42
+Oracle Maroc,,,Energy,18,1096,60.89
+Banque Populaire,Anas Idrissi,anas.idrissi@banquepopulaire.ma,Retail,24,1096,45.67
+Bim Maroc,Karim Othmani,karim.othmani@bimmaroc.ma,Telecom,18,1096,60.89
+HPS,,,Transport,18,1096,60.89
+SQLI Maroc,,,Healthcare,17,1096,64.47
+CIH Bank,Reda Berrich,reda.berrich@inwigroupe2.ma,Finance,20,1096,54.8
+Jumia Maroc,,,Retail,62,1096,17.68
+Intelcia,,,IT,23,1096,47.65
+Centrale Danone,,,IT,18,1096,60.89
+Lesieur Cristal,,,Transport,86,1096,12.74
+Yazaki Maroc,,,Construction,26,1096,42.15
+Stellantis Maroc,,,Industry,20,993,49.65
+LG Electronics Maroc,,,Finance,16,993,62.06
+Webhelp Maroc,,,Retail,20,993,49.65
+ADM Maroc,Youssef Alaoui,youssef.alaoui@admmaroc.ma,Transport,16,986,61.63
+Cosumar,,,IT,91,986,10.84
+HP Maroc,,,Transport,22,985,44.77
+Saham Assurance,,,Transport,21,985,46.9
+Marjane Holding,,,Finance,21,984,46.86
+Sothema,,,Telecom,21,984,46.86
+Dell Maroc,,,IT,17,977,57.47
+Egis Maroc,,,Industry,19,977,51.42
+Redal,,,Energy,15,976,65.07
+Wafa Assurance,,,Industry,21,976,46.48
+Inetum Maroc,,,Industry,16,970,60.63
+Société Afriquia Marocaine de Distribution,,,Healthcare,15,970,64.67
+Lear Corporation Maroc,,,Industry,20,970,48.5
+Samsung Electronics Maghreb,,,Retail,19,967,50.89
+Attijariwafa Bank,Adil Filali,adil.filali@attijariwafabank.ma,Retail,99,967,9.77
+Novec,,,Industry,19,966,50.84
+TotalEnergies Maroc,,,Transport,19,966,50.84
+Laprophan,,,Industry,19,966,50.84
+LafargeHolcim Maroc,,,Industry,17,962,56.59
+Alsa Maroc,Ayoub Berrada,ayoub.berrada@alsamaroc.ma,Retail,19,961,50.58
+Amendis,Karim Amrani,karim.amrani@amendis.ma,Finance,17,961,56.53
+Dislog Group,,,Construction,19,956,50.32
+LabelVie,,,Healthcare,17,882,51.88
+Lydec,,,Retail,13,863,66.38
+ONCF,,,Energy,77,850,11.04
+M2M Group,,,Finance,14,849,60.64
+Capgemini Maroc,,,Retail,95,847,8.92
+Afriquia SMDC,Yassine Zniber,yassine.zniber@afriquiasmdc.ma,Industry,18,840,46.67
+Royal Air Maroc,,,Transport,45,822,18.27
+Majorel,,,Industry,17,739,43.47
+Vivo Energy Maroc,,,Telecom,13,739,56.85
+Acima,Mehdi Idrissi,mehdi.idrissi@acima.ma,IT,17,719,42.29
+CID,Imane Filali,imane.filali@ctm.ma,Healthcare,16,719,44.94
+Akdital,Adil Belhaj,adil.belhaj@akdital.ma,Construction,15,709,47.27
+Société Générale Maroc,,,Industry,75,480,6.4
+Somaca,Recruteur Somaca,recruiter@gmail.com,Energy,120,454,3.78
+Addoha,Rachid Othmani,rachid.othmani@addoha.ma,Telecom,75,369,4.92
+Decathlon Maroc,,,Retail,75,334,4.45
+Accor Maroc,Nadia Amrani,nadia.amrani@accormaroc.ma,Healthcare,45,231,5.13
+Sonasid,,,Energy,1,140,140.0
+Webhelp Maroc Groupe 6,,,IT,1,140,140.0
+M2M Group Services,,,Transport,1,140,140.0
+Credit du Maroc Groupe 6,,,Transport,1,140,140.0
+Teleperformance Maroc Distribution,,,IT,1,140,140.0
+Marsa Maroc Logistics,,,Transport,1,140,140.0
+Nareva Groupe 5,,,Construction,1,140,140.0
+Nareva Holding Industrie,,,Healthcare,1,140,140.0
+Saham Assurance Groupe 7,,,Healthcare,1,140,140.0
+Vivo Energy Maroc Distribution,,,IT,1,140,140.0
+Faurecia Maroc Groupe 6,,,Finance,1,140,140.0
+ONEE Electricite,,,Healthcare,1,140,140.0
+Oncorad Group Groupe 5,,,Finance,1,140,140.0
+GTR Services,,,Healthcare,1,140,140.0
+Cosumar Groupe 5,,,Telecom,1,140,140.0
+Cosumar Services,,,Energy,1,140,140.0
+Bim Maroc Groupe 5,Salma Benjelloun,salma.benjelloun@bimmarocgroupe5.ma,Healthcare,1,140,140.0
+Redal Groupe 5,,,Transport,1,140,140.0
+Redal Services,,,Retail,1,140,140.0
+Royal Air Maroc Groupe 5,,,Healthcare,1,140,140.0
+Royal Air Maroc Services,,,Finance,1,140,140.0
+Egis Maroc Groupe 5,,,Finance,1,140,140.0
+CGI Maroc Industrie,Sanae Daoudi,sanae.daoudi@centraledanone.ma,Retail,1,140,140.0
+Winxo Groupe 6,,,Transport,1,140,140.0
+Banque Populaire Groupe 7,Amina Guessous,amina.guessous@banquepopulairegroupe7.ma,Telecom,1,140,140.0
+Peugeot Citroën Automobiles Maroc Distribution,,,IT,1,140,140.0
+Société Marocaine des Tabacs Services,,,IT,1,140,140.0
+Akdital Distribution,Leila Naciri,leila.naciri@akditaldistribution.ma,Energy,1,140,140.0
+CID Groupe 4,Leila Rami,leila.rami@cdg.ma,Finance,1,140,140.0
+CID Groupe 6,Zineb Malki,zineb.malki@dianaholding.ma,Construction,1,140,140.0
+Capgemini Maroc Groupe 5,,,Energy,1,140,140.0
+Capgemini Maroc Groupe 6,,,Healthcare,1,140,140.0
+AtlantaSanad Groupe 7,Sanae Tahiri,sanae.tahiri@atlantasanadgroupe7.ma,Industry,1,140,140.0
+Societe Generale Maroc,,,Industry,1,140,140.0
+Intelcia Groupe 6,,,Telecom,1,140,140.0
+CIH Bank Distribution,Asmaa Hachimi,asmaa.hachimi@holcim.ma,Retail,1,140,140.0
+CIH Bank Groupe 7,Ilyas Jamali,ilyas.jamali@labelvie.ma,Construction,1,140,140.0
+Sopra Steria Maroc,,,IT,1,140,140.0
+Jet Contractors,,,Finance,1,140,140.0
+Stellantis Maroc Groupe 7,,,Industry,1,140,140.0
+Taqa Morocco,,,Energy,1,140,140.0
+SQLI Maroc Groupe 4,,,Telecom,1,140,140.0
+TotalEnergies Marketing Maroc Distribution,,,IT,1,140,140.0
+TotalEnergies Marketing Maroc Industrie,,,Finance,1,140,140.0
+TotalEnergies Maroc Groupe 4,,,Telecom,1,140,140.0
+Société Afriquia Marocaine de Distribution Industrie,,,Finance,1,140,140.0
+Société Afriquia Marocaine de Distribution Services,,,Retail,1,140,140.0
+Lesieur Cristal Groupe 7,,,Energy,1,140,140.0
+Inetum Maroc Groupe 6,,,Finance,1,140,140.0
+Dislog Group Distribution,,,Construction,1,140,140.0
+Lesieur Cristal Industrie,,,Retail,1,140,140.0
+Lesieur Cristal Services,,,Telecom,1,140,140.0
+Lydec Industrie,,,Retail,1,140,140.0
+Ciments du Maroc Distribution,,,Healthcare,1,140,140.0
+Ciments du Maroc Groupe 5,,,Energy,1,135,135.0
+Al Barid Bank Groupe 7,Siham Yacoubi,siham.yacoubi@albaridbankgroupe7.ma,Healthcare,1,135,135.0
+Maghreb Steel Industrie,,,Retail,1,135,135.0
+Majorel Groupe 6,,,Retail,1,135,135.0
+ADM Maroc Industrie,Omar Chraibi,omar.chraibi@admmarocindustrie.ma,Healthcare,1,135,135.0
+Amendis Distribution,Salma Idrissi,salma.idrissi@amendisdistribution.ma,Industry,1,135,135.0
+BMCE Bank of Africa Groupe 5,Said Alaoui,said.alaoui@bmcebankofafricagroupe5.ma,Transport,1,135,135.0
+Sothema Groupe 5,,,Industry,1,135,135.0
+Credit du Maroc,,,Energy,1,135,135.0
+Credit du Maroc Groupe 7,,,Transport,1,135,135.0
+Credit du Maroc Industrie,,,Industry,1,135,135.0
+Dislog Group Industrie,,,Energy,1,135,135.0
+Novec Groupe 4,,,Industry,1,135,135.0
+Wafa Assurance Industrie,,,Healthcare,1,135,135.0
+Banque Centrale Populaire,Othmane Chraibi,othmane.chraibi@banquecentralepopulaire.ma,Industry,1,135,135.0
+Webhelp Maroc Services,,,Healthcare,1,135,135.0
+Egis Maroc Services,,,Retail,1,135,135.0
+Faurecia Maroc Groupe 7,,,IT,1,135,135.0
+Maroc Telecom Groupe 7,,,Construction,1,135,135.0
+Mutandis,,,IT,1,135,135.0
+CFG Bank,Hassan Lazrak,hassan.lazrak@cfgbank.ma,Energy,1,135,135.0
+SEWS Maroc Groupe 5,,,IT,1,135,135.0
+SGTM,,,Healthcare,1,135,135.0
+HPS Groupe 4,,,Construction,1,135,135.0
+SNTL,,,Industry,1,135,135.0
+Egis Maroc Groupe 4,,,Construction,1,135,135.0
+Royal Air Maroc Groupe 6,,,Transport,1,135,135.0
+Royal Air Maroc Industrie,,,Energy,1,135,135.0
+Redal Groupe 6,,,Finance,1,135,135.0
+Renault Commerce Maroc Distribution,,,IT,1,135,135.0
+Saham Assurance Services,,,Energy,1,135,135.0
+Akwa Group,Asmaa Rami,asmaa.rami@akwagroup.ma,IT,1,135,135.0
+Capgemini Engineering Maroc Services,,,Transport,1,135,135.0
+Samsung Electronics Maghreb Arab Services,,,Construction,1,135,135.0
+AtlantaSanad Industrie,Hicham Daoudi,hicham.daoudi@atlantasanadindustrie.ma,Construction,1,135,135.0
+Sonasid Services,,,Telecom,1,135,135.0
+Sopra Steria Maroc Groupe 4,,,Retail,1,135,135.0
+Sopra Steria Maroc Groupe 5,,,Construction,1,135,135.0
+CIH Bank Services,Said Berrada,said.berrada@ocpgroup.ma,Finance,1,135,135.0
+CIH Bank Groupe 6,Bouchra Yacoubi,bouchra.yacoubi@iamdistribution.ma,Transport,1,135,135.0
+SQLI Maroc Services,,,Transport,1,135,135.0
+Ynna Holding,,,Energy,1,135,135.0
+Laprophan Industrie,,,Telecom,1,135,135.0
+Centrale Danone Distribution,,,Energy,1,135,135.0
+Attijariwafa Bank Distribution,Leila Kadiri,leila.kadiri@attijariwafabankdistribution.ma,Finance,1,135,135.0
+Attijariwafa Bank Groupe 6,Zineb Bennis,zineb.bennis@attijariwafabankgroupe6.ma,Transport,1,135,135.0
+LabelVie Groupe 5,,,Telecom,1,135,135.0
+Inetum Maroc Groupe 5,,,Construction,1,135,135.0
+Inetum Maroc Industrie,,,Transport,1,130,130.0
+Novec Distribution,,,Healthcare,1,130,130.0
+Novec Industrie,,,Transport,1,130,130.0
+Sonasid Distribution,,,Energy,1,130,130.0
+Afriquia SMDC Groupe 6,Imane Sbai,imane.sbai@afriquiasmdcgroupe6.ma,Construction,1,130,130.0
+Akwa Group Distribution,Nabil Bennis,nabil.bennis@akwagroupdistribution.ma,Finance,1,130,130.0
+Al Barid Bank Groupe 5,Naima Hachimi,naima.hachimi@albaridbankgroupe5.ma,Telecom,1,130,130.0
+Ciments du Maroc Groupe 6,,,Industry,1,130,130.0
+Colorado Maroc,,,Transport,1,130,130.0
+Dislog Group Services,,,Transport,1,130,130.0
+Alsa Maroc Groupe 6,Ibtissam Chraibi,ibtissam.chraibi@alsamarocgroupe6.ma,Construction,1,130,130.0
+Lear Maroc Groupe 6,,,Healthcare,1,130,130.0
+Teleperformance Maroc Groupe 5,,,Retail,1,130,130.0
+M2M Group Groupe 6,,,Finance,1,130,130.0
+Credit du Maroc Groupe 5,,,Telecom,1,130,130.0
+Jumia Maroc Groupe 7,,,IT,1,130,130.0
+Vivo Energy Maroc Groupe 6,,,Finance,1,130,130.0
+Vivo Energy Maroc Industrie,,,Energy,1,130,130.0
+Wafa Assurance Groupe 7,,,Industry,1,130,130.0
+Banque Centrale Populaire Services,Wiam Amrani,wiam.amrani@banquecentralepopulaireservices.ma,Finance,1,130,130.0
+GTR Industrie,,,Construction,1,130,130.0
+Oncorad Group Industrie,,,Industry,1,130,130.0
+ONEE Eau,,,Telecom,1,130,130.0
+LafargeHolcim Maroc Groupe 4,,,Transport,1,130,130.0
+Fenie Brossette,,,Retail,1,130,130.0
+SNTL Industrie,,,Healthcare,1,130,130.0
+SEWS Maroc Groupe 7,,,Finance,1,130,130.0
+LabelVie Groupe 7,,,Energy,1,130,130.0
+Capgemini Engineering Maroc Distribution,,,Construction,1,130,130.0
+TotalEnergies Maroc Groupe 5,,,Finance,1,130,130.0
+Peugeot Citroën Automobiles Maroc Industrie,,,Construction,1,130,130.0
+Société Marocaine des Tabacs,,,Construction,1,130,130.0
+Société Marocaine des Tabacs Industrie,,,Finance,1,130,130.0
+CID Distribution,Adil Kadiri,adil.kadiri@ctmgroupe5.ma,Industry,1,130,130.0
+AtlantaSanad Groupe 5,Houda Belhaj,houda.belhaj@atlantasanadgroupe5.ma,Finance,1,130,130.0
+TGCC,,,Healthcare,1,130,130.0
+Attijariwafa Bank Groupe 7,Brahim Malki,brahim.malki@attijariwafabankgroupe7.ma,Retail,1,130,130.0
+SQLI Maroc Groupe 6,,,Healthcare,1,130,130.0
+Majorel Distribution,,,Construction,1,130,130.0
+Majorel Groupe 5,,,Transport,1,130,130.0
+Centrale Danone Industrie,,,Construction,1,130,130.0
+Société Afriquia Marocaine de Distribution Distribution,,,Retail,1,130,130.0
+Dislog Group Groupe 5,,,Retail,1,130,130.0
+SNTL Groupe 7,,,IT,1,126,126.0
+Renault Commerce Maroc Services,,,IT,1,126,126.0
+Afric Industries,Houda Benjelloun,houda.benjelloun@africindustries.ma,Healthcare,1,126,126.0
+Maghreb Steel Groupe 5,,,IT,1,126,126.0
+HPS Distribution,,,Energy,1,126,126.0
+Managem Industrie,,,Energy,1,126,126.0
+Inetum Maroc Distribution,,,Finance,1,126,126.0
+Al Barid Bank Groupe 6,Mourad Bakri,mourad.bakri@albaridbankgroupe6.ma,Retail,1,126,126.0
+Lear Maroc Groupe 7,,,Industry,1,126,126.0
+ADM Maroc Groupe 6,Salma Bennani,salma.bennani@admmarocgroupe6.ma,Construction,1,126,126.0
+Sothema Distribution,,,IT,1,126,126.0
+GTR,,,Construction,1,126,126.0
+Winxo,,,Healthcare,1,126,126.0
+Wafa Assurance Groupe 6,,,Telecom,1,126,126.0
+Jumia Maroc Groupe 5,,,Telecom,1,126,126.0
+RMA Assurance,,,Telecom,1,126,126.0
+Cosumar Distribution,,,Telecom,1,126,126.0
+Cosumar Groupe 7,,,Finance,1,126,126.0
+Maroc Telecom Groupe 5,,,IT,1,126,126.0
+Oncorad Group Distribution,,,Telecom,1,126,126.0
+Oncorad Group Groupe 4,,,IT,1,126,126.0
+Lydec Groupe 5,,,Retail,1,126,126.0
+HPS Groupe 5,,,IT,1,126,126.0
+TotalEnergies Maroc Groupe 6,,,Finance,1,126,126.0
+LabelVie Groupe 6,,,Finance,1,126,126.0
+Akdital Industrie,Soukaina Filali,soukaina.filali@akditalindustrie.ma,Telecom,1,126,126.0
+Intelcia Services,,,Healthcare,1,126,126.0
+Involys Groupe 6,,,Construction,1,126,126.0
+SGTM Distribution,,,Transport,1,126,126.0
+Salafin,,,Construction,1,126,126.0
+Amendis Services,Nadia Othmani,nadia.othmani@amendisservices.ma,Retail,1,126,126.0
+Timar,,,Energy,1,126,126.0
+Peugeot Citroën Automobiles Maroc,,,Finance,1,126,126.0
+Sonasid Industrie,,,Finance,1,126,126.0
+Centrale Danone Groupe 7,,,Finance,1,126,126.0
+Stroc Industrie,,,Construction,1,126,126.0
+Tanger Med Port Authority,,,IT,1,126,126.0
+Tanger Med Port Authority Distribution,,,Transport,1,126,126.0
+Laprophan Groupe 4,,,Energy,1,126,126.0
+Intelcia Distribution,,,Healthcare,1,126,126.0
+SQLI Maroc Distribution,,,Healthcare,1,126,126.0
+Yazaki Maroc Groupe 5,,,Finance,1,126,126.0
+Attijariwafa Bank Services,Reda Ouardi,reda.ouardi@attijariwafabankservices.ma,IT,1,126,126.0
+Auto Hall Distribution,Nabil Hachimi,nabil.hachimi@autohalldistribution.ma,Industry,1,126,126.0
+Maghreb Steel Groupe 4,,,Industry,1,120,120.0
+Maghrebail,,,Retail,1,120,120.0
+Sonasid Groupe 4,,,Construction,1,120,120.0
+M2M Group Industrie,,,Industry,1,120,120.0
+Maghreb Steel,,,Telecom,1,120,120.0
+SGTM Services,,,Healthcare,1,120,120.0
+Akwa Group Services,Ilyas Sqalli,ilyas.sqalli@akwagroupservices.ma,Retail,1,120,120.0
+Afriquia SMDC Groupe 4,Sanae Kabbaj,sanae.kabbaj@afriquiasmdcgroupe4.ma,Industry,1,120,120.0
+Webhelp Maroc Groupe 5,,,Construction,1,120,120.0
+Ciments du Maroc Industrie,,,Construction,1,120,120.0
+Capgemini Engineering Maroc Industrie,,,Construction,1,120,120.0
+Alsa Maroc Distribution,Wiam Tazi,wiam.tazi@alsamarocdistribution.ma,Finance,1,120,120.0
+Alsa Maroc Groupe 5,Anas Bennani,anas.bennani@alsamarocgroupe5.ma,Construction,1,120,120.0
+Groupe BCP Services,,,Transport,1,120,120.0
+Winxo Industrie,,,Finance,1,120,120.0
+Winxo Services,,,Transport,1,120,120.0
+Royal Air Maroc Distribution,,,IT,1,120,120.0
+Nareva Holding Distribution,,,Finance,1,120,120.0
+Nareva Holding Services,,,Energy,1,120,120.0
+Saham Assurance Distribution,,,Industry,1,120,120.0
+Saham Assurance Groupe 5,,,IT,1,120,120.0
+Saham Assurance Industrie,,,Transport,1,120,120.0
+Pharma 5 Groupe 6,,,Energy,1,120,120.0
+Pharma 5 Services,,,Telecom,1,120,120.0
+Eqdom,,,Transport,1,120,120.0
+AXA Assurance Maroc,Hassan Mansouri,hassan.mansouri@axaassurancemaroc.ma,Retail,1,120,120.0
+Wafa Assurance Services,,,IT,1,120,120.0
+Marsa Maroc Distribution,,,Transport,1,120,120.0
+GTR Groupe 5,,,Retail,1,120,120.0
+Nareva Groupe 4,,,Telecom,1,120,120.0
+SNTL Services,,,Transport,1,120,120.0
+Bim Maroc Groupe 7,Khadija Kabbaj,khadija.kabbaj@bimmarocgroupe7.ma,Telecom,1,120,120.0
+Involys Distribution,,,Energy,1,120,120.0
+CID Groupe 5,Khalid Bennis,khalid.bennis@derhemholding.ma,Industry,1,120,120.0
+Akdital Groupe 4,Khalid Tahiri,khalid.tahiri@akditalgroupe4.ma,Energy,1,120,120.0
+LabelVie Industrie,,,Industry,1,120,120.0
+Sothema Services,,,Telecom,1,120,120.0
+Amendis Groupe 5,Omar Lahlou,omar.lahlou@amendisgroupe5.ma,Transport,1,120,120.0
+Amendis Groupe 6,Khadija Benali,khadija.benali@amendisgroupe6.ma,Telecom,1,120,120.0
+Amendis Industrie,Hassan Guessous,hassan.guessous@amendisindustrie.ma,Telecom,1,120,120.0
+Aswak Assalam Groupe 7,Tariq Kabbaj,tariq.kabbaj@aswakassalamgroupe7.ma,Industry,1,120,120.0
+Samsung Electronics Maghreb Arab Distribution,,,Finance,1,120,120.0
+Centrale Danone Groupe 6,,,Energy,1,120,120.0
+ONCF Distribution,,,Finance,1,120,120.0
+ONCF Groupe 5,,,Construction,1,120,120.0
+AtlantaSanad Groupe 6,Yassine Naciri,yassine.naciri@atlantasanadgroupe6.ma,Telecom,1,120,120.0
+Sopra Steria Maroc Industrie,,,Construction,1,120,120.0
+Cartier Saada,,,Construction,1,120,120.0
+Super Cerame,,,Transport,1,120,120.0
+Tanger Med Port Authority Services,,,IT,1,120,120.0
+LafargeHolcim Maroc Groupe 5,,,Transport,1,120,120.0
+LafargeHolcim Maroc Industrie,,,Finance,1,120,120.0
+LafargeHolcim Maroc Services,,,Finance,1,119,119.0
+CTM Industrie,Siham Chraibi,siham.chraibi@wafaassurance.ma,Energy,1,119,119.0
+Maghreb Steel Groupe 6,,,Energy,1,119,119.0
+Dislog Group Groupe 6,,,Construction,1,119,119.0
+Cooper Pharma,,,Construction,1,119,119.0
+Attijariwafa Bank Groupe 5,Khalid Rami,khalid.rami@attijariwafabankgroupe5.ma,Energy,1,119,119.0
+Novec Groupe 5,,,Construction,1,119,119.0
+Novec Groupe 6,,,Construction,1,119,119.0
+Novec Services,,,Construction,1,119,119.0
+Renault Commerce Maroc,,,Transport,1,119,119.0
+Renault Commerce Maroc Industrie,,,Industry,1,119,119.0
+Managem Groupe 5,,,Construction,1,119,119.0
+Marjane Holding Groupe 7,,,IT,1,119,119.0
+SNEP,,,Industry,1,119,119.0
+SNTL Distribution,,,Transport,1,119,119.0
+Renault Maroc Groupe 7,,,Construction,1,119,119.0
+M2M Group Groupe 4,,,Finance,1,119,119.0
+M2M Group Groupe 5,,,Finance,1,119,119.0
+Al Barid Bank,Hanane Ouardi,hanane.ouardi@albaridbank.ma,Transport,1,119,119.0
+Stellantis Maroc Groupe 5,,,Energy,1,119,119.0
+Stellantis Maroc Groupe 6,,,Transport,1,119,119.0
+Pharma 5 Groupe 4,,,Finance,1,119,119.0
+Pharma 5 Groupe 5,,,Telecom,1,119,119.0
+Webhelp Maroc Industrie,,,IT,1,119,119.0
+Winxo Groupe 5,,,Energy,1,119,119.0
+Oncorad Group,,,Transport,1,119,119.0
+BMCI,Siham Bennani,siham.bennani@bmci.ma,Healthcare,1,119,119.0
+Alsa Maroc Industrie,Youssef Fassi,youssef.fassi@alsamarocindustrie.ma,Retail,1,119,119.0
+Nareva Groupe 6,,,Industry,1,119,119.0
+Nareva Holding,,,Finance,1,119,119.0
+Vivo Energy Maroc Groupe 5,,,IT,1,119,119.0
+Vivo Energy Maroc Services,,,Construction,1,119,119.0
+GTR Distribution,,,Industry,1,119,119.0
+CGI Maroc Groupe 5,Fatima Zahra Naciri,fatima.naciri@cihbank.ma,Construction,1,119,119.0
+Wafa Assurance Distribution,,,Transport,1,119,119.0
+Wafa Assurance Groupe 5,,,Industry,1,119,119.0
+LafargeHolcim Maroc Distribution,,,Construction,1,119,119.0
+Maroc Telecom Groupe 6,,,Construction,1,119,119.0
+Marsa Maroc,,,Finance,1,119,119.0
+CID Industrie,Brahim Sqalli,brahim.sqalli@eqdom.ma,Retail,1,119,119.0
+Involys Groupe 5,,,Retail,1,119,119.0
+Yazaki Maroc Groupe 7,,,IT,1,119,119.0
+Zalagh Holding,,,IT,1,119,119.0
+LabelVie Services,,,Healthcare,1,119,119.0
+Akdital Groupe 6,Brahim Saidi,brahim.saidi@akditalgroupe6.ma,Industry,1,119,119.0
+Saham Finances,,,Industry,1,119,119.0
+Involys Industrie,,,IT,1,119,119.0
+Aswak Assalam Groupe 5,Mehdi Benjelloun,mehdi.benjelloun@aswakassalamgroupe5.ma,Energy,1,119,119.0
+Aswak Assalam Groupe 6,Fatima Zahra Zniber,fatima.zniber@aswakassalamgroupe6.ma,Finance,1,119,119.0
+SQLI Maroc Groupe 5,,,Healthcare,1,119,119.0
+SQLI Maroc Industrie,,,Healthcare,1,119,119.0
+Ciments de l Atlas,,,Industry,1,119,119.0
+Lesieur Cristal Distribution,,,Telecom,1,119,119.0
+Lesieur Cristal Groupe 5,,,Finance,1,119,119.0
+Egis Maroc Industrie,,,Healthcare,1,112,112.0
+Faurecia Maroc Groupe 5,,,Retail,1,112,112.0
+Marsa Maroc Industrie,,,Telecom,1,112,112.0
+Marsa Maroc Services,,,IT,1,112,112.0
+Auto Hall,Asmaa Berrich,asmaa.berrich@autohall.ma,Healthcare,1,112,112.0
+CTM,Naima Tazi,naima.tazi@oncf.ma,Finance,1,112,112.0
+Capgemini Engineering Maroc,,,Industry,1,112,112.0
+Acima Groupe 7,Meryem Guessous,meryem.guessous@acimagroupe7.ma,Construction,1,112,112.0
+Dislog Group Groupe 7,,,Construction,1,112,112.0
+Renault Maroc Groupe 5,,,Finance,1,112,112.0
+Managem Groupe 4,,,Telecom,1,112,112.0
+Ciments du Maroc Services,,,Industry,1,112,112.0
+Al Barid Bank Services,Majda Alaoui,majda.alaoui@albaridbankservices.ma,Healthcare,1,112,112.0
+Sonasid Groupe 5,,,Telecom,1,112,112.0
+Sonasid Groupe 6,,,IT,1,112,112.0
+SNTL Groupe 5,,,Healthcare,1,112,112.0
+Managem Services,,,Finance,1,112,112.0
+Banque Centrale Populaire Industrie,Ayoub Mansouri,ayoub.mansouri@banquecentralepopulaireindustrie.ma,Transport,1,112,112.0
+Al Barid Bank Distribution,Said Berrich,said.berrich@albaridbankdistribution.ma,Telecom,1,112,112.0
+OCP Groupe 5,,,Construction,1,112,112.0
+ONCF Groupe 6,,,Telecom,1,112,112.0
+Credit du Maroc Services,,,Energy,1,112,112.0
+Winxo Distribution,,,Finance,1,112,112.0
+Alsa Maroc Services,Amina Mansouri,amina.mansouri@alsamarocservices.ma,Finance,1,112,112.0
+GTR Groupe 6,,,Telecom,1,112,112.0
+Cosumar Groupe 6,,,Retail,1,112,112.0
+Redal Distribution,,,Healthcare,1,112,112.0
+Centrale Danone Services,,,Transport,1,112,112.0
+TotalEnergies Marketing Maroc,,,Telecom,1,112,112.0
+CID Services,Soukaina Ouardi,soukaina.ouardi@inwi.ma,Energy,1,112,112.0
+HPS Services,,,Retail,1,112,112.0
+Tanger Med Port Authority Industrie,,,Transport,1,112,112.0
+Sothema Industrie,,,Construction,1,112,112.0
+Samsung Electronics Maghreb Arab Industrie,,,Healthcare,1,112,112.0
+Yazaki Maroc Groupe 6,,,Telecom,1,112,112.0
+SGTM Groupe 4,,,Energy,1,112,112.0
+ADM Maroc Services,Khadija El Fassi,khadija.elfassi@admmarocservices.ma,Industry,1,112,112.0
+Lydec Services,,,Retail,1,112,112.0
+Sopra Steria Maroc Distribution,,,Construction,1,112,112.0
+Sopra Steria Maroc Services,,,Retail,1,111,111.0
+Redal Industrie,,,Transport,1,111,111.0
+Attijariwafa Bank Industrie,Soukaina Sqalli,soukaina.sqalli@attijariwafabankindustrie.ma,Retail,1,111,111.0
+M2M Group Distribution,,,Construction,1,111,111.0
+Banque Populaire Groupe 5,Ibtissam Lahlou,ibtissam.lahlou@banquepopulairegroupe5.ma,Transport,1,111,111.0
+Banque Populaire Groupe 6,Youssef Benali,youssef.benali@banquepopulairegroupe6.ma,Construction,1,111,111.0
+LafargeHolcim Maroc Groupe 6,,,Transport,1,111,111.0
+Oncorad Group Services,,,Transport,1,111,111.0
+Maghreb Steel Services,,,Telecom,1,111,111.0
+AtlantaSanad Services,Imane Saidi,imane.saidi@atlantasanadservices.ma,Construction,1,111,111.0
+BMCE Bank of Africa Groupe 6,Naima Berrada,naima.berrada@bmcebankofafricagroupe6.ma,Energy,1,111,111.0
+Majorel Industrie,,,Retail,1,111,111.0
+Dolidol,,,Energy,1,111,111.0
+Ciments du Maroc,,,Retail,1,111,111.0
+Ciments du Maroc Groupe 4,,,Telecom,1,111,111.0
+Marjane Holding Groupe 6,,,IT,1,111,111.0
+Managem Distribution,,,IT,1,111,111.0
+SNTL Groupe 6,,,Transport,1,111,111.0
+Peugeot Citroën Automobiles Maroc Services,,,IT,1,111,111.0
+Pharma 5 Distribution,,,Telecom,1,111,111.0
+Pharma 5 Industrie,,,Transport,1,111,111.0
+Glovo Maroc Groupe 6,,,Finance,1,111,111.0
+Banque Centrale Populaire Distribution,Majda Fassi,majda.fassi@banquecentralepopulairedistribution.ma,Energy,1,111,111.0
+CGI Maroc Groupe 6,Youssef Tahiri,youssef.tahiri@cihbankdistribution.ma,Energy,1,111,111.0
+CGI Maroc Services,Hicham Saidi,hicham.saidi@cosumar.ma,Healthcare,1,111,111.0
+Vivo Energy Maroc Groupe 4,,,Healthcare,1,111,111.0
+HPS Groupe 6,,,Finance,1,111,111.0
+HPS Industrie,,,Industry,1,111,111.0
+Holmarcom,,,Industry,1,111,111.0
+Saham Assurance Groupe 6,,,Healthcare,1,111,111.0
+Credit du Maroc Distribution,,,IT,1,111,111.0
+Lydec Groupe 6,,,Transport,1,111,111.0
+Akdital Groupe 5,Zineb Daoudi,zineb.daoudi@akditalgroupe5.ma,Construction,1,111,111.0
+Teleperformance Maroc Industrie,,,Healthcare,1,111,111.0
+Teleperformance Maroc Services,,,Transport,1,111,111.0
+TotalEnergies Marketing Maroc Services,,,Telecom,1,111,111.0
+Centrale Danone Groupe 5,,,Retail,1,111,111.0
+LabelVie Distribution,,,Finance,1,111,111.0
+Intelcia Groupe 5,,,Finance,1,111,111.0
+Egis Maroc Distribution,,,Finance,1,111,111.0
+Acima Groupe 6,Tariq Benali,tariq.benali@acimagroupe6.ma,Industry,1,111,111.0
+CIH Bank Groupe 5,Nabil Bakri,nabil.bakri@iam.ma,Energy,1,111,111.0
+SEWS Maroc Groupe 6,,,Energy,1,111,111.0
+SGTM Groupe 5,,,Transport,1,111,111.0
+SGTM Groupe 6,,,Retail,1,111,111.0
+Laprophan Groupe 5,,,Construction,1,111,111.0
+Laprophan Groupe 6,,,Transport,1,111,111.0
+Laprophan Services,,,Healthcare,1,111,111.0
+ONCF Industrie,,,Finance,1,103,103.0
+ONCF Services,,,Industry,1,103,103.0
+Pharma 5,,,Construction,1,103,103.0
+Promopharm,,,Healthcare,1,103,103.0
+Webhelp Maroc Distribution,,,Transport,1,103,103.0
+Akwa Group Industrie,Bouchra El Malki,bouchra.elmalki@akwagroupindustrie.ma,Retail,1,103,103.0
+Al Barid Bank Industrie,Othmane Jamali,othmane.jamali@albaridbankindustrie.ma,Construction,1,103,103.0
+Managem Groupe 6,,,Transport,1,103,103.0
+GTR Groupe 4,,,Finance,1,103,103.0
+OCP Groupe 6,,,Healthcare,1,103,103.0
+OCP Groupe 7,,,Retail,1,103,103.0
+BMCE Bank of Africa Groupe 7,Mourad Tazi,mourad.tazi@bmcebankofafricagroupe7.ma,Industry,1,103,103.0
+Zurich Assurance Maroc,,,IT,1,103,103.0
+Société Marocaine des Tabacs Distribution,,,Transport,1,103,103.0
+Label'Vie,,,Construction,15,103,6.87
+Afriquia SMDC Groupe 5,Hicham Lazrak,hicham.lazrak@afriquiasmdcgroupe5.ma,Telecom,1,103,103.0
+Lesieur Cristal Groupe 6,,,Industry,1,103,103.0
+Sopra Steria Maroc Groupe 6,,,Retail,1,103,103.0
+Travaux Generaux de Construction,,,Transport,1,103,103.0
+Acima Groupe 5,Fatima Zahra Lahlou,fatima.lahlou@acimagroupe5.ma,Telecom,1,103,103.0
+ADM Maroc Distribution,Amina Berrada,amina.berrada@admmarocdistribution.ma,Healthcare,1,103,103.0
+Renault Maroc Groupe 6,,,Industry,1,103,103.0
+Jumia Maroc Groupe 6,,,Healthcare,1,103,103.0
+Akdital Services,Reda Kadiri,reda.kadiri@akditalservices.ma,Retail,1,103,103.0
+Egis Maroc Groupe 6,,,IT,1,103,103.0
+CGI Maroc Distribution,Mehdi Belhaj,mehdi.belhaj@cgimarocdistribution.ma,Construction,1,103,103.0
+CTM Distribution,Mourad Bennani,mourad.bennani@orange.ma,Finance,1,103,103.0
+CTM Services,,,Transport,1,103,103.0
+Involys Services,,,Industry,1,103,103.0
+Glovo Maroc Groupe 5,,,Transport,1,103,103.0
+Glovo Maroc Groupe 7,,,Transport,1,103,103.0
+Samsung Electronics Maghreb Arab,,,IT,1,103,103.0
+Auto Hall Industrie,Bouchra Bakri,bouchra.bakri@autohallindustrie.ma,Healthcare,1,103,103.0
+Auto Hall Services,Ilyas Yacoubi,ilyas.yacoubi@autohallservices.ma,Energy,1,103,103.0
+Majorel Services,,,Energy,1,103,103.0
+Oncorad Group Groupe 6,,,Construction,1,103,103.0
+Maghreb Steel Distribution,,,IT,1,103,103.0
+Lydec Distribution,,,Industry,1,103,103.0
+CIH Bank Industrie,Hanane Alaoui,hanane.alaoui@managemgroup.ma,Transport,1,103,103.0
+Intelcia Industrie,,,Finance,1,103,103.0
+Involys,,,Transport,1,103,103.0
+Involys Groupe 4,,,IT,1,103,103.0
+Teleperformance Maroc Groupe 6,,,Transport,1,103,103.0
+Bim Maroc Groupe 6,Omar Zniber,omar.zniber@bimmarocgroupe6.ma,Transport,1,103,103.0
+Marjane Holding Groupe 5,,,IT,1,103,103.0
+SGTM Industrie,,,Finance,1,103,103.0
+AtlantaSanad,Meryem Lazrak,meryem.lazrak@atlantasanad.ma,Finance,1,103,103.0
+AtlantaSanad Distribution,Rachid Sbai,rachid.sbai@atlantasanaddistribution.ma,Construction,1,103,103.0
+Lear Maroc Groupe 5,,,Construction,1,103,103.0
+Winxo Groupe 4,,,Industry,1,103,103.0
+Sothema Groupe 4,,,Healthcare,1,103,103.0
+Sothema Groupe 6,,,Healthcare,1,103,103.0
+Inetum Maroc Services,,,Transport,1,103,103.0
+Cosumar Industrie,,,Industry,1,103,103.0
+Laprophan Distribution,,,Industry,1,103,103.0
+ADM Maroc Groupe 5,Karim Tazi,karim.tazi@admmarocgroupe5.ma,Retail,0,0,0

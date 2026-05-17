@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test API</title>
+</head>
+<body>
+    <h1>Test API Connection</h1>
+    <button onclick="testAPI()">Tester la connexion</button>
+    <div id="result"></div>
+
+    <script src="config.js"></script>
+    <script>
+        async function testAPI() {
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerHTML = 'Testing...';
+            
+            try {
+                console.log('Testing API at:', PROJECT_CONFIG.BACKEND_URL);
+                
+                // Test 1: Health check
+                console.log('=== Health Check ===');
+                const healthResponse = await fetch(`${PROJECT_CONFIG.BACKEND_URL}/health`);
+                const healthData = await healthResponse.json();
+                console.log('Health:', healthData);
+                
+                // Test 2: Login
+                console.log('=== Login Test ===');
+                const loginResponse = await fetch(`${PROJECT_CONFIG.BACKEND_URL}/auth/login`, {
+                    method: 'POST',
+                    headers: { 
+                        'Content-Type': 'application/json',
+                        'Origin': window.location.origin
+                    },
+                    body: JSON.stringify({ 
+                        email: 'khadija.raji1@mail.com', 
+                        password: 'user123', 
+                        role: 'user' 
+                    }),
+                    credentials: 'include'
+                });
+                
+                console.log('Login Response Status:', loginResponse.status);
+                console.log('Login Response Headers:', Object.fromEntries(loginResponse.headers.entries()));
+                
+                const loginData = await loginResponse.json();
+                console.log('Login Data:', loginData);
+                
+                resultDiv.innerHTML = `
+                    <h3>Success!</h3>
+                    <p>Health: ${JSON.stringify(healthData)}</p>
+                    <p>Login Status: ${loginResponse.status}</p>
+                    <p>Login Data: ${JSON.stringify(loginData)}</p>
+                `;
+                
+            } catch (error) {
+                console.error('Error:', error);
+                resultDiv.innerHTML = `
+                    <h3>Error!</h3>
+                    <p>Error: ${error.message}</p>
+                    <p>Backend URL: ${PROJECT_CONFIG.BACKEND_URL}</p>
+                    <p>Origin: ${window.location.origin}</p>
+                `;
+            }
+        }
+        
+        // Auto-test on page load
+        window.onload = testAPI;
+    </script>
+</body>
+</html>

@@ -1,0 +1,295 @@
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.100.67:5001
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 142-156-333
+127.0.0.1 - - [09/May/2026 16:01:37] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:06:55] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:06:55] "OPTIONS /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:06:55] "GET /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:06:56] "OPTIONS /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:06:56] "GET /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:07:00] "OPTIONS /jobs/1fa00188-89cf-4af1-93a9-6099fd978a82 HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:07:00] "GET /jobs/1fa00188-89cf-4af1-93a9-6099fd978a82 HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:07:07] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:07:07] "OPTIONS /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:07:07] "GET /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:07:07] "OPTIONS /candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:07:08] "OPTIONS /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:07:08] "OPTIONS /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:07:08] "GET /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:07:08] "GET /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:07:08] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:07:08] "OPTIONS /jobs/all_titles HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:07:08] "GET /candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:07:08] "GET /jobs/all_titles HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:07:09] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:07:10] "GET /auth/me/company HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:07:10] "GET /candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:07:11] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:07:11] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:07:11] "GET /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:07:12] "GET /candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:07:12] "GET /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:07:12] "GET /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:07:21] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:07:21] "GET /auth/me/company HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:07:22] "OPTIONS /candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:07:22] "GET /candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:10:06] "OPTIONS /candidates/4:db843b93-2a46-4b4f-8fcc-f2e7e6278b4a:9009_1fa00188-89cf-4af1-93a9-6099fd978a82 HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:10:07] "DELETE /candidates/4:db843b93-2a46-4b4f-8fcc-f2e7e6278b4a:9009_1fa00188-89cf-4af1-93a9-6099fd978a82 HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2026 16:10:33] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:10:33] "OPTIONS /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:10:33] "GET /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:10:34] "OPTIONS /candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:10:34] "OPTIONS /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:10:34] "OPTIONS /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:10:34] "GET /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:10:34] "GET /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:10:35] "GET /candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:10:53] "OPTIONS /auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:10:55] "POST /auth/login HTTP/1.1" 401 -
+127.0.0.1 - - [09/May/2026 16:11:32] "POST /auth/logout HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:11:32] "POST /auth/logout HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:11:46] "OPTIONS /auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:11:47] "POST /auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:11:48] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:11:49] "OPTIONS /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:11:49] "GET /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:11:49] "OPTIONS /candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:11:49] "OPTIONS /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:11:49] "OPTIONS /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:11:50] "GET /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:11:50] "GET /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:11:50] "GET /candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:11:53] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:12:02] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:12:02] "OPTIONS /recruiter/jobs-with-applicants HTTP/1.1" 200 -
+Received notification from DBMS server: <GqlStatusObject gql_status='01N52', status_description='warn: property key does not exist. The property `status` does not exist in database `neo4j`. Verify that the spelling is correct.', position=<SummaryInputPosition line=8, column=43, offset=308>, raw_classification='UNRECOGNIZED', classification=<NotificationClassification.UNRECOGNIZED: 'UNRECOGNIZED'>, raw_severity='WARNING', severity=<NotificationSeverity.WARNING: 'WARNING'>, diagnostic_record={'_classification': 'UNRECOGNIZED', '_severity': 'WARNING', '_position': {'offset': 308, 'line': 8, 'column': 43}, 'OPERATION': '', 'OPERATION_CODE': '0', 'CURRENT_SCHEMA': '/'}> for query: "\n            MATCH (j:Job)\n            WHERE j.company_name_text = $company OR j.company = $company\n            OPTIONAL MATCH (c)-[r:APPLIED_TO]->(j)\n            WHERE c:Candidate OR c:Candidate_Cv\n            WITH j,\n                 count(r) as total_applicants,\n                 sum(CASE WHEN COALESCE(r.status, 'pending') = 'pending' THEN 1 ELSE 0 END) as pending_count,\n                 sum(CASE WHEN r.status = 'selected' THEN 1 ELSE 0 END) as selected_count,\n                 sum(CASE WHEN r.status = 'rejected' THEN 1 ELSE 0 END) as rejected_count\n            RETURN toString(COALESCE(j.job_id, j.id, elementId(j))) as id,\n                   j.title as title,\n                   COALESCE(j.company_name_text, j.company) as company,\n                   j.location as location,\n                   j.contract_type as type,\n                   j.salary_min as salary,\n                   total_applicants,\n                   pending_count,\n                   selected_count,\n                   rejected_count,\n                   toString(j.created_at) as created_at,\n                   coalesce(j.created_at, 0) as sort_date\n            ORDER BY total_applicants DESC, sort_date DESC\n            "
+Received notification from DBMS server: <GqlStatusObject gql_status='01N52', status_description='warn: property key does not exist. The property `status` does not exist in database `neo4j`. Verify that the spelling is correct.', position=<SummaryInputPosition line=9, column=34, offset=409>, raw_classification='UNRECOGNIZED', classification=<NotificationClassification.UNRECOGNIZED: 'UNRECOGNIZED'>, raw_severity='WARNING', severity=<NotificationSeverity.WARNING: 'WARNING'>, diagnostic_record={'_classification': 'UNRECOGNIZED', '_severity': 'WARNING', '_position': {'offset': 409, 'line': 9, 'column': 34}, 'OPERATION': '', 'OPERATION_CODE': '0', 'CURRENT_SCHEMA': '/'}> for query: "\n            MATCH (j:Job)\n            WHERE j.company_name_text = $company OR j.company = $company\n            OPTIONAL MATCH (c)-[r:APPLIED_TO]->(j)\n            WHERE c:Candidate OR c:Candidate_Cv\n            WITH j,\n                 count(r) as total_applicants,\n                 sum(CASE WHEN COALESCE(r.status, 'pending') = 'pending' THEN 1 ELSE 0 END) as pending_count,\n                 sum(CASE WHEN r.status = 'selected' THEN 1 ELSE 0 END) as selected_count,\n                 sum(CASE WHEN r.status = 'rejected' THEN 1 ELSE 0 END) as rejected_count\n            RETURN toString(COALESCE(j.job_id, j.id, elementId(j))) as id,\n                   j.title as title,\n                   COALESCE(j.company_name_text, j.company) as company,\n                   j.location as location,\n                   j.contract_type as type,\n                   j.salary_min as salary,\n                   total_applicants,\n                   pending_count,\n                   selected_count,\n                   rejected_count,\n                   toString(j.created_at) as created_at,\n                   coalesce(j.created_at, 0) as sort_date\n            ORDER BY total_applicants DESC, sort_date DESC\n            "
+Received notification from DBMS server: <GqlStatusObject gql_status='01N52', status_description='warn: property key does not exist. The property `status` does not exist in database `neo4j`. Verify that the spelling is correct.', position=<SummaryInputPosition line=10, column=34, offset=500>, raw_classification='UNRECOGNIZED', classification=<NotificationClassification.UNRECOGNIZED: 'UNRECOGNIZED'>, raw_severity='WARNING', severity=<NotificationSeverity.WARNING: 'WARNING'>, diagnostic_record={'_classification': 'UNRECOGNIZED', '_severity': 'WARNING', '_position': {'offset': 500, 'line': 10, 'column': 34}, 'OPERATION': '', 'OPERATION_CODE': '0', 'CURRENT_SCHEMA': '/'}> for query: "\n            MATCH (j:Job)\n            WHERE j.company_name_text = $company OR j.company = $company\n            OPTIONAL MATCH (c)-[r:APPLIED_TO]->(j)\n            WHERE c:Candidate OR c:Candidate_Cv\n            WITH j,\n                 count(r) as total_applicants,\n                 sum(CASE WHEN COALESCE(r.status, 'pending') = 'pending' THEN 1 ELSE 0 END) as pending_count,\n                 sum(CASE WHEN r.status = 'selected' THEN 1 ELSE 0 END) as selected_count,\n                 sum(CASE WHEN r.status = 'rejected' THEN 1 ELSE 0 END) as rejected_count\n            RETURN toString(COALESCE(j.job_id, j.id, elementId(j))) as id,\n                   j.title as title,\n                   COALESCE(j.company_name_text, j.company) as company,\n                   j.location as location,\n                   j.contract_type as type,\n                   j.salary_min as salary,\n                   total_applicants,\n                   pending_count,\n                   selected_count,\n                   rejected_count,\n                   toString(j.created_at) as created_at,\n                   coalesce(j.created_at, 0) as sort_date\n            ORDER BY total_applicants DESC, sort_date DESC\n            "
+127.0.0.1 - - [09/May/2026 16:12:04] "GET /recruiter/jobs-with-applicants HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:12:19] "OPTIONS /job/1fa00188-89cf-4af1-93a9-6099fd978a82/candidates HTTP/1.1" 200 -
+Received notification from DBMS server: <GqlStatusObject gql_status='01N52', status_description='warn: property key does not exist. The property `status` does not exist in database `neo4j`. Verify that the spelling is correct.', position=<SummaryInputPosition line=17, column=24, offset=955>, raw_classification='UNRECOGNIZED', classification=<NotificationClassification.UNRECOGNIZED: 'UNRECOGNIZED'>, raw_severity='WARNING', severity=<NotificationSeverity.WARNING: 'WARNING'>, diagnostic_record={'_classification': 'UNRECOGNIZED', '_severity': 'WARNING', '_position': {'offset': 955, 'line': 17, 'column': 24}, 'OPERATION': '', 'OPERATION_CODE': '0', 'CURRENT_SCHEMA': '/'}> for query: "\n        MATCH (c)-[r:APPLIED_TO]->(j:Job)\n        WHERE (c:Candidate OR c:Candidate_Cv)\n          AND (toString(COALESCE(j.job_id, j.id)) = $job_id OR elementId(j) = $job_id)\n        OPTIONAL MATCH (c)-[:HAS_SKILL]->(s:Skill)\n        WITH c, r, j, collect(DISTINCT COALESCE(s.skill_name, s.name)) AS skills\n        RETURN\n            toString(COALESCE(c.cv_id, c.id, elementId(c))) AS id,\n            COALESCE(c.full_name, c.name, 'Candidat')       AS name,\n            c.email                                          AS email,\n            c.phone                                          AS phone,\n            c.experience_level                               AS experience_level,\n            c.current_title                                  AS current_title,\n            c.location                                       AS location,\n            skills,\n            toString(COALESCE(r.applied_at, ''))             AS applied_at,\n            COALESCE(r.status, 'pending')                    AS status,\n            COALESCE(r.source, '')                           AS source,\n            j.title                                          AS job_title,\n            COALESCE(j.company_name_text, j.company)         AS job_company\n        ORDER BY\n            CASE COALESCE(r.status,'pending') WHEN 'pending' THEN 0 WHEN 'selected' THEN 1 ELSE 2 END,\n            r.applied_at DESC\n        "
+127.0.0.1 - - [09/May/2026 16:12:20] "GET /job/1fa00188-89cf-4af1-93a9-6099fd978a82/candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:12:36] "OPTIONS /auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:12:37] "POST /auth/login HTTP/1.1" 403 -
+127.0.0.1 - - [09/May/2026 16:12:39] "POST /auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:12:41] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:12:41] "OPTIONS /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:12:41] "GET /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:12:41] "OPTIONS /candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:12:41] "OPTIONS /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:12:41] "OPTIONS /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:12:42] "GET /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:12:42] "GET /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:12:42] "GET /candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:12:43] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:12:43] "GET /auth/me/company HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:12:44] "GET /candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:12:45] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:12:45] "OPTIONS /jobs/all_titles HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:12:45] "GET /jobs/all_titles HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:12:46] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:12:47] "OPTIONS /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:12:47] "GET /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:12:47] "OPTIONS /candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:12:47] "OPTIONS /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:12:47] "OPTIONS /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:12:48] "GET /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:12:48] "GET /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:12:48] "GET /candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:12:49] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:12:50] "GET /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:12:50] "GET /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:12:51] "OPTIONS /job/42ad7f12-7a50-4f9f-994d-9394bf2675c5/candidates HTTP/1.1" 200 -
+Received notification from DBMS server: <GqlStatusObject gql_status='01N52', status_description='warn: property key does not exist. The property `status` does not exist in database `neo4j`. Verify that the spelling is correct.', position=<SummaryInputPosition line=17, column=24, offset=955>, raw_classification='UNRECOGNIZED', classification=<NotificationClassification.UNRECOGNIZED: 'UNRECOGNIZED'>, raw_severity='WARNING', severity=<NotificationSeverity.WARNING: 'WARNING'>, diagnostic_record={'_classification': 'UNRECOGNIZED', '_severity': 'WARNING', '_position': {'offset': 955, 'line': 17, 'column': 24}, 'OPERATION': '', 'OPERATION_CODE': '0', 'CURRENT_SCHEMA': '/'}> for query: "\n        MATCH (c)-[r:APPLIED_TO]->(j:Job)\n        WHERE (c:Candidate OR c:Candidate_Cv)\n          AND (toString(COALESCE(j.job_id, j.id)) = $job_id OR elementId(j) = $job_id)\n        OPTIONAL MATCH (c)-[:HAS_SKILL]->(s:Skill)\n        WITH c, r, j, collect(DISTINCT COALESCE(s.skill_name, s.name)) AS skills\n        RETURN\n            toString(COALESCE(c.cv_id, c.id, elementId(c))) AS id,\n            COALESCE(c.full_name, c.name, 'Candidat')       AS name,\n            c.email                                          AS email,\n            c.phone                                          AS phone,\n            c.experience_level                               AS experience_level,\n            c.current_title                                  AS current_title,\n            c.location                                       AS location,\n            skills,\n            toString(COALESCE(r.applied_at, ''))             AS applied_at,\n            COALESCE(r.status, 'pending')                    AS status,\n            COALESCE(r.source, '')                           AS source,\n            j.title                                          AS job_title,\n            COALESCE(j.company_name_text, j.company)         AS job_company\n        ORDER BY\n            CASE COALESCE(r.status,'pending') WHEN 'pending' THEN 0 WHEN 'selected' THEN 1 ELSE 2 END,\n            r.applied_at DESC\n        "
+127.0.0.1 - - [09/May/2026 16:12:51] "GET /job/42ad7f12-7a50-4f9f-994d-9394bf2675c5/candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:14] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:15] "OPTIONS /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:15] "GET /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:15] "OPTIONS /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:15] "GET /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:16] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:16] "GET /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:17] "GET /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:19] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:19] "OPTIONS /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:19] "GET /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:19] "GET /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:19] "OPTIONS /candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:20] "GET /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:20] "GET /candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:24] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:24] "OPTIONS /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:24] "GET /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:25] "OPTIONS /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:25] "OPTIONS /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:25] "GET /candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:25] "GET /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:25] "GET /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:27] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:27] "GET /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:27] "OPTIONS /candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:27] "GET /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:27] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:28] "GET /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:28] "GET /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:28] "GET /candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:28] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:28] "GET /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:28] "GET /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:29] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:29] "GET /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:29] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:29] "GET /candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:29] "GET /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:29] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:29] "GET /candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:29] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:30] "OPTIONS /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:30] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:30] "OPTIONS /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:30] "GET /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:30] "OPTIONS /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:30] "OPTIONS /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:31] "GET /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:31] "GET /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:31] "GET /candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:39] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:40] "OPTIONS /recruiter/jobs-with-applicants HTTP/1.1" 200 -
+Received notification from DBMS server: <GqlStatusObject gql_status='01N52', status_description='warn: property key does not exist. The property `status` does not exist in database `neo4j`. Verify that the spelling is correct.', position=<SummaryInputPosition line=8, column=43, offset=308>, raw_classification='UNRECOGNIZED', classification=<NotificationClassification.UNRECOGNIZED: 'UNRECOGNIZED'>, raw_severity='WARNING', severity=<NotificationSeverity.WARNING: 'WARNING'>, diagnostic_record={'_classification': 'UNRECOGNIZED', '_severity': 'WARNING', '_position': {'offset': 308, 'line': 8, 'column': 43}, 'OPERATION': '', 'OPERATION_CODE': '0', 'CURRENT_SCHEMA': '/'}> for query: "\n            MATCH (j:Job)\n            WHERE j.company_name_text = $company OR j.company = $company\n            OPTIONAL MATCH (c)-[r:APPLIED_TO]->(j)\n            WHERE c:Candidate OR c:Candidate_Cv\n            WITH j,\n                 count(r) as total_applicants,\n                 sum(CASE WHEN COALESCE(r.status, 'pending') = 'pending' THEN 1 ELSE 0 END) as pending_count,\n                 sum(CASE WHEN r.status = 'selected' THEN 1 ELSE 0 END) as selected_count,\n                 sum(CASE WHEN r.status = 'rejected' THEN 1 ELSE 0 END) as rejected_count\n            RETURN toString(COALESCE(j.job_id, j.id, elementId(j))) as id,\n                   j.title as title,\n                   COALESCE(j.company_name_text, j.company) as company,\n                   j.location as location,\n                   j.contract_type as type,\n                   j.salary_min as salary,\n                   total_applicants,\n                   pending_count,\n                   selected_count,\n                   rejected_count,\n                   toString(j.created_at) as created_at,\n                   coalesce(j.created_at, 0) as sort_date\n            ORDER BY total_applicants DESC, sort_date DESC\n            "
+Received notification from DBMS server: <GqlStatusObject gql_status='01N52', status_description='warn: property key does not exist. The property `status` does not exist in database `neo4j`. Verify that the spelling is correct.', position=<SummaryInputPosition line=9, column=34, offset=409>, raw_classification='UNRECOGNIZED', classification=<NotificationClassification.UNRECOGNIZED: 'UNRECOGNIZED'>, raw_severity='WARNING', severity=<NotificationSeverity.WARNING: 'WARNING'>, diagnostic_record={'_classification': 'UNRECOGNIZED', '_severity': 'WARNING', '_position': {'offset': 409, 'line': 9, 'column': 34}, 'OPERATION': '', 'OPERATION_CODE': '0', 'CURRENT_SCHEMA': '/'}> for query: "\n            MATCH (j:Job)\n            WHERE j.company_name_text = $company OR j.company = $company\n            OPTIONAL MATCH (c)-[r:APPLIED_TO]->(j)\n            WHERE c:Candidate OR c:Candidate_Cv\n            WITH j,\n                 count(r) as total_applicants,\n                 sum(CASE WHEN COALESCE(r.status, 'pending') = 'pending' THEN 1 ELSE 0 END) as pending_count,\n                 sum(CASE WHEN r.status = 'selected' THEN 1 ELSE 0 END) as selected_count,\n                 sum(CASE WHEN r.status = 'rejected' THEN 1 ELSE 0 END) as rejected_count\n            RETURN toString(COALESCE(j.job_id, j.id, elementId(j))) as id,\n                   j.title as title,\n                   COALESCE(j.company_name_text, j.company) as company,\n                   j.location as location,\n                   j.contract_type as type,\n                   j.salary_min as salary,\n                   total_applicants,\n                   pending_count,\n                   selected_count,\n                   rejected_count,\n                   toString(j.created_at) as created_at,\n                   coalesce(j.created_at, 0) as sort_date\n            ORDER BY total_applicants DESC, sort_date DESC\n            "
+Received notification from DBMS server: <GqlStatusObject gql_status='01N52', status_description='warn: property key does not exist. The property `status` does not exist in database `neo4j`. Verify that the spelling is correct.', position=<SummaryInputPosition line=10, column=34, offset=500>, raw_classification='UNRECOGNIZED', classification=<NotificationClassification.UNRECOGNIZED: 'UNRECOGNIZED'>, raw_severity='WARNING', severity=<NotificationSeverity.WARNING: 'WARNING'>, diagnostic_record={'_classification': 'UNRECOGNIZED', '_severity': 'WARNING', '_position': {'offset': 500, 'line': 10, 'column': 34}, 'OPERATION': '', 'OPERATION_CODE': '0', 'CURRENT_SCHEMA': '/'}> for query: "\n            MATCH (j:Job)\n            WHERE j.company_name_text = $company OR j.company = $company\n            OPTIONAL MATCH (c)-[r:APPLIED_TO]->(j)\n            WHERE c:Candidate OR c:Candidate_Cv\n            WITH j,\n                 count(r) as total_applicants,\n                 sum(CASE WHEN COALESCE(r.status, 'pending') = 'pending' THEN 1 ELSE 0 END) as pending_count,\n                 sum(CASE WHEN r.status = 'selected' THEN 1 ELSE 0 END) as selected_count,\n                 sum(CASE WHEN r.status = 'rejected' THEN 1 ELSE 0 END) as rejected_count\n            RETURN toString(COALESCE(j.job_id, j.id, elementId(j))) as id,\n                   j.title as title,\n                   COALESCE(j.company_name_text, j.company) as company,\n                   j.location as location,\n                   j.contract_type as type,\n                   j.salary_min as salary,\n                   total_applicants,\n                   pending_count,\n                   selected_count,\n                   rejected_count,\n                   toString(j.created_at) as created_at,\n                   coalesce(j.created_at, 0) as sort_date\n            ORDER BY total_applicants DESC, sort_date DESC\n            "
+127.0.0.1 - - [09/May/2026 16:13:40] "GET /recruiter/jobs-with-applicants HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:45] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:45] "OPTIONS /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:45] "GET /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:46] "OPTIONS /candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:46] "OPTIONS /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:46] "OPTIONS /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:46] "GET /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:46] "GET /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:46] "GET /candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:50] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:50] "OPTIONS /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:51] "GET /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:51] "GET /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:51] "GET /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:51] "GET /candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:53] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:53] "OPTIONS /jobs/all_titles HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:53] "GET /jobs/all_titles HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:55] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:55] "GET /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:55] "OPTIONS /candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:55] "OPTIONS /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:55] "OPTIONS /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:56] "GET /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:56] "GET /candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:13:56] "GET /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:14:06] "OPTIONS /job/1fa00188-89cf-4af1-93a9-6099fd978a82/candidates HTTP/1.1" 200 -
+Received notification from DBMS server: <GqlStatusObject gql_status='01N52', status_description='warn: property key does not exist. The property `status` does not exist in database `neo4j`. Verify that the spelling is correct.', position=<SummaryInputPosition line=17, column=24, offset=955>, raw_classification='UNRECOGNIZED', classification=<NotificationClassification.UNRECOGNIZED: 'UNRECOGNIZED'>, raw_severity='WARNING', severity=<NotificationSeverity.WARNING: 'WARNING'>, diagnostic_record={'_classification': 'UNRECOGNIZED', '_severity': 'WARNING', '_position': {'offset': 955, 'line': 17, 'column': 24}, 'OPERATION': '', 'OPERATION_CODE': '0', 'CURRENT_SCHEMA': '/'}> for query: "\n        MATCH (c)-[r:APPLIED_TO]->(j:Job)\n        WHERE (c:Candidate OR c:Candidate_Cv)\n          AND (toString(COALESCE(j.job_id, j.id)) = $job_id OR elementId(j) = $job_id)\n        OPTIONAL MATCH (c)-[:HAS_SKILL]->(s:Skill)\n        WITH c, r, j, collect(DISTINCT COALESCE(s.skill_name, s.name)) AS skills\n        RETURN\n            toString(COALESCE(c.cv_id, c.id, elementId(c))) AS id,\n            COALESCE(c.full_name, c.name, 'Candidat')       AS name,\n            c.email                                          AS email,\n            c.phone                                          AS phone,\n            c.experience_level                               AS experience_level,\n            c.current_title                                  AS current_title,\n            c.location                                       AS location,\n            skills,\n            toString(COALESCE(r.applied_at, ''))             AS applied_at,\n            COALESCE(r.status, 'pending')                    AS status,\n            COALESCE(r.source, '')                           AS source,\n            j.title                                          AS job_title,\n            COALESCE(j.company_name_text, j.company)         AS job_company\n        ORDER BY\n            CASE COALESCE(r.status,'pending') WHEN 'pending' THEN 0 WHEN 'selected' THEN 1 ELSE 2 END,\n            r.applied_at DESC\n        "
+127.0.0.1 - - [09/May/2026 16:14:06] "GET /job/1fa00188-89cf-4af1-93a9-6099fd978a82/candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:14:09] "OPTIONS /job/42ad7f12-7a50-4f9f-994d-9394bf2675c5/candidates HTTP/1.1" 200 -
+Received notification from DBMS server: <GqlStatusObject gql_status='01N52', status_description='warn: property key does not exist. The property `status` does not exist in database `neo4j`. Verify that the spelling is correct.', position=<SummaryInputPosition line=17, column=24, offset=955>, raw_classification='UNRECOGNIZED', classification=<NotificationClassification.UNRECOGNIZED: 'UNRECOGNIZED'>, raw_severity='WARNING', severity=<NotificationSeverity.WARNING: 'WARNING'>, diagnostic_record={'_classification': 'UNRECOGNIZED', '_severity': 'WARNING', '_position': {'offset': 955, 'line': 17, 'column': 24}, 'OPERATION': '', 'OPERATION_CODE': '0', 'CURRENT_SCHEMA': '/'}> for query: "\n        MATCH (c)-[r:APPLIED_TO]->(j:Job)\n        WHERE (c:Candidate OR c:Candidate_Cv)\n          AND (toString(COALESCE(j.job_id, j.id)) = $job_id OR elementId(j) = $job_id)\n        OPTIONAL MATCH (c)-[:HAS_SKILL]->(s:Skill)\n        WITH c, r, j, collect(DISTINCT COALESCE(s.skill_name, s.name)) AS skills\n        RETURN\n            toString(COALESCE(c.cv_id, c.id, elementId(c))) AS id,\n            COALESCE(c.full_name, c.name, 'Candidat')       AS name,\n            c.email                                          AS email,\n            c.phone                                          AS phone,\n            c.experience_level                               AS experience_level,\n            c.current_title                                  AS current_title,\n            c.location                                       AS location,\n            skills,\n            toString(COALESCE(r.applied_at, ''))             AS applied_at,\n            COALESCE(r.status, 'pending')                    AS status,\n            COALESCE(r.source, '')                           AS source,\n            j.title                                          AS job_title,\n            COALESCE(j.company_name_text, j.company)         AS job_company\n        ORDER BY\n            CASE COALESCE(r.status,'pending') WHEN 'pending' THEN 0 WHEN 'selected' THEN 1 ELSE 2 END,\n            r.applied_at DESC\n        "
+127.0.0.1 - - [09/May/2026 16:14:09] "GET /job/42ad7f12-7a50-4f9f-994d-9394bf2675c5/candidates HTTP/1.1" 200 -
+Received notification from DBMS server: <GqlStatusObject gql_status='01N52', status_description='warn: property key does not exist. The property `status` does not exist in database `neo4j`. Verify that the spelling is correct.', position=<SummaryInputPosition line=17, column=24, offset=955>, raw_classification='UNRECOGNIZED', classification=<NotificationClassification.UNRECOGNIZED: 'UNRECOGNIZED'>, raw_severity='WARNING', severity=<NotificationSeverity.WARNING: 'WARNING'>, diagnostic_record={'_classification': 'UNRECOGNIZED', '_severity': 'WARNING', '_position': {'offset': 955, 'line': 17, 'column': 24}, 'OPERATION': '', 'OPERATION_CODE': '0', 'CURRENT_SCHEMA': '/'}> for query: "\n        MATCH (c)-[r:APPLIED_TO]->(j:Job)\n        WHERE (c:Candidate OR c:Candidate_Cv)\n          AND (toString(COALESCE(j.job_id, j.id)) = $job_id OR elementId(j) = $job_id)\n        OPTIONAL MATCH (c)-[:HAS_SKILL]->(s:Skill)\n        WITH c, r, j, collect(DISTINCT COALESCE(s.skill_name, s.name)) AS skills\n        RETURN\n            toString(COALESCE(c.cv_id, c.id, elementId(c))) AS id,\n            COALESCE(c.full_name, c.name, 'Candidat')       AS name,\n            c.email                                          AS email,\n            c.phone                                          AS phone,\n            c.experience_level                               AS experience_level,\n            c.current_title                                  AS current_title,\n            c.location                                       AS location,\n            skills,\n            toString(COALESCE(r.applied_at, ''))             AS applied_at,\n            COALESCE(r.status, 'pending')                    AS status,\n            COALESCE(r.source, '')                           AS source,\n            j.title                                          AS job_title,\n            COALESCE(j.company_name_text, j.company)         AS job_company\n        ORDER BY\n            CASE COALESCE(r.status,'pending') WHEN 'pending' THEN 0 WHEN 'selected' THEN 1 ELSE 2 END,\n            r.applied_at DESC\n        "
+127.0.0.1 - - [09/May/2026 16:14:11] "GET /job/1fa00188-89cf-4af1-93a9-6099fd978a82/candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:14:13] "OPTIONS /candidates/4:db843b93-2a46-4b4f-8fcc-f2e7e6278b4a:9009 HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:14:13] "GET /candidates/4:db843b93-2a46-4b4f-8fcc-f2e7e6278b4a:9009 HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:14:49] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:14:49] "OPTIONS /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:14:49] "GET /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:14:49] "OPTIONS /candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:14:49] "OPTIONS /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:14:49] "OPTIONS /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:14:50] "GET /candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:14:50] "GET /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:14:50] "GET /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:16:38] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:16:38] "OPTIONS /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:16:38] "GET /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:16:38] "OPTIONS /candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:16:38] "OPTIONS /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:16:38] "OPTIONS /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:16:39] "GET /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:16:39] "GET /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:16:39] "GET /candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:16:39] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:16:39] "OPTIONS /recruiter/jobs-with-applicants HTTP/1.1" 200 -
+Received notification from DBMS server: <GqlStatusObject gql_status='01N52', status_description='warn: property key does not exist. The property `status` does not exist in database `neo4j`. Verify that the spelling is correct.', position=<SummaryInputPosition line=8, column=43, offset=308>, raw_classification='UNRECOGNIZED', classification=<NotificationClassification.UNRECOGNIZED: 'UNRECOGNIZED'>, raw_severity='WARNING', severity=<NotificationSeverity.WARNING: 'WARNING'>, diagnostic_record={'_classification': 'UNRECOGNIZED', '_severity': 'WARNING', '_position': {'offset': 308, 'line': 8, 'column': 43}, 'OPERATION': '', 'OPERATION_CODE': '0', 'CURRENT_SCHEMA': '/'}> for query: "\n            MATCH (j:Job)\n            WHERE j.company_name_text = $company OR j.company = $company\n            OPTIONAL MATCH (c)-[r:APPLIED_TO]->(j)\n            WHERE c:Candidate OR c:Candidate_Cv\n            WITH j,\n                 count(r) as total_applicants,\n                 sum(CASE WHEN COALESCE(r.status, 'pending') = 'pending' THEN 1 ELSE 0 END) as pending_count,\n                 sum(CASE WHEN r.status = 'selected' THEN 1 ELSE 0 END) as selected_count,\n                 sum(CASE WHEN r.status = 'rejected' THEN 1 ELSE 0 END) as rejected_count\n            RETURN toString(COALESCE(j.job_id, j.id, elementId(j))) as id,\n                   j.title as title,\n                   COALESCE(j.company_name_text, j.company) as company,\n                   j.location as location,\n                   j.contract_type as type,\n                   j.salary_min as salary,\n                   total_applicants,\n                   pending_count,\n                   selected_count,\n                   rejected_count,\n                   toString(j.created_at) as created_at,\n                   coalesce(j.created_at, 0) as sort_date\n            ORDER BY total_applicants DESC, sort_date DESC\n            "
+Received notification from DBMS server: <GqlStatusObject gql_status='01N52', status_description='warn: property key does not exist. The property `status` does not exist in database `neo4j`. Verify that the spelling is correct.', position=<SummaryInputPosition line=9, column=34, offset=409>, raw_classification='UNRECOGNIZED', classification=<NotificationClassification.UNRECOGNIZED: 'UNRECOGNIZED'>, raw_severity='WARNING', severity=<NotificationSeverity.WARNING: 'WARNING'>, diagnostic_record={'_classification': 'UNRECOGNIZED', '_severity': 'WARNING', '_position': {'offset': 409, 'line': 9, 'column': 34}, 'OPERATION': '', 'OPERATION_CODE': '0', 'CURRENT_SCHEMA': '/'}> for query: "\n            MATCH (j:Job)\n            WHERE j.company_name_text = $company OR j.company = $company\n            OPTIONAL MATCH (c)-[r:APPLIED_TO]->(j)\n            WHERE c:Candidate OR c:Candidate_Cv\n            WITH j,\n                 count(r) as total_applicants,\n                 sum(CASE WHEN COALESCE(r.status, 'pending') = 'pending' THEN 1 ELSE 0 END) as pending_count,\n                 sum(CASE WHEN r.status = 'selected' THEN 1 ELSE 0 END) as selected_count,\n                 sum(CASE WHEN r.status = 'rejected' THEN 1 ELSE 0 END) as rejected_count\n            RETURN toString(COALESCE(j.job_id, j.id, elementId(j))) as id,\n                   j.title as title,\n                   COALESCE(j.company_name_text, j.company) as company,\n                   j.location as location,\n                   j.contract_type as type,\n                   j.salary_min as salary,\n                   total_applicants,\n                   pending_count,\n                   selected_count,\n                   rejected_count,\n                   toString(j.created_at) as created_at,\n                   coalesce(j.created_at, 0) as sort_date\n            ORDER BY total_applicants DESC, sort_date DESC\n            "
+Received notification from DBMS server: <GqlStatusObject gql_status='01N52', status_description='warn: property key does not exist. The property `status` does not exist in database `neo4j`. Verify that the spelling is correct.', position=<SummaryInputPosition line=10, column=34, offset=500>, raw_classification='UNRECOGNIZED', classification=<NotificationClassification.UNRECOGNIZED: 'UNRECOGNIZED'>, raw_severity='WARNING', severity=<NotificationSeverity.WARNING: 'WARNING'>, diagnostic_record={'_classification': 'UNRECOGNIZED', '_severity': 'WARNING', '_position': {'offset': 500, 'line': 10, 'column': 34}, 'OPERATION': '', 'OPERATION_CODE': '0', 'CURRENT_SCHEMA': '/'}> for query: "\n            MATCH (j:Job)\n            WHERE j.company_name_text = $company OR j.company = $company\n            OPTIONAL MATCH (c)-[r:APPLIED_TO]->(j)\n            WHERE c:Candidate OR c:Candidate_Cv\n            WITH j,\n                 count(r) as total_applicants,\n                 sum(CASE WHEN COALESCE(r.status, 'pending') = 'pending' THEN 1 ELSE 0 END) as pending_count,\n                 sum(CASE WHEN r.status = 'selected' THEN 1 ELSE 0 END) as selected_count,\n                 sum(CASE WHEN r.status = 'rejected' THEN 1 ELSE 0 END) as rejected_count\n            RETURN toString(COALESCE(j.job_id, j.id, elementId(j))) as id,\n                   j.title as title,\n                   COALESCE(j.company_name_text, j.company) as company,\n                   j.location as location,\n                   j.contract_type as type,\n                   j.salary_min as salary,\n                   total_applicants,\n                   pending_count,\n                   selected_count,\n                   rejected_count,\n                   toString(j.created_at) as created_at,\n                   coalesce(j.created_at, 0) as sort_date\n            ORDER BY total_applicants DESC, sort_date DESC\n            "
+127.0.0.1 - - [09/May/2026 16:16:39] "GET /recruiter/jobs-with-applicants HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:16:50] "OPTIONS /job/1fa00188-89cf-4af1-93a9-6099fd978a82/candidates HTTP/1.1" 200 -
+Received notification from DBMS server: <GqlStatusObject gql_status='01N52', status_description='warn: property key does not exist. The property `status` does not exist in database `neo4j`. Verify that the spelling is correct.', position=<SummaryInputPosition line=17, column=24, offset=955>, raw_classification='UNRECOGNIZED', classification=<NotificationClassification.UNRECOGNIZED: 'UNRECOGNIZED'>, raw_severity='WARNING', severity=<NotificationSeverity.WARNING: 'WARNING'>, diagnostic_record={'_classification': 'UNRECOGNIZED', '_severity': 'WARNING', '_position': {'offset': 955, 'line': 17, 'column': 24}, 'OPERATION': '', 'OPERATION_CODE': '0', 'CURRENT_SCHEMA': '/'}> for query: "\n        MATCH (c)-[r:APPLIED_TO]->(j:Job)\n        WHERE (c:Candidate OR c:Candidate_Cv)\n          AND (toString(COALESCE(j.job_id, j.id)) = $job_id OR elementId(j) = $job_id)\n        OPTIONAL MATCH (c)-[:HAS_SKILL]->(s:Skill)\n        WITH c, r, j, collect(DISTINCT COALESCE(s.skill_name, s.name)) AS skills\n        RETURN\n            toString(COALESCE(c.cv_id, c.id, elementId(c))) AS id,\n            COALESCE(c.full_name, c.name, 'Candidat')       AS name,\n            c.email                                          AS email,\n            c.phone                                          AS phone,\n            c.experience_level                               AS experience_level,\n            c.current_title                                  AS current_title,\n            c.location                                       AS location,\n            skills,\n            toString(COALESCE(r.applied_at, ''))             AS applied_at,\n            COALESCE(r.status, 'pending')                    AS status,\n            COALESCE(r.source, '')                           AS source,\n            j.title                                          AS job_title,\n            COALESCE(j.company_name_text, j.company)         AS job_company\n        ORDER BY\n            CASE COALESCE(r.status,'pending') WHEN 'pending' THEN 0 WHEN 'selected' THEN 1 ELSE 2 END,\n            r.applied_at DESC\n        "
+127.0.0.1 - - [09/May/2026 16:16:50] "GET /job/1fa00188-89cf-4af1-93a9-6099fd978a82/candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:16:52] "OPTIONS /job/42ad7f12-7a50-4f9f-994d-9394bf2675c5/candidates HTTP/1.1" 200 -
+Received notification from DBMS server: <GqlStatusObject gql_status='01N52', status_description='warn: property key does not exist. The property `status` does not exist in database `neo4j`. Verify that the spelling is correct.', position=<SummaryInputPosition line=17, column=24, offset=955>, raw_classification='UNRECOGNIZED', classification=<NotificationClassification.UNRECOGNIZED: 'UNRECOGNIZED'>, raw_severity='WARNING', severity=<NotificationSeverity.WARNING: 'WARNING'>, diagnostic_record={'_classification': 'UNRECOGNIZED', '_severity': 'WARNING', '_position': {'offset': 955, 'line': 17, 'column': 24}, 'OPERATION': '', 'OPERATION_CODE': '0', 'CURRENT_SCHEMA': '/'}> for query: "\n        MATCH (c)-[r:APPLIED_TO]->(j:Job)\n        WHERE (c:Candidate OR c:Candidate_Cv)\n          AND (toString(COALESCE(j.job_id, j.id)) = $job_id OR elementId(j) = $job_id)\n        OPTIONAL MATCH (c)-[:HAS_SKILL]->(s:Skill)\n        WITH c, r, j, collect(DISTINCT COALESCE(s.skill_name, s.name)) AS skills\n        RETURN\n            toString(COALESCE(c.cv_id, c.id, elementId(c))) AS id,\n            COALESCE(c.full_name, c.name, 'Candidat')       AS name,\n            c.email                                          AS email,\n            c.phone                                          AS phone,\n            c.experience_level                               AS experience_level,\n            c.current_title                                  AS current_title,\n            c.location                                       AS location,\n            skills,\n            toString(COALESCE(r.applied_at, ''))             AS applied_at,\n            COALESCE(r.status, 'pending')                    AS status,\n            COALESCE(r.source, '')                           AS source,\n            j.title                                          AS job_title,\n            COALESCE(j.company_name_text, j.company)         AS job_company\n        ORDER BY\n            CASE COALESCE(r.status,'pending') WHEN 'pending' THEN 0 WHEN 'selected' THEN 1 ELSE 2 END,\n            r.applied_at DESC\n        "
+127.0.0.1 - - [09/May/2026 16:16:52] "GET /job/42ad7f12-7a50-4f9f-994d-9394bf2675c5/candidates HTTP/1.1" 200 -
+Received notification from DBMS server: <GqlStatusObject gql_status='01N52', status_description='warn: property key does not exist. The property `status` does not exist in database `neo4j`. Verify that the spelling is correct.', position=<SummaryInputPosition line=17, column=24, offset=955>, raw_classification='UNRECOGNIZED', classification=<NotificationClassification.UNRECOGNIZED: 'UNRECOGNIZED'>, raw_severity='WARNING', severity=<NotificationSeverity.WARNING: 'WARNING'>, diagnostic_record={'_classification': 'UNRECOGNIZED', '_severity': 'WARNING', '_position': {'offset': 955, 'line': 17, 'column': 24}, 'OPERATION': '', 'OPERATION_CODE': '0', 'CURRENT_SCHEMA': '/'}> for query: "\n        MATCH (c)-[r:APPLIED_TO]->(j:Job)\n        WHERE (c:Candidate OR c:Candidate_Cv)\n          AND (toString(COALESCE(j.job_id, j.id)) = $job_id OR elementId(j) = $job_id)\n        OPTIONAL MATCH (c)-[:HAS_SKILL]->(s:Skill)\n        WITH c, r, j, collect(DISTINCT COALESCE(s.skill_name, s.name)) AS skills\n        RETURN\n            toString(COALESCE(c.cv_id, c.id, elementId(c))) AS id,\n            COALESCE(c.full_name, c.name, 'Candidat')       AS name,\n            c.email                                          AS email,\n            c.phone                                          AS phone,\n            c.experience_level                               AS experience_level,\n            c.current_title                                  AS current_title,\n            c.location                                       AS location,\n            skills,\n            toString(COALESCE(r.applied_at, ''))             AS applied_at,\n            COALESCE(r.status, 'pending')                    AS status,\n            COALESCE(r.source, '')                           AS source,\n            j.title                                          AS job_title,\n            COALESCE(j.company_name_text, j.company)         AS job_company\n        ORDER BY\n            CASE COALESCE(r.status,'pending') WHEN 'pending' THEN 0 WHEN 'selected' THEN 1 ELSE 2 END,\n            r.applied_at DESC\n        "
+127.0.0.1 - - [09/May/2026 16:16:54] "GET /job/1fa00188-89cf-4af1-93a9-6099fd978a82/candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:17:01] "OPTIONS /candidates/4:db843b93-2a46-4b4f-8fcc-f2e7e6278b4a:9009 HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:17:02] "GET /candidates/4:db843b93-2a46-4b4f-8fcc-f2e7e6278b4a:9009 HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:17:04] "OPTIONS /job/1fa00188-89cf-4af1-93a9-6099fd978a82/select/4:db843b93-2a46-4b4f-8fcc-f2e7e6278b4a:9009 HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:17:05] "POST /job/1fa00188-89cf-4af1-93a9-6099fd978a82/select/4:db843b93-2a46-4b4f-8fcc-f2e7e6278b4a:9009 HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:17:07] "OPTIONS /candidates/4:db843b93-2a46-4b4f-8fcc-f2e7e6278b4a:9009 HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:17:08] "GET /candidates/4:db843b93-2a46-4b4f-8fcc-f2e7e6278b4a:9009 HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:17:15] "OPTIONS /job/42ad7f12-7a50-4f9f-994d-9394bf2675c5/candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:17:16] "GET /job/42ad7f12-7a50-4f9f-994d-9394bf2675c5/candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:17:17] "OPTIONS /job/2615/candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:17:18] "GET /job/2615/candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:17:22] "POST /auth/logout HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:17:29] "OPTIONS /auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:17:30] "POST /auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:17:31] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:17:32] "OPTIONS /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:17:32] "GET /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:17:32] "OPTIONS /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:17:32] "GET /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:17:32] "OPTIONS /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:17:32] "GET /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:17:41] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:17:42] "OPTIONS /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:17:42] "GET /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:17:42] "OPTIONS /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:17:43] "GET /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:17:50] "OPTIONS /jobs/42ad7f12-7a50-4f9f-994d-9394bf2675c5 HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:17:51] "GET /jobs/42ad7f12-7a50-4f9f-994d-9394bf2675c5 HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:18:23] "POST /apply/cv/upload HTTP/1.1" 201 -
+127.0.0.1 - - [09/May/2026 16:18:34] "POST /auth/logout HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:18:41] "OPTIONS /auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:18:43] "POST /auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:18:43] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:18:43] "OPTIONS /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:18:44] "GET /stats HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:18:44] "OPTIONS /candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:18:44] "OPTIONS /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:18:44] "OPTIONS /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:18:45] "GET /jobs HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:18:45] "GET /companies HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:18:45] "GET /candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:18:46] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:18:46] "OPTIONS /recruiter/jobs-with-applicants HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:18:47] "GET /recruiter/jobs-with-applicants HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:18:49] "OPTIONS /job/42ad7f12-7a50-4f9f-994d-9394bf2675c5/candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:18:50] "GET /job/42ad7f12-7a50-4f9f-994d-9394bf2675c5/candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:18:52] "OPTIONS /candidates/4:db843b93-2a46-4b4f-8fcc-f2e7e6278b4a:9009 HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:18:52] "GET /candidates/4:db843b93-2a46-4b4f-8fcc-f2e7e6278b4a:9009 HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:19:14] "OPTIONS /job/42ad7f12-7a50-4f9f-994d-9394bf2675c5/reject/4:db843b93-2a46-4b4f-8fcc-f2e7e6278b4a:9009 HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:19:14] "POST /job/42ad7f12-7a50-4f9f-994d-9394bf2675c5/reject/4:db843b93-2a46-4b4f-8fcc-f2e7e6278b4a:9009 HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:19:26] "OPTIONS /candidates/4:db843b93-2a46-4b4f-8fcc-f2e7e6278b4a:9009 HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:19:26] "GET /candidates/4:db843b93-2a46-4b4f-8fcc-f2e7e6278b4a:9009 HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:26:12] "GET /auth/me HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:26:13] "OPTIONS /recruiter/jobs-with-applicants HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:26:13] "GET /recruiter/jobs-with-applicants HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:26:20] "OPTIONS /job/42ad7f12-7a50-4f9f-994d-9394bf2675c5/candidates HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2026 16:26:20] "GET /job/42ad7f12-7a50-4f9f-994d-9394bf2675c5/candidates HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\USER\\Projet_nosql\\backend\\routes.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 142-156-333

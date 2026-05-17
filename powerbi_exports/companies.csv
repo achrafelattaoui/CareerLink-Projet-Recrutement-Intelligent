@@ -1,0 +1,513 @@
+﻿id,company_name,sector,location,company_size,recruiter_name,recruiter_email,job_count,candidate_count
+1,ADM Maroc,Transport,"Agadir, Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,Youssef Alaoui,youssef.alaoui@admmaroc.ma,16,0
+2,ADM Maroc Distribution,Healthcare,Agadir,N/A,Amina Berrada,amina.berrada@admmarocdistribution.ma,1,0
+3,ADM Maroc Groupe 5,Retail,Casablanca,N/A,Karim Tazi,karim.tazi@admmarocgroupe5.ma,0,0
+4,ADM Maroc Groupe 6,Construction,Tanger,N/A,Salma Bennani,salma.bennani@admmarocgroupe6.ma,1,0
+5,ADM Maroc Industrie,Healthcare,Tanger,N/A,Omar Chraibi,omar.chraibi@admmarocindustrie.ma,1,0
+6,ADM Maroc Services,Industry,Rabat,N/A,Khadija El Fassi,khadija.elfassi@admmarocservices.ma,1,0
+7,AXA Assurance Maroc,Retail,Casablanca,N/A,Hassan Mansouri,hassan.mansouri@axaassurancemaroc.ma,1,0
+8,Accor Maroc,Healthcare,"Casablanca, Rabat",N/A,Nadia Amrani,nadia.amrani@accormaroc.ma,45,0
+9,Acima,IT,"Agadir, Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,Mehdi Idrissi,mehdi.idrissi@acima.ma,17,0
+10,Acima Groupe 5,Telecom,Tanger,N/A,Fatima Zahra Lahlou,fatima.lahlou@acimagroupe5.ma,1,0
+11,Acima Groupe 6,Industry,Rabat,N/A,Tariq Benali,tariq.benali@acimagroupe6.ma,1,0
+12,Acima Groupe 7,Construction,Fes,N/A,Meryem Guessous,meryem.guessous@acimagroupe7.ma,1,0
+13,Addoha,Telecom,"Agadir, Marrakech, Rabat, Tanger",N/A,Rachid Othmani,rachid.othmani@addoha.ma,75,0
+14,Afric Industries,Healthcare,Fes,N/A,Houda Benjelloun,houda.benjelloun@africindustries.ma,1,0
+15,Afriquia SMDC,Industry,"Agadir, Casablanca, Fes, Marrakech, Tanger",N/A,Yassine Zniber,yassine.zniber@afriquiasmdc.ma,18,0
+16,Afriquia SMDC Groupe 4,Industry,Marrakech,N/A,Sanae Kabbaj,sanae.kabbaj@afriquiasmdcgroupe4.ma,1,0
+17,Afriquia SMDC Groupe 5,Telecom,Agadir,N/A,Hicham Lazrak,hicham.lazrak@afriquiasmdcgroupe5.ma,1,0
+18,Afriquia SMDC Groupe 6,Construction,Tanger,N/A,Imane Sbai,imane.sbai@afriquiasmdcgroupe6.ma,1,0
+19,Akdital,Construction,"Agadir, Fes, Marrakech, Rabat, Tanger",N/A,Adil Belhaj,adil.belhaj@akdital.ma,15,0
+20,Akdital Distribution,Energy,Marrakech,N/A,Leila Naciri,leila.naciri@akditaldistribution.ma,1,0
+21,Akdital Groupe 4,Energy,Agadir,N/A,Khalid Tahiri,khalid.tahiri@akditalgroupe4.ma,1,0
+22,Akdital Groupe 5,Construction,Agadir,N/A,Zineb Daoudi,zineb.daoudi@akditalgroupe5.ma,1,0
+23,Akdital Groupe 6,Industry,Tanger,N/A,Brahim Saidi,brahim.saidi@akditalgroupe6.ma,1,0
+24,Akdital Industrie,Telecom,Agadir,N/A,Soukaina Filali,soukaina.filali@akditalindustrie.ma,1,0
+25,Akdital Services,Retail,Fes,N/A,Reda Kadiri,reda.kadiri@akditalservices.ma,1,0
+26,Akwa Group,IT,Marrakech,N/A,Asmaa Rami,asmaa.rami@akwagroup.ma,1,0
+27,Akwa Group Distribution,Finance,Fes,N/A,Nabil Bennis,nabil.bennis@akwagroupdistribution.ma,1,0
+28,Akwa Group Industrie,Retail,Marrakech,N/A,Bouchra El Malki,bouchra.elmalki@akwagroupindustrie.ma,1,0
+29,Akwa Group Services,Retail,Rabat,N/A,Ilyas Sqalli,ilyas.sqalli@akwagroupservices.ma,1,0
+30,Al Barid Bank,Transport,Casablanca,N/A,Hanane Ouardi,hanane.ouardi@albaridbank.ma,1,0
+31,Al Barid Bank Distribution,Telecom,Agadir,N/A,Said Berrich,said.berrich@albaridbankdistribution.ma,1,0
+32,Al Barid Bank Groupe 5,Telecom,Agadir,N/A,Naima Hachimi,naima.hachimi@albaridbankgroupe5.ma,1,0
+33,Al Barid Bank Groupe 6,Retail,Rabat,N/A,Mourad Bakri,mourad.bakri@albaridbankgroupe6.ma,1,0
+34,Al Barid Bank Groupe 7,Healthcare,Rabat,N/A,Siham Yacoubi,siham.yacoubi@albaridbankgroupe7.ma,1,0
+35,Al Barid Bank Industrie,Construction,Agadir,N/A,Othmane Jamali,othmane.jamali@albaridbankindustrie.ma,1,0
+36,Al Barid Bank Services,Healthcare,Agadir,N/A,Majda Alaoui,majda.alaoui@albaridbankservices.ma,1,0
+37,Alsa Maroc,Retail,"Agadir, Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,Ayoub Berrada,ayoub.berrada@alsamaroc.ma,19,0
+38,Alsa Maroc Distribution,Finance,Fes,N/A,Wiam Tazi,wiam.tazi@alsamarocdistribution.ma,1,0
+39,Alsa Maroc Groupe 5,Construction,Casablanca,N/A,Anas Bennani,anas.bennani@alsamarocgroupe5.ma,1,0
+40,Alsa Maroc Groupe 6,Construction,Casablanca,N/A,Ibtissam Chraibi,ibtissam.chraibi@alsamarocgroupe6.ma,1,0
+41,Alsa Maroc Industrie,Retail,Tanger,N/A,Youssef Fassi,youssef.fassi@alsamarocindustrie.ma,1,0
+42,Alsa Maroc Services,Finance,Agadir,N/A,Amina Mansouri,amina.mansouri@alsamarocservices.ma,1,0
+43,Amendis,Finance,"Agadir, Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,Karim Amrani,karim.amrani@amendis.ma,17,0
+44,Amendis Distribution,Industry,Agadir,N/A,Salma Idrissi,salma.idrissi@amendisdistribution.ma,1,0
+45,Amendis Groupe 5,Transport,Rabat,N/A,Omar Lahlou,omar.lahlou@amendisgroupe5.ma,1,0
+46,Amendis Groupe 6,Telecom,Marrakech,N/A,Khadija Benali,khadija.benali@amendisgroupe6.ma,1,0
+47,Amendis Industrie,Telecom,Agadir,N/A,Hassan Guessous,hassan.guessous@amendisindustrie.ma,1,0
+48,Amendis Services,Retail,Tanger,N/A,Nadia Othmani,nadia.othmani@amendisservices.ma,1,0
+49,Aswak Assalam Groupe 5,Energy,Fes,N/A,Mehdi Benjelloun,mehdi.benjelloun@aswakassalamgroupe5.ma,1,0
+50,Aswak Assalam Groupe 6,Finance,Marrakech,N/A,Fatima Zahra Zniber,fatima.zniber@aswakassalamgroupe6.ma,1,0
+51,Aswak Assalam Groupe 7,Industry,Agadir,N/A,Tariq Kabbaj,tariq.kabbaj@aswakassalamgroupe7.ma,1,0
+52,AtlantaSanad,Finance,Agadir,N/A,Meryem Lazrak,meryem.lazrak@atlantasanad.ma,1,0
+53,AtlantaSanad Distribution,Construction,Agadir,N/A,Rachid Sbai,rachid.sbai@atlantasanaddistribution.ma,1,0
+54,AtlantaSanad Groupe 5,Finance,Rabat,N/A,Houda Belhaj,houda.belhaj@atlantasanadgroupe5.ma,1,0
+55,AtlantaSanad Groupe 6,Telecom,Tanger,N/A,Yassine Naciri,yassine.naciri@atlantasanadgroupe6.ma,1,0
+56,AtlantaSanad Groupe 7,Industry,Casablanca,N/A,Sanae Tahiri,sanae.tahiri@atlantasanadgroupe7.ma,1,0
+57,AtlantaSanad Industrie,Construction,Agadir,N/A,Hicham Daoudi,hicham.daoudi@atlantasanadindustrie.ma,1,0
+58,AtlantaSanad Services,Construction,Casablanca,N/A,Imane Saidi,imane.saidi@atlantasanadservices.ma,1,0
+59,Attijariwafa Bank,Retail,"Agadir, Casablanca, Fes, Fès, Marrakech, Rabat, Tanger",N/A,Adil Filali,adil.filali@attijariwafabank.ma,99,0
+60,Attijariwafa Bank Distribution,Finance,Marrakech,N/A,Leila Kadiri,leila.kadiri@attijariwafabankdistribution.ma,1,0
+61,Attijariwafa Bank Groupe 5,Energy,Casablanca,N/A,Khalid Rami,khalid.rami@attijariwafabankgroupe5.ma,1,0
+62,Attijariwafa Bank Groupe 6,Transport,Fes,N/A,Zineb Bennis,zineb.bennis@attijariwafabankgroupe6.ma,1,0
+63,Attijariwafa Bank Groupe 7,Retail,Agadir,N/A,Brahim Malki,brahim.malki@attijariwafabankgroupe7.ma,1,0
+64,Attijariwafa Bank Industrie,Retail,Agadir,N/A,Soukaina Sqalli,soukaina.sqalli@attijariwafabankindustrie.ma,1,0
+65,Attijariwafa Bank Services,IT,Casablanca,N/A,Reda Ouardi,reda.ouardi@attijariwafabankservices.ma,1,0
+66,Auto Hall,Healthcare,Fes,N/A,Asmaa Berrich,asmaa.berrich@autohall.ma,1,0
+67,Auto Hall Distribution,Industry,Casablanca,N/A,Nabil Hachimi,nabil.hachimi@autohalldistribution.ma,1,0
+68,Auto Hall Industrie,Healthcare,Casablanca,N/A,Bouchra Bakri,bouchra.bakri@autohallindustrie.ma,1,0
+69,Auto Hall Services,Energy,Agadir,N/A,Ilyas Yacoubi,ilyas.yacoubi@autohallservices.ma,1,0
+70,BMCE Bank of Africa,IT,"Agadir, Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,Hanane Jamali,hanane.jamali@bmcebankofafrica.ma,64,0
+71,BMCE Bank of Africa Groupe 5,Transport,Fes,N/A,Said Alaoui,said.alaoui@bmcebankofafricagroupe5.ma,1,0
+72,BMCE Bank of Africa Groupe 6,Energy,Rabat,N/A,Naima Berrada,naima.berrada@bmcebankofafricagroupe6.ma,1,0
+73,BMCE Bank of Africa Groupe 7,Industry,Rabat,N/A,Mourad Tazi,mourad.tazi@bmcebankofafricagroupe7.ma,1,0
+74,BMCI,Healthcare,Rabat,N/A,Siham Bennani,siham.bennani@bmci.ma,1,0
+4:db843b93-2a46-4b4f-8fcc-f2e7e6278b4a:31,Bank IT,IT Services,N/A,N/A,N/A,N/A,2,0
+75,Banque Centrale Populaire,Industry,Tanger,N/A,Othmane Chraibi,othmane.chraibi@banquecentralepopulaire.ma,1,0
+76,Banque Centrale Populaire Distribution,Energy,Marrakech,N/A,Majda Fassi,majda.fassi@banquecentralepopulairedistribution.ma,1,0
+77,Banque Centrale Populaire Industrie,Transport,Agadir,N/A,Ayoub Mansouri,ayoub.mansouri@banquecentralepopulaireindustrie.ma,1,0
+78,Banque Centrale Populaire Services,Finance,Marrakech,N/A,Wiam Amrani,wiam.amrani@banquecentralepopulaireservices.ma,1,0
+79,Banque Populaire,Retail,"Agadir, Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,Anas Idrissi,anas.idrissi@banquepopulaire.ma,24,0
+80,Banque Populaire Groupe 5,Transport,Fes,N/A,Ibtissam Lahlou,ibtissam.lahlou@banquepopulairegroupe5.ma,1,0
+81,Banque Populaire Groupe 6,Construction,Casablanca,N/A,Youssef Benali,youssef.benali@banquepopulairegroupe6.ma,1,0
+82,Banque Populaire Groupe 7,Telecom,Casablanca,N/A,Amina Guessous,amina.guessous@banquepopulairegroupe7.ma,1,0
+4:db843b93-2a46-4b4f-8fcc-f2e7e6278b4a:34,BigData Corp,Big Data,N/A,N/A,N/A,N/A,0,0
+83,Bim Maroc,Telecom,"Agadir, Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,Karim Othmani,karim.othmani@bimmaroc.ma,18,0
+84,Bim Maroc Groupe 5,Healthcare,Marrakech,N/A,Salma Benjelloun,salma.benjelloun@bimmarocgroupe5.ma,1,0
+85,Bim Maroc Groupe 6,Transport,Agadir,N/A,Omar Zniber,omar.zniber@bimmarocgroupe6.ma,1,0
+86,Bim Maroc Groupe 7,Telecom,Tanger,N/A,Khadija Kabbaj,khadija.kabbaj@bimmarocgroupe7.ma,1,0
+87,CFG Bank,Energy,Rabat,N/A,Hassan Lazrak,hassan.lazrak@cfgbank.ma,1,0
+88,CGI Maroc,Energy,"Agadir, Casablanca, Fes, Fès, Marrakech, Rabat, Tanger",N/A,Nadia Sbai,nadia.sbai@cgimaroc.ma,105,0
+89,CGI Maroc Distribution,Construction,Rabat,N/A,Mehdi Belhaj,mehdi.belhaj@cgimarocdistribution.ma,1,0
+90,CGI Maroc Groupe 5,Construction,Rabat,N/A,Fatima Zahra Naciri,fatima.naciri@cihbank.ma,1,0
+91,CGI Maroc Groupe 6,Energy,Agadir,N/A,Youssef Tahiri,youssef.tahiri@cihbankdistribution.ma,1,0
+92,CGI Maroc Industrie,Retail,Rabat,N/A,Sanae Daoudi,sanae.daoudi@centraledanone.ma,1,0
+93,CGI Maroc Services,Healthcare,Rabat,N/A,Hicham Saidi,hicham.saidi@cosumar.ma,1,0
+94,CID,Healthcare,"Agadir, Fes, Marrakech, Rabat, Tanger",N/A,Imane Filali,imane.filali@ctm.ma,16,0
+95,CID Distribution,Industry,Tanger,N/A,Adil Kadiri,adil.kadiri@ctmgroupe5.ma,1,0
+96,CID Groupe 4,Finance,Fes,N/A,Leila Rami,leila.rami@cdg.ma,1,0
+97,CID Groupe 5,Industry,Rabat,N/A,Khalid Bennis,khalid.bennis@derhemholding.ma,1,0
+98,CID Groupe 6,Construction,Marrakech,N/A,Zineb Malki,zineb.malki@dianaholding.ma,1,0
+99,CID Industrie,Retail,Marrakech,N/A,Brahim Sqalli,brahim.sqalli@eqdom.ma,1,0
+100,CID Services,Energy,Rabat,N/A,Soukaina Ouardi,soukaina.ouardi@inwi.ma,1,0
+101,CIH Bank,Finance,"Agadir, Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,Reda Berrich,reda.berrich@inwigroupe2.ma,20,0
+102,CIH Bank Distribution,Retail,Marrakech,N/A,Asmaa Hachimi,asmaa.hachimi@holcim.ma,1,0
+103,CIH Bank Groupe 5,Energy,Rabat,N/A,Nabil Bakri,nabil.bakri@iam.ma,1,0
+104,CIH Bank Groupe 6,Transport,Marrakech,N/A,Bouchra Yacoubi,bouchra.yacoubi@iamdistribution.ma,1,0
+105,CIH Bank Groupe 7,Construction,Agadir,N/A,Ilyas Jamali,ilyas.jamali@labelvie.ma,1,0
+106,CIH Bank Industrie,Transport,Agadir,N/A,Hanane Alaoui,hanane.alaoui@managemgroup.ma,1,0
+107,CIH Bank Services,Finance,Fes,N/A,Said Berrada,said.berrada@ocpgroup.ma,1,0
+108,CTM,Finance,Tanger,N/A,Naima Tazi,naima.tazi@oncf.ma,1,0
+109,CTM Distribution,Finance,Tanger,N/A,Mourad Bennani,mourad.bennani@orange.ma,1,0
+110,CTM Industrie,Energy,Rabat,N/A,Siham Chraibi,siham.chraibi@wafaassurance.ma,1,0
+111,CTM Services,Transport,Rabat,N/A,,,1,0
+112,Capgemini Engineering Maroc,Industry,Rabat,N/A,,,1,0
+113,Capgemini Engineering Maroc Distribution,Construction,Rabat,N/A,,,1,0
+114,Capgemini Engineering Maroc Industrie,Construction,Marrakech,N/A,,,1,0
+115,Capgemini Engineering Maroc Services,Transport,Fes,N/A,,,1,0
+116,Capgemini Maroc,Retail,"Casablanca, Fes, Fès, Marrakech, Rabat, Tanger",N/A,,,95,0
+117,Capgemini Maroc Groupe 5,Energy,Marrakech,N/A,,,1,0
+118,Capgemini Maroc Groupe 6,Healthcare,Casablanca,N/A,,,1,0
+119,Cartier Saada,Construction,Agadir,N/A,,,1,0
+120,Centrale Danone,IT,"Agadir, Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,,,18,0
+121,Centrale Danone Distribution,Energy,Fes,N/A,,,1,0
+122,Centrale Danone Groupe 5,Retail,Casablanca,N/A,,,1,0
+123,Centrale Danone Groupe 6,Energy,Fes,N/A,,,1,0
+124,Centrale Danone Groupe 7,Finance,Rabat,N/A,,,1,0
+125,Centrale Danone Industrie,Construction,Agadir,N/A,,,1,0
+126,Centrale Danone Services,Transport,Agadir,N/A,,,1,0
+127,Ciments de l Atlas,Industry,Casablanca,N/A,,,1,0
+128,Ciments du Maroc,Retail,Fes,N/A,,,1,0
+129,Ciments du Maroc Distribution,Healthcare,Tanger,N/A,,,1,0
+130,Ciments du Maroc Groupe 4,Telecom,Casablanca,N/A,,,1,0
+131,Ciments du Maroc Groupe 5,Energy,Rabat,N/A,,,1,0
+132,Ciments du Maroc Groupe 6,Industry,Tanger,N/A,,,1,0
+133,Ciments du Maroc Industrie,Construction,Agadir,N/A,,,1,0
+134,Ciments du Maroc Services,Industry,Marrakech,N/A,,,1,0
+135,Colorado Maroc,Transport,Marrakech,N/A,,,1,0
+136,Cooper Pharma,Construction,Tanger,N/A,,,1,0
+137,Cosumar,IT,"Agadir, Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,,,91,0
+138,Cosumar Distribution,Telecom,Agadir,N/A,,,1,0
+139,Cosumar Groupe 5,Telecom,Marrakech,N/A,,,1,0
+140,Cosumar Groupe 6,Retail,Agadir,N/A,,,1,0
+141,Cosumar Groupe 7,Finance,Marrakech,N/A,,,1,0
+142,Cosumar Industrie,Industry,Agadir,N/A,,,1,0
+143,Cosumar Services,Energy,Tanger,N/A,,,1,0
+4:db843b93-2a46-4b4f-8fcc-f2e7e6278b4a:8631,Creative Studio,Marketing & Design,N/A,N/A,N/A,N/A,2,0
+144,Credit du Maroc,Energy,Casablanca,N/A,,,1,0
+145,Credit du Maroc Distribution,IT,Rabat,N/A,,,1,0
+146,Credit du Maroc Groupe 5,Telecom,Fes,N/A,,,1,0
+147,Credit du Maroc Groupe 6,Transport,Fes,N/A,,,1,0
+148,Credit du Maroc Groupe 7,Transport,Agadir,N/A,,,1,0
+149,Credit du Maroc Industrie,Industry,Tanger,N/A,,,1,0
+150,Credit du Maroc Services,Energy,Agadir,N/A,,,1,0
+4:db843b93-2a46-4b4f-8fcc-f2e7e6278b4a:22,DataFlow,IT Services,N/A,N/A,N/A,N/A,1,0
+151,Decathlon Maroc,Retail,"Agadir, Casablanca, Fès, Marrakech, Rabat",N/A,,,75,0
+152,Dell Maroc,IT,"Agadir, Casablanca, Fes, Marrakech, Rabat",N/A,,,17,0
+153,Dislog Group,Construction,"Agadir, Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,,,19,0
+154,Dislog Group Distribution,Construction,Agadir,N/A,,,1,0
+155,Dislog Group Groupe 5,Retail,Agadir,N/A,,,1,0
+156,Dislog Group Groupe 6,Construction,Rabat,N/A,,,1,0
+157,Dislog Group Groupe 7,Construction,Tanger,N/A,,,1,0
+158,Dislog Group Industrie,Energy,Tanger,N/A,,,1,0
+159,Dislog Group Services,Transport,Tanger,N/A,,,1,0
+160,Dolidol,Energy,Tanger,N/A,,,1,0
+161,Egis Maroc,Industry,"Agadir, Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,,,19,0
+162,Egis Maroc Distribution,Finance,Agadir,N/A,,,1,0
+163,Egis Maroc Groupe 4,Construction,Marrakech,N/A,,,1,0
+164,Egis Maroc Groupe 5,Finance,Rabat,N/A,,,1,0
+165,Egis Maroc Groupe 6,IT,Marrakech,N/A,,,1,0
+166,Egis Maroc Industrie,Healthcare,Agadir,N/A,,,1,0
+167,Egis Maroc Services,Retail,Rabat,N/A,,,1,0
+168,Eqdom,Transport,Tanger,N/A,,,1,0
+169,Faurecia Maroc Groupe 5,Retail,Agadir,N/A,,,1,0
+170,Faurecia Maroc Groupe 6,Finance,Tanger,N/A,,,1,0
+171,Faurecia Maroc Groupe 7,IT,Casablanca,N/A,,,1,0
+172,Fenie Brossette,Retail,Agadir,N/A,,,1,0
+173,GTR,Construction,Fes,N/A,,,1,0
+174,GTR Distribution,Industry,Rabat,N/A,,,1,0
+175,GTR Groupe 4,Finance,Casablanca,N/A,,,1,0
+176,GTR Groupe 5,Retail,Casablanca,N/A,,,1,0
+177,GTR Groupe 6,Telecom,Agadir,N/A,,,1,0
+178,GTR Industrie,Construction,Rabat,N/A,,,1,0
+179,GTR Services,Healthcare,Fes,N/A,,,1,0
+4:db843b93-2a46-4b4f-8fcc-f2e7e6278b4a:8626,Global Brands,Marketing & Design,N/A,N/A,N/A,N/A,3,0
+180,Glovo Maroc,Healthcare,"Agadir, Casablanca, Fes, Fès, Marrakech, Rabat, Tanger",N/A,,,110,0
+181,Glovo Maroc Groupe 5,Transport,Casablanca,N/A,,,1,0
+182,Glovo Maroc Groupe 6,Finance,Agadir,N/A,,,1,0
+183,Glovo Maroc Groupe 7,Transport,Rabat,N/A,,,1,0
+184,Groupe BCP Services,Transport,Casablanca,N/A,,,1,0
+185,HP Maroc,Transport,"Agadir, Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,,,22,0
+186,HPS,Transport,"Agadir, Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,,,18,0
+187,HPS Distribution,Energy,Marrakech,N/A,,,1,0
+188,HPS Groupe 4,Construction,Rabat,N/A,,,1,0
+189,HPS Groupe 5,IT,Tanger,N/A,,,1,0
+190,HPS Groupe 6,Finance,Fes,N/A,,,1,0
+191,HPS Industrie,Industry,Marrakech,N/A,,,1,0
+192,HPS Services,Retail,Marrakech,N/A,,,1,0
+193,Holmarcom,Industry,Rabat,N/A,,,1,0
+194,Inetum Maroc,Industry,"Agadir, Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,,,16,0
+195,Inetum Maroc Distribution,Finance,Casablanca,N/A,,,1,0
+196,Inetum Maroc Groupe 5,Construction,Marrakech,N/A,,,1,0
+197,Inetum Maroc Groupe 6,Finance,Rabat,N/A,,,1,0
+198,Inetum Maroc Industrie,Transport,Casablanca,N/A,,,1,0
+199,Inetum Maroc Services,Transport,Marrakech,N/A,,,1,0
+4:db843b93-2a46-4b4f-8fcc-f2e7e6278b4a:37,Innovate,R&D,N/A,N/A,N/A,N/A,0,0
+200,Intelcia,IT,"Agadir, Fes, Marrakech, Rabat, Tanger",N/A,,,23,0
+201,Intelcia Distribution,Healthcare,Agadir,N/A,,,1,0
+202,Intelcia Groupe 5,Finance,Rabat,N/A,,,1,0
+203,Intelcia Groupe 6,Telecom,Marrakech,N/A,,,1,0
+204,Intelcia Industrie,Finance,Rabat,N/A,,,1,0
+205,Intelcia Services,Healthcare,Fes,N/A,,,1,0
+206,Involys,Transport,Casablanca,N/A,,,1,0
+207,Involys Distribution,Energy,Casablanca,N/A,,,1,0
+208,Involys Groupe 4,IT,Marrakech,N/A,,,1,0
+209,Involys Groupe 5,Retail,Rabat,N/A,,,1,0
+210,Involys Groupe 6,Construction,Casablanca,N/A,,,1,0
+211,Involys Industrie,IT,Casablanca,N/A,,,1,0
+212,Involys Services,Industry,Fes,N/A,,,1,0
+213,Jet Contractors,Finance,Casablanca,N/A,,,1,0
+214,Jumia Maroc,Retail,"Agadir, Casablanca, Fes, Fès, Marrakech, Rabat, Tanger",N/A,,,62,0
+215,Jumia Maroc Groupe 5,Telecom,Casablanca,N/A,,,1,0
+216,Jumia Maroc Groupe 6,Healthcare,Tanger,N/A,,,1,0
+217,Jumia Maroc Groupe 7,IT,Marrakech,N/A,,,1,0
+218,LG Electronics Maroc,Finance,"Agadir, Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,,,16,0
+219,Label'Vie,Construction,Fès,N/A,,,15,0
+220,LabelVie,Healthcare,"Agadir, Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,,,17,0
+221,LabelVie Distribution,Finance,Fes,N/A,,,1,0
+222,LabelVie Groupe 5,Telecom,Agadir,N/A,,,1,0
+223,LabelVie Groupe 6,Finance,Tanger,N/A,,,1,0
+224,LabelVie Groupe 7,Energy,Marrakech,N/A,,,1,0
+225,LabelVie Industrie,Industry,Casablanca,N/A,,,1,0
+226,LabelVie Services,Healthcare,Casablanca,N/A,,,1,0
+227,LafargeHolcim Maroc,Industry,"Agadir, Casablanca, Fes, Marrakech, Rabat",N/A,,,17,0
+228,LafargeHolcim Maroc Distribution,Construction,Fes,N/A,,,1,0
+229,LafargeHolcim Maroc Groupe 4,Transport,Rabat,N/A,,,1,0
+230,LafargeHolcim Maroc Groupe 5,Transport,Casablanca,N/A,,,1,0
+231,LafargeHolcim Maroc Groupe 6,Transport,Marrakech,N/A,,,1,0
+232,LafargeHolcim Maroc Industrie,Finance,Casablanca,N/A,,,1,0
+233,LafargeHolcim Maroc Services,Finance,Marrakech,N/A,,,1,0
+234,Laprophan,Industry,"Agadir, Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,,,19,0
+235,Laprophan Distribution,Industry,Tanger,N/A,,,1,0
+236,Laprophan Groupe 4,Energy,Rabat,N/A,,,1,0
+237,Laprophan Groupe 5,Construction,Casablanca,N/A,,,1,0
+238,Laprophan Groupe 6,Transport,Rabat,N/A,,,1,0
+239,Laprophan Industrie,Telecom,Casablanca,N/A,,,1,0
+240,Laprophan Services,Healthcare,Marrakech,N/A,,,1,0
+241,Lear Corporation Maroc,Industry,"Agadir, Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,,,20,0
+242,Lear Maroc Groupe 5,Construction,Agadir,N/A,,,1,0
+243,Lear Maroc Groupe 6,Healthcare,Rabat,N/A,,,1,0
+244,Lear Maroc Groupe 7,Industry,Fes,N/A,,,1,0
+245,Lesieur Cristal,Transport,"Agadir, Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,,,86,0
+246,Lesieur Cristal Distribution,Telecom,Marrakech,N/A,,,1,0
+247,Lesieur Cristal Groupe 5,Finance,Marrakech,N/A,,,1,0
+248,Lesieur Cristal Groupe 6,Industry,Fes,N/A,,,1,0
+249,Lesieur Cristal Groupe 7,Energy,Agadir,N/A,,,1,0
+250,Lesieur Cristal Industrie,Retail,Agadir,N/A,,,1,0
+251,Lesieur Cristal Services,Telecom,Tanger,N/A,,,1,0
+252,Lydec,Retail,"Agadir, Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,,,13,0
+253,Lydec Distribution,Industry,Marrakech,N/A,,,1,0
+254,Lydec Groupe 5,Retail,Agadir,N/A,,,1,0
+255,Lydec Groupe 6,Transport,Agadir,N/A,,,1,0
+256,Lydec Industrie,Retail,Casablanca,N/A,,,1,0
+257,Lydec Services,Retail,Marrakech,N/A,,,1,0
+258,M2M Group,Finance,"Agadir, Casablanca, Fes, Marrakech, Tanger",N/A,,,14,0
+259,M2M Group Distribution,Construction,Casablanca,N/A,,,1,0
+260,M2M Group Groupe 4,Finance,Casablanca,N/A,,,1,0
+261,M2M Group Groupe 5,Finance,Rabat,N/A,,,1,0
+262,M2M Group Groupe 6,Finance,Tanger,N/A,,,1,0
+263,M2M Group Industrie,Industry,Casablanca,N/A,,,1,0
+264,M2M Group Services,Transport,Marrakech,N/A,,,1,0
+265,Maghreb Steel,Telecom,Casablanca,N/A,,,1,0
+266,Maghreb Steel Distribution,IT,Marrakech,N/A,,,1,0
+267,Maghreb Steel Groupe 4,Industry,Tanger,N/A,,,1,0
+268,Maghreb Steel Groupe 5,IT,Marrakech,N/A,,,1,0
+269,Maghreb Steel Groupe 6,Energy,Fes,N/A,,,1,0
+270,Maghreb Steel Industrie,Retail,Tanger,N/A,,,1,0
+271,Maghreb Steel Services,Telecom,Tanger,N/A,,,1,0
+272,Maghrebail,Retail,Marrakech,N/A,,,1,0
+273,Majorel,Industry,"Agadir, Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,,,17,0
+274,Majorel Distribution,Construction,Marrakech,N/A,,,1,0
+275,Majorel Groupe 5,Transport,Rabat,N/A,,,1,0
+276,Majorel Groupe 6,Retail,Marrakech,N/A,,,1,0
+277,Majorel Industrie,Retail,Tanger,N/A,,,1,0
+278,Majorel Services,Energy,Tanger,N/A,,,1,0
+279,Managem,Healthcare,"Agadir, Casablanca, Fes, Fès, Marrakech, Rabat, Tanger",N/A,,,134,0
+280,Managem Distribution,IT,Marrakech,N/A,,,1,0
+281,Managem Groupe 4,Telecom,Fes,N/A,,,1,0
+282,Managem Groupe 5,Construction,Fes,N/A,,,1,0
+283,Managem Groupe 6,Transport,Casablanca,N/A,,,1,0
+284,Managem Industrie,Energy,Tanger,N/A,,,1,0
+285,Managem Services,Finance,Fes,N/A,,,1,0
+286,Marjane Holding,Finance,"Agadir, Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,,,21,0
+287,Marjane Holding Groupe 5,IT,Fes,N/A,,,1,0
+288,Marjane Holding Groupe 6,IT,Rabat,N/A,,,1,0
+289,Marjane Holding Groupe 7,IT,Tanger,N/A,,,1,0
+290,Maroc Telecom,Finance,"Agadir, Casablanca, Fes, Fès, Marrakech, Rabat, Tanger",N/A,,,96,0
+291,Maroc Telecom Groupe 5,IT,Tanger,N/A,,,1,0
+292,Maroc Telecom Groupe 6,Construction,Casablanca,N/A,,,1,0
+293,Maroc Telecom Groupe 7,Construction,Casablanca,N/A,,,1,0
+294,Marsa Maroc,Finance,Rabat,N/A,,,1,0
+295,Marsa Maroc Distribution,Transport,Fes,N/A,,,1,0
+296,Marsa Maroc Industrie,Telecom,Casablanca,N/A,,,1,0
+297,Marsa Maroc Logistics,Transport,Rabat,N/A,,,1,0
+298,Marsa Maroc Services,IT,Fes,N/A,,,1,0
+4:db843b93-2a46-4b4f-8fcc-f2e7e6278b4a:8641,MediCare,Healthcare,N/A,N/A,N/A,N/A,2,0
+299,Microsoft Maroc,Energy,"Agadir, Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,,,20,0
+300,Mutandis,IT,Agadir,N/A,,,1,0
+301,Nareva Groupe 4,Telecom,Casablanca,N/A,,,1,0
+302,Nareva Groupe 5,Construction,Fes,N/A,,,1,0
+303,Nareva Groupe 6,Industry,Casablanca,N/A,,,1,0
+304,Nareva Holding,Finance,Rabat,N/A,,,1,0
+305,Nareva Holding Distribution,Finance,Rabat,N/A,,,1,0
+306,Nareva Holding Industrie,Healthcare,Rabat,N/A,,,1,0
+307,Nareva Holding Services,Energy,Tanger,N/A,,,1,0
+308,Novec,Industry,"Agadir, Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,,,19,0
+309,Novec Distribution,Healthcare,Casablanca,N/A,,,1,0
+310,Novec Groupe 4,Industry,Marrakech,N/A,,,1,0
+311,Novec Groupe 5,Construction,Agadir,N/A,,,1,0
+312,Novec Groupe 6,Construction,Fes,N/A,,,1,0
+313,Novec Industrie,Transport,Agadir,N/A,,,1,0
+314,Novec Services,Construction,Agadir,N/A,,,1,0
+315,OCP Group,Construction,"Agadir, Casablanca, Fes, Fès, Marrakech, Rabat, Tanger",N/A,,,113,0
+316,OCP Groupe 5,Construction,Fes,N/A,,,1,0
+317,OCP Groupe 6,Healthcare,Casablanca,N/A,,,1,0
+318,OCP Groupe 7,Retail,Tanger,N/A,,,1,0
+319,ONCF,Energy,"Agadir, Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,,,77,0
+320,ONCF Distribution,Finance,Casablanca,N/A,,,1,0
+321,ONCF Groupe 5,Construction,Fes,N/A,,,1,0
+322,ONCF Groupe 6,Telecom,Fes,N/A,,,1,0
+323,ONCF Industrie,Finance,Casablanca,N/A,,,1,0
+324,ONCF Services,Industry,Agadir,N/A,,,1,0
+325,ONEE Eau,Telecom,Fes,N/A,,,1,0
+326,ONEE Electricite,Healthcare,Tanger,N/A,,,1,0
+327,Oncorad Group,Transport,Casablanca,N/A,,,1,0
+328,Oncorad Group Distribution,Telecom,Marrakech,N/A,,,1,0
+329,Oncorad Group Groupe 4,IT,Agadir,N/A,,,1,0
+330,Oncorad Group Groupe 5,Finance,Rabat,N/A,,,1,0
+331,Oncorad Group Groupe 6,Construction,Rabat,N/A,,,1,0
+332,Oncorad Group Industrie,Industry,Agadir,N/A,,,1,0
+333,Oncorad Group Services,Transport,Casablanca,N/A,,,1,0
+334,Oracle Maroc,Energy,"Agadir, Fes, Marrakech, Rabat, Tanger",N/A,,,18,0
+335,Peugeot Citroën Automobiles Maroc,Finance,Rabat,N/A,,,1,0
+336,Peugeot Citroën Automobiles Maroc Distribution,IT,Fes,N/A,,,1,0
+337,Peugeot Citroën Automobiles Maroc Industrie,Construction,Tanger,N/A,,,1,0
+338,Peugeot Citroën Automobiles Maroc Services,IT,Marrakech,N/A,,,1,0
+339,Pharma 5,Construction,Casablanca,N/A,,,1,0
+340,Pharma 5 Distribution,Telecom,Fes,N/A,,,1,0
+341,Pharma 5 Groupe 4,Finance,Rabat,N/A,,,1,0
+342,Pharma 5 Groupe 5,Telecom,Tanger,N/A,,,1,0
+343,Pharma 5 Groupe 6,Energy,Rabat,N/A,,,1,0
+344,Pharma 5 Industrie,Transport,Marrakech,N/A,,,1,0
+345,Pharma 5 Services,Telecom,Fes,N/A,,,1,0
+346,Promopharm,Healthcare,Tanger,N/A,,,1,0
+347,RMA Assurance,Telecom,Casablanca,N/A,,,1,0
+348,Redal,Energy,"Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,,,15,0
+349,Redal Distribution,Healthcare,Tanger,N/A,,,1,0
+350,Redal Groupe 5,Transport,Tanger,N/A,,,1,0
+351,Redal Groupe 6,Finance,Fes,N/A,,,1,0
+352,Redal Industrie,Transport,Casablanca,N/A,,,1,0
+353,Redal Services,Retail,Tanger,N/A,,,1,0
+354,Renault Commerce Maroc,Transport,Rabat,N/A,,,1,0
+355,Renault Commerce Maroc Distribution,IT,Agadir,N/A,,,1,0
+356,Renault Commerce Maroc Industrie,Industry,Fes,N/A,,,1,0
+357,Renault Commerce Maroc Services,IT,Fes,N/A,,,1,0
+358,Renault Maroc,Construction,"Agadir, Casablanca, Fes, Fès, Marrakech, Rabat, Tanger",N/A,,,184,0
+359,Renault Maroc Groupe 5,Finance,Casablanca,N/A,,,1,0
+360,Renault Maroc Groupe 6,Industry,Fes,N/A,,,1,0
+361,Renault Maroc Groupe 7,Construction,Rabat,N/A,,,1,0
+362,Royal Air Maroc,Transport,"Agadir, Fes, Fès, Marrakech, Rabat, Tanger",N/A,,,45,0
+363,Royal Air Maroc Distribution,IT,Tanger,N/A,,,1,0
+364,Royal Air Maroc Groupe 5,Healthcare,Agadir,N/A,,,1,0
+365,Royal Air Maroc Groupe 6,Transport,Rabat,N/A,,,1,0
+366,Royal Air Maroc Industrie,Energy,Rabat,N/A,,,1,0
+367,Royal Air Maroc Services,Finance,Casablanca,N/A,,,1,0
+368,SEWS Maroc Groupe 5,IT,Rabat,N/A,,,1,0
+369,SEWS Maroc Groupe 6,Energy,Marrakech,N/A,,,1,0
+370,SEWS Maroc Groupe 7,Finance,Marrakech,N/A,,,1,0
+371,SGTM,Healthcare,Casablanca,N/A,,,1,0
+372,SGTM Distribution,Transport,Rabat,N/A,,,1,0
+373,SGTM Groupe 4,Energy,Rabat,N/A,,,1,0
+374,SGTM Groupe 5,Transport,Marrakech,N/A,,,1,0
+375,SGTM Groupe 6,Retail,Marrakech,N/A,,,1,0
+376,SGTM Industrie,Finance,Rabat,N/A,,,1,0
+377,SGTM Services,Healthcare,Agadir,N/A,,,1,0
+378,SNEP,Industry,Fes,N/A,,,1,0
+379,SNTL,Industry,Casablanca,N/A,,,1,0
+380,SNTL Distribution,Transport,Tanger,N/A,,,1,0
+381,SNTL Groupe 5,Healthcare,Tanger,N/A,,,1,0
+382,SNTL Groupe 6,Transport,Rabat,N/A,,,1,0
+383,SNTL Groupe 7,IT,Rabat,N/A,,,1,0
+384,SNTL Industrie,Healthcare,Tanger,N/A,,,1,0
+385,SNTL Services,Transport,Agadir,N/A,,,1,0
+386,SQLI Maroc,Healthcare,"Agadir, Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,,,17,0
+387,SQLI Maroc Distribution,Healthcare,Rabat,N/A,,,1,0
+388,SQLI Maroc Groupe 4,Telecom,Agadir,N/A,,,1,0
+389,SQLI Maroc Groupe 5,Healthcare,Fes,N/A,,,1,0
+390,SQLI Maroc Groupe 6,Healthcare,Marrakech,N/A,,,1,0
+391,SQLI Maroc Industrie,Healthcare,Marrakech,N/A,,,1,0
+392,SQLI Maroc Services,Transport,Rabat,N/A,,,1,0
+393,Saham Assurance,Transport,"Agadir, Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,,,21,0
+394,Saham Assurance Distribution,Industry,Tanger,N/A,,,1,0
+395,Saham Assurance Groupe 5,IT,Fes,N/A,,,1,0
+396,Saham Assurance Groupe 6,Healthcare,Casablanca,N/A,,,1,0
+397,Saham Assurance Groupe 7,Healthcare,Agadir,N/A,,,1,0
+398,Saham Assurance Industrie,Transport,Rabat,N/A,,,1,0
+399,Saham Assurance Services,Energy,Fes,N/A,,,1,0
+400,Saham Finances,Industry,Fes,N/A,,,1,0
+401,Salafin,Construction,Casablanca,N/A,,,1,0
+402,Samsung Electronics Maghreb,Retail,"Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,,,19,0
+403,Samsung Electronics Maghreb Arab,IT,Casablanca,N/A,,,1,0
+404,Samsung Electronics Maghreb Arab Distribution,Finance,Agadir,N/A,,,1,0
+405,Samsung Electronics Maghreb Arab Industrie,Healthcare,Rabat,N/A,,,1,0
+406,Samsung Electronics Maghreb Arab Services,Construction,Tanger,N/A,,,1,0
+4:db843b93-2a46-4b4f-8fcc-f2e7e6278b4a:42,SecureNet,Cybersecurity,N/A,N/A,N/A,N/A,0,0
+407,Societe Generale Maroc,Industry,Marrakech,N/A,,,1,0
+408,Société Afriquia Marocaine de Distribution,Healthcare,"Agadir, Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,,,15,0
+409,Société Afriquia Marocaine de Distribution Distribution,Retail,Agadir,N/A,,,1,0
+410,Société Afriquia Marocaine de Distribution Industrie,Finance,Tanger,N/A,,,1,0
+411,Société Afriquia Marocaine de Distribution Services,Retail,Casablanca,N/A,,,1,0
+412,Société Générale Maroc,Industry,"Fès, Marrakech, Rabat, Tanger",N/A,,,75,0
+413,Société Marocaine des Tabacs,Construction,Casablanca,N/A,,,1,0
+414,Société Marocaine des Tabacs Distribution,Transport,Marrakech,N/A,,,1,0
+415,Société Marocaine des Tabacs Industrie,Finance,Marrakech,N/A,,,1,0
+416,Société Marocaine des Tabacs Services,IT,Rabat,N/A,,,1,0
+417,Somaca,Energy,"Agadir, Casablanca, Fès, Marrakech",N/A,Recruteur Somaca,recruiter@gmail.com,120,0
+418,Sonasid,Energy,Agadir,N/A,,,1,0
+419,Sonasid Distribution,Energy,Rabat,N/A,,,1,0
+420,Sonasid Groupe 4,Construction,Tanger,N/A,,,1,0
+421,Sonasid Groupe 5,Telecom,Fes,N/A,,,1,0
+422,Sonasid Groupe 6,IT,Tanger,N/A,,,1,0
+423,Sonasid Industrie,Finance,Casablanca,N/A,,,1,0
+424,Sonasid Services,Telecom,Tanger,N/A,,,1,0
+425,Sopra Steria Maroc,IT,Casablanca,N/A,,,1,0
+426,Sopra Steria Maroc Distribution,Construction,Tanger,N/A,,,1,0
+427,Sopra Steria Maroc Groupe 4,Retail,Agadir,N/A,,,1,0
+428,Sopra Steria Maroc Groupe 5,Construction,Casablanca,N/A,,,1,0
+429,Sopra Steria Maroc Groupe 6,Retail,Casablanca,N/A,,,1,0
+430,Sopra Steria Maroc Industrie,Construction,Marrakech,N/A,,,1,0
+431,Sopra Steria Maroc Services,Retail,Rabat,N/A,,,1,0
+432,Sothema,Telecom,"Agadir, Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,,,21,0
+433,Sothema Distribution,IT,Marrakech,N/A,,,1,0
+434,Sothema Groupe 4,Healthcare,Agadir,N/A,,,1,0
+435,Sothema Groupe 5,Industry,Casablanca,N/A,,,1,0
+436,Sothema Groupe 6,Healthcare,Agadir,N/A,,,1,0
+437,Sothema Industrie,Construction,Casablanca,N/A,,,1,0
+438,Sothema Services,Telecom,Marrakech,N/A,,,1,0
+4:db843b93-2a46-4b4f-8fcc-f2e7e6278b4a:40,StartUp Hub,Incubator,N/A,N/A,N/A,N/A,0,0
+439,Stellantis Maroc,Industry,"Agadir, Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,,,20,0
+440,Stellantis Maroc Groupe 5,Energy,Marrakech,N/A,,,1,0
+441,Stellantis Maroc Groupe 6,Transport,Agadir,N/A,,,1,0
+442,Stellantis Maroc Groupe 7,Industry,Marrakech,N/A,,,1,0
+443,Stroc Industrie,Construction,Rabat,N/A,,,1,0
+444,Super Cerame,Transport,Marrakech,N/A,,,1,0
+445,TGCC,Healthcare,Fes,N/A,,,1,0
+446,Tanger Med Port Authority,IT,Rabat,N/A,,,1,0
+447,Tanger Med Port Authority Distribution,Transport,Casablanca,N/A,,,1,0
+448,Tanger Med Port Authority Industrie,Transport,Casablanca,N/A,,,1,0
+449,Tanger Med Port Authority Services,IT,Tanger,N/A,,,1,0
+450,Taqa Morocco,Energy,Agadir,N/A,,,1,0
+4:db843b93-2a46-4b4f-8fcc-f2e7e6278b4a:17,Tech Corp,Software Development,N/A,N/A,N/A,N/A,0,0
+4:db843b93-2a46-4b4f-8fcc-f2e7e6278b4a:19,Tech Solutions,IT Services,N/A,N/A,N/A,N/A,1,0
+4:db843b93-2a46-4b4f-8fcc-f2e7e6278b4a:0,TechCorp,Tech,Paris,N/A,N/A,N/A,0,0
+451,Teleperformance Maroc,Healthcare,"Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,,,23,0
+452,Teleperformance Maroc Distribution,IT,Rabat,N/A,,,1,0
+453,Teleperformance Maroc Groupe 5,Retail,Fes,N/A,,,1,0
+454,Teleperformance Maroc Groupe 6,Transport,Agadir,N/A,,,1,0
+455,Teleperformance Maroc Industrie,Healthcare,Rabat,N/A,,,1,0
+456,Teleperformance Maroc Services,Transport,Tanger,N/A,,,1,0
+457,Timar,Energy,Tanger,N/A,,,1,0
+458,TotalEnergies Marketing Maroc,Telecom,Tanger,N/A,,,1,0
+459,TotalEnergies Marketing Maroc Distribution,IT,Tanger,N/A,,,1,0
+460,TotalEnergies Marketing Maroc Industrie,Finance,Casablanca,N/A,,,1,0
+461,TotalEnergies Marketing Maroc Services,Telecom,Rabat,N/A,,,1,0
+462,TotalEnergies Maroc,Transport,"Agadir, Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,,,19,0
+463,TotalEnergies Maroc Groupe 4,Telecom,Rabat,N/A,,,1,0
+464,TotalEnergies Maroc Groupe 5,Finance,Marrakech,N/A,,,1,0
+465,TotalEnergies Maroc Groupe 6,Finance,Marrakech,N/A,,,1,0
+466,Travaux Generaux de Construction,Transport,Rabat,N/A,,,1,0
+467,Vivo Energy Maroc,Telecom,"Agadir, Casablanca, Fes, Marrakech, Tanger",N/A,,,13,0
+468,Vivo Energy Maroc Distribution,IT,Casablanca,N/A,,,1,0
+469,Vivo Energy Maroc Groupe 4,Healthcare,Agadir,N/A,,,1,0
+470,Vivo Energy Maroc Groupe 5,IT,Casablanca,N/A,,,1,0
+471,Vivo Energy Maroc Groupe 6,Finance,Casablanca,N/A,,,1,0
+472,Vivo Energy Maroc Industrie,Energy,Rabat,N/A,,,1,0
+473,Vivo Energy Maroc Services,Construction,Tanger,N/A,,,1,0
+474,Wafa Assurance,Industry,"Agadir, Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,,,21,0
+475,Wafa Assurance Distribution,Transport,Agadir,N/A,,,1,0
+476,Wafa Assurance Groupe 5,Industry,Agadir,N/A,,,1,0
+477,Wafa Assurance Groupe 6,Telecom,Casablanca,N/A,,,1,0
+478,Wafa Assurance Groupe 7,Industry,Agadir,N/A,,,1,0
+479,Wafa Assurance Industrie,Healthcare,Rabat,N/A,,,1,0
+480,Wafa Assurance Services,IT,Tanger,N/A,,,1,0
+481,Webhelp Maroc,Retail,"Agadir, Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,,,20,0
+482,Webhelp Maroc Distribution,Transport,Casablanca,N/A,,,1,0
+483,Webhelp Maroc Groupe 5,Construction,Fes,N/A,,,1,0
+484,Webhelp Maroc Groupe 6,IT,Casablanca,N/A,,,1,0
+485,Webhelp Maroc Industrie,IT,Agadir,N/A,,,1,0
+486,Webhelp Maroc Services,Healthcare,Agadir,N/A,,,1,0
+487,Winxo,Healthcare,Fes,N/A,,,1,0
+488,Winxo Distribution,Finance,Marrakech,N/A,,,1,0
+489,Winxo Groupe 4,Industry,Rabat,N/A,,,1,0
+490,Winxo Groupe 5,Energy,Marrakech,N/A,,,1,0
+491,Winxo Groupe 6,Transport,Marrakech,N/A,,,1,0
+492,Winxo Industrie,Finance,Tanger,N/A,,,1,0
+493,Winxo Services,Transport,Casablanca,N/A,,,1,0
+494,Yazaki Maroc,Construction,"Agadir, Casablanca, Fes, Marrakech, Rabat, Tanger",N/A,,,26,0
+495,Yazaki Maroc Groupe 5,Finance,Tanger,N/A,,,1,0
+496,Yazaki Maroc Groupe 6,Telecom,Marrakech,N/A,,,1,0
+497,Yazaki Maroc Groupe 7,IT,Agadir,N/A,,,1,0
+498,Ynna Holding,Energy,Agadir,N/A,,,1,0
+499,Zalagh Holding,IT,Agadir,N/A,,,1,0
+500,Zurich Assurance Maroc,IT,Marrakech,N/A,,,1,0

@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Sourcing — Carrerlink</title>
+    <meta name="description" content="Système de scoring intelligent pour recruteurs — évaluez les candidats avec un score multi-dimensionnel">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* ── APP SHELL ── */
+        .app-shell{display:flex;min-height:100vh}
+        .sidebar{width:220px;min-height:100vh;background:#0f172a;display:flex;flex-direction:column;flex-shrink:0;position:fixed;top:0;left:0;bottom:0;z-index:900}
+        .sidebar-logo{padding:20px 22px;display:flex;align-items:center;gap:10px;border-bottom:1px solid rgba(255,255,255,.08);text-decoration:none}
+        .sidebar-logo .logo-icon{width:32px;height:32px;background:linear-gradient(135deg,#6366f1,#06b6d4);border-radius:8px;display:flex;align-items:center;justify-content:center;color:white;font-size:.95rem}
+        .sidebar-logo .logo-text{font-size:1rem;font-weight:800;color:white;letter-spacing:-.5px}
+        .sidebar-section{padding:16px 12px 4px;font-size:.65rem;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:#475569}
+        .sidebar-nav{padding:0 8px;flex:1;overflow-y:auto;scrollbar-width:thin;scrollbar-color:rgba(255,255,255,0.1) transparent}
+        .sidebar-nav::-webkit-scrollbar{width:4px}
+        .sidebar-nav::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.1);border-radius:10px}
+        .sidebar-link{display:flex;align-items:center;gap:10px;padding:9px 12px;border-radius:8px;text-decoration:none;color:#94a3b8;font-size:.875rem;font-weight:500;transition:all .18s;margin-bottom:2px}
+        .sidebar-link i{width:16px;text-align:center;font-size:.85rem}
+        .sidebar-link:hover{background:rgba(255,255,255,.06);color:white}
+        .sidebar-link.active{background:rgba(99,102,241,.2);color:#a5b4fc}
+        .sidebar-bottom{padding:12px 8px;border-top:1px solid rgba(255,255,255,.07)}
+        .sidebar-user{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:8px;background:rgba(255,255,255,.04)}
+        .sidebar-user-avatar{width:32px;height:32px;border-radius:50%;background:linear-gradient(135deg,#6366f1,#06b6d4);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:.82rem}
+        .sidebar-user-info{flex:1;overflow:hidden}
+        .sidebar-user-name{font-size:.8rem;font-weight:600;color:white;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+        .sidebar-user-role{font-size:.7rem;color:#64748b}
+        .main-area{margin-left:220px;flex:1;display:flex;flex-direction:column}
+        .topbar{height:60px;background:white;border-bottom:1px solid #e2e8f0;display:flex;align-items:center;justify-content:space-between;padding:0 28px;position:sticky;top:0;z-index:800}
+        .topbar h2{font-size:1rem;font-weight:700;color:#0f172a;margin:0}
+        .content-area{padding:28px;flex:1}
+
+        /* ── HERO ── */
+        .scoring-hero {
+            background: linear-gradient(145deg,#0f172a 0%,#1a1040 50%,#2d1b69 100%);
+            border-radius:20px;padding:44px 48px;margin-bottom:28px;
+            position:relative;overflow:hidden;
+        }
+        .scoring-hero::before{
+            content:'';position:absolute;inset:0;
+            background:radial-gradient(ellipse at 15% 60%,rgba(99,102,241,.4) 0%,transparent 50%),
+                        radial-gradient(ellipse at 85% 20%,rgba(168,85,247,.25) 0%,transparent 50%);
+        }
+        .scoring-hero::after{
+            content:'';position:absolute;right:-60px;top:-60px;
+            width:300px;height:300px;border-radius:50%;
+            background:rgba(99,102,241,.06);border:1px solid rgba(99,102,241,.15);
+        }
+        .scoring-hero-content{position:relative;z-index:2}
+        .scoring-hero h1{font-size:1.9rem;font-weight:800;color:white;letter-spacing:-1px;margin-bottom:8px}
+        .scoring-hero p{color:rgba(255,255,255,.6);font-size:.9rem;margin:0}
+        .hero-badge{
+            display:inline-flex;align-items:center;gap:6px;
+            background:rgba(99,102,241,.25);border:1px solid rgba(99,102,241,.4);
+            color:#a5b4fc;padding:5px 14px;border-radius:20px;
+            font-size:.75rem;font-weight:700;margin-bottom:16px;
+        }
+
+        /* ── SELECT PANEL ── */
+        .select-panel{
+            background:white;border:1px solid #e2e8f0;border-radius:16px;
+            padding:24px;margin-bottom:24px;
+            box-shadow:0 1px 3px rgba(0,0,0,.04);
+        }
+        .select-panel h5{font-size:.9rem;font-weight:700;color:#0f172a;margin-bottom:16px}
+
+        /* ── RESULTS HEADER ── */
+        .results-header{
+            display:flex;align-items:center;justify-content:space-between;
+            margin-bottom:20px;flex-wrap:wrap;gap:12px;
+        }
+        .results-title{font-size:1.05rem;font-weight:700;color:#0f172a}
+        .results-meta{font-size:.78rem;color:#64748b}
+
+        /* ── FILTER CHIPS ── */
+        .filter-chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
+        .chip{
+            padding:5px 14px;border-radius:20px;font-size:.75rem;font-weight:600;
+            border:1.5px solid #e2e8f0;background:white;color:#64748b;
+            cursor:pointer;transition:all .18s;
+        }
+        .chip:hover{border-color:#c7d2fe;color:#4338ca}
+        .chip.active{background:#6366f1;color:white;border-color:#6366f1}
+
+        /* ── CANDIDATE SCORE CARDS ── */
+        .score-card{
+            background:white;border:1px solid #e2e8f0;border-radius:16px;
+            overflow:hidden;margin-bottom:14px;transition:all .2s;
+            box-shadow:0 1px 3px rgba(0,0,0,.04);
+        }
+        .score-card:hover{box-shadow:0 8px 24px rgba(79,70,229,.08);border-color:#c7d2fe;transform:translateY(-1px)}
+        .score-card.rank-1{border-left:4px solid #f59e0b}
+        .score-card.rank-2{border-left:4px solid #94a3b8}
+        .score-card.rank-3{border-left:4px solid #cd7c3e}
+
+        .score-card-body{
+            display:grid;grid-template-columns:auto 1fr auto auto;
+            align-items:center;gap:20px;padding:18px 22px;
+        }
+
+        /* ── RANK BADGE ── */
+        .rank-badge{
+            width:36px;height:36px;border-radius:50%;
+            display:flex;align-items:center;justify-content:center;
+            font-weight:800;font-size:.85rem;flex-shrink:0;
+        }
+        .rank-badge.r1{background:linear-gradient(135deg,#fbbf24,#f59e0b);color:#78350f}
+        .rank-badge.r2{background:linear-gradient(135deg,#e5e7eb,#d1d5db);color:#374151}
+        .rank-badge.r3{background:linear-gradient(135deg,#d97706,#b45309);color:white}
+        .rank-badge.rn{background:#f1f5f9;color:#64748b}
+
+        /* ── CANDIDATE INFO ── */
+        .cand-avatar{
+            width:44px;height:44px;border-radius:12px;flex-shrink:0;
+            background:linear-gradient(135deg,#6366f1,#8b5cf6);
+            color:white;font-weight:800;font-size:1rem;
+            display:flex;align-items:center;justify-content:center;
+        }
+        .cand-info{flex:1;min-width:0}
+        .cand-name{font-size:.95rem;font-weight:700;color:#0f172a;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+        .cand-sub{font-size:.75rem;color:#64748b;margin-top:2px}
+        .cand-skills-row{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}
+        .skill-tag{
+            background:#eef2ff;color:#4338ca;border:1px solid #c7d2fe;
+            padding:2px 9px;border-radius:10px;font-size:.68rem;font-weight:600;
+        }
+        .skill-tag.matched{background:#d1fae5;color:#065f46;border-color:#a7f3d0}
+
+        /* ── SCORE METER ── */
+        .score-meter{text-align:center;flex-shrink:0;min-width:80px}
+        .score-circle{
+            width:64px;height:64px;border-radius:50%;
+            display:flex;flex-direction:column;align-items:center;justify-content:center;
+            font-size:1.15rem;font-weight:800;margin:0 auto 4px;
+            border:3px solid;
+        }
+        .score-circle.excellent{border-color:#10b981;color:#10b981;background:#f0fdf4}
+        .score-circle.good{border-color:#3b82f6;color:#3b82f6;background:#eff6ff}
+        .score-circle.possible{border-color:#f59e0b;color:#f59e0b;background:#fffbeb}
+        .score-circle.weak{border-color:#94a3b8;color:#94a3b8;background:#f8fafc}
+
+        /* ── MATCH LABEL ── */
+        .match-label{font-size:.65rem;font-weight:700;white-space:nowrap}
+        .match-label.excellent{color:#10b981}
+        .match-label.good{color:#3b82f6}
+        .match-label.possible{color:#f59e0b}
+        .match-label.weak{color:#94a3b8}
+
+        /* ── ACTIONS COL ── */
+        .card-actions{display:flex;flex-direction:column;gap:6px;flex-shrink:0}
+        .btn-score-select{
+            background:linear-gradient(135deg,#10b981,#059669);color:white;border:none;
+            padding:6px 14px;border-radius:8px;font-weight:600;font-size:.75rem;
+            cursor:pointer;transition:all .2s;white-space:nowrap;
+        }
+        .btn-score-select:hover{transform:translateY(-1px);box-shadow:0 4px 12px rgba(16,185,129,.3)}
+        .btn-score-reject{
+            background:#fee2e2;color:#dc2626;border:1px solid #fecaca;
+            padding:5px 14px;border-radius:8px;font-weight:600;font-size:.75rem;
+            cursor:pointer;transition:all .2s;
+        }
+        .btn-score-reject:hover{background:#fecaca}
+
+        /* ── EXPAND BREAKDOWN ── */
+        .breakdown-toggle{
+            display:flex;align-items:center;gap:6px;padding:10px 22px;
+            background:#f8fafc;border-top:1px solid #f1f5f9;
+            cursor:pointer;font-size:.75rem;font-weight:600;color:#64748b;
+            transition:background .18s;user-select:none;
+        }
+        .breakdown-toggle:hover{background:#f1f5f9;color:#4338ca}
+        .breakdown-panel{
+            display:none;padding:18px 22px;background:#fafbff;
+            border-top:1px solid #f1f5f9;
+        }
+        .breakdown-panel.open{display:block}
+
+        /* ── DIM BAR ── */
+        .dim-row{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+        .dim-label{font-size:.75rem;font-weight:600;color:#64748b;min-width:110px}
+        .dim-bar-wrap{flex:1;height:8px;background:#e2e8f0;border-radius:20px;overflow:hidden}
+        .dim-bar-fill{height:100%;border-radius:20px;transition:width 1s cubic-bezier(.4,0,.2,1)}
+        .dim-score-txt{font-size:.75rem;font-weight:700;min-width:36px;text-align:right}
+        .dim-bar-fill.skills{background:linear-gradient(90deg,#6366f1,#8b5cf6)}
+        .dim-bar-fill.semantic{background:linear-gradient(90deg,#06b6d4,#0ea5e9)}
+        .dim-bar-fill.seniority{background:linear-gradient(90deg,#f59e0b,#fbbf24)}
+        .dim-bar-fill.location{background:linear-gradient(90deg,#10b981,#34d399)}
+        .dim-bar-fill.profile{background:linear-gradient(90deg,#ec4899,#f43f5e)}
+
+        /* ── JOB INFO BAR ── */
+        .job-info-bar{
+            background:linear-gradient(135deg,#eef2ff,#f0fdf4);
+            border:1px solid #c7d2fe;border-radius:12px;
+            padding:14px 20px;margin-bottom:20px;
+            display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;
+        }
+        .job-info-title{font-size:.95rem;font-weight:700;color:#1e1b4b}
+        .job-info-meta{font-size:.78rem;color:#64748b;display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+        .required-skill-pill{
+            background:white;border:1px solid #c7d2fe;color:#4338ca;
+            padding:2px 10px;border-radius:12px;font-size:.68rem;font-weight:600;
+        }
+
+        /* ── LOADER & EMPTY ── */
+        .score-loader{text-align:center;padding:60px 20px}
+        .score-loader .spinner{width:56px;height:56px;border:4px solid #eef2ff;border-top-color:#6366f1;border-radius:50%;animation:spin .8s linear infinite;margin:0 auto 18px}
+        @keyframes spin{to{transform:rotate(360deg)}}
+        .empty-state{text-align:center;padding:70px 20px;color:#94a3b8}
+        .empty-state .icon{font-size:3rem;margin-bottom:16px;opacity:.3}
+        .empty-state h5{font-size:1rem;font-weight:700;color:#475569}
+
+        /* ── KPIs ── */
+        .kpi-row{display:flex;gap:14px;margin-bottom:22px;flex-wrap:wrap}
+        .kpi-card{
+            flex:1;min-width:130px;background:white;border:1px solid #e2e8f0;
+            border-radius:14px;padding:16px 18px;
+        }
+        .kpi-value{font-size:1.5rem;font-weight:800;color:#0f172a;line-height:1}
+        .kpi-label{font-size:.68rem;font-weight:600;color:#64748b;text-transform:uppercase;letter-spacing:.5px;margin-top:4px}
+        .kpi-dot{width:8px;height:8px;border-radius:50%;display:inline-block;margin-right:5px}
+
+        /* ── STATUS PILL ── */
+        .s-pill{display:inline-flex;align-items:center;gap:4px;padding:3px 10px;border-radius:12px;font-size:.68rem;font-weight:700}
+        .s-pill.pending{background:#fef3c7;color:#92400e}
+        .s-pill.selected{background:#d1fae5;color:#065f46}
+        .s-pill.rejected{background:#fee2e2;color:#991b1b}
+
+        @keyframes slideUp{from{transform:translateY(30px);opacity:0}to{transform:translateY(0);opacity:1}}
+        @media(max-width:1024px){.sidebar{width:64px}.sidebar-logo .logo-text,.sidebar-link span,.sidebar-section,.sidebar-user-info{display:none}.main-area{margin-left:64px}}
+        @media(max-width:640px){.sidebar{display:none}.main-area{margin-left:0}.score-card-body{grid-template-columns:auto 1fr auto}}
+    </style>
+</head>
+<body>
+<div class="app-shell">
+<aside class="sidebar">
+    <a class="sidebar-logo" href="index.html">
+        <div class="logo-icon"><i class="fas fa-briefcase"></i></div>
+        <span class="logo-text">Carrerlink</span>
+    </a>
+    <nav class="sidebar-nav">
+        <div class="sidebar-section">Principal</div>
+        <a class="sidebar-link" href="index.html"><i class="fas fa-home"></i><span>Tableau de bord</span></a>
+        <a class="sidebar-link" href="candidates.html"><i class="fas fa-users"></i><span>Candidats</span></a>
+        <a class="sidebar-link" href="jobs.html" id="nav-jobs"><i class="fas fa-briefcase"></i><span>Offres</span></a>
+        <a class="sidebar-link" href="my-applications.html" id="nav-my-applications">
+            <i class="fas fa-history"></i><span>Mes candidatures</span>
+        </a>
+        <a class="sidebar-link" href="companies.html" id="nav-companies"><i class="fas fa-building"></i><span>Entreprises</span></a>
+        <a class="sidebar-link d-none" href="recruiters.html" id="nav-recruiters"><i class="fas fa-user-tie"></i><span>Recruteurs</span></a>
+        <div class="sidebar-section" style="margin-top:8px;">Outils</div>
+        <a class="sidebar-link" href="search.html"><i class="fas fa-search"></i><span>Recherche</span></a>
+        <a class="sidebar-link active" href="smart-sourcing.html" id="nav-smart-scoring"><i class="fas fa-layer-group"></i><span>Smart Sourcing</span></a>
+        <a class="sidebar-link" href="recommendations.html" id="nav-recommendations"><i class="fas fa-star"></i><span>Smart CV</span></a>
+        <a class="sidebar-link" href="applicants.html" id="nav-applicants"><i class="fas fa-inbox"></i><span>Candidatures</span></a>
+        <a class="sidebar-link d-none" href="analytics.html" id="nav-analytics"><i class="fas fa-chart-bar"></i><span>Tendances</span></a>
+    </nav>
+    <div class="sidebar-bottom">
+        <div class="sidebar-user">
+            <div class="sidebar-user-avatar" id="sidebarAvatar">?</div>
+            <div class="sidebar-user-info">
+                <div class="sidebar-user-name" id="sidebarName">—</div>
+                <div class="sidebar-user-role" id="sidebarRole">—</div>
+            </div>
+        </div>
+        <a class="sidebar-link mt-2" href="#" id="logoutBtn" style="color:#f87171;">
+            <i class="fas fa-sign-out-alt"></i><span>Déconnexion</span>
+        </a>
+    </div>
+</aside>
+
+<div class="main-area">
+    <header class="topbar">
+        <h2><i class="fas fa-layer-group me-2" style="color:#6366f1;"></i> Smart Sourcing</h2>
+        <span id="userInfo" style="font-size:.8rem;font-weight:600;color:#64748b;background:#f1f5f9;padding:5px 12px;border-radius:8px;"></span>
+    </header>
+
+    <main class="content-area">
+
+        <!-- Hero -->
+        <div class="scoring-hero">
+            <div class="scoring-hero-content">
+                <div class="hero-badge"><i class="fas fa-brain"></i> IA multi-dimensionnelle</div>
+                <h1><i class="fas fa-layer-group me-2"></i>Classement Intelligent des Candidats</h1>
+                <p>Sélectionnez une de vos offres pour obtenir un score IA sur 5 dimensions pour chaque candidat postulant.</p>
+            </div>
+        </div>
+
+        <!-- Job Selector -->
+        <div class="select-panel">
+            <h5><i class="fas fa-briefcase me-2" style="color:#6366f1;"></i>Choisir une offre à analyser</h5>
+            <div class="row g-3 align-items-end">
+                <div class="col-md-7">
+                    <label class="form-label">Vos offres publiées</label>
+                    <select class="form-select" id="jobSelector" style="font-size:.875rem;">
+                        <option value="">— Sélectionner une offre —</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <button class="btn btn-primary w-100" id="runScoringBtn" onclick="runScoring()" disabled>
+                        <i class="fas fa-bolt me-2"></i>Analyser
+                    </button>
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-outline-secondary w-100" onclick="resetPage()" title="Réinitialiser">
+                        <i class="fas fa-redo"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Loader -->
+        <div id="scoringLoader" class="score-loader d-none">
+            <div class="spinner"></div>
+            <h5 style="font-weight:700;color:#0f172a;margin-bottom:6px;">Scoring en cours…</h5>
+            <p style="font-size:.85rem;color:#64748b;">Analyse IA sur 5 dimensions pour chaque candidat</p>
+        </div>
+
+        <!-- Results Section -->
+        <div id="resultsSection" class="d-none">
+
+            <!-- Job info bar -->
+            <div class="job-info-bar" id="jobInfoBar">
+                <div>
+                    <div class="job-info-title" id="jobInfoTitle">—</div>
+                    <div class="job-info-meta" id="jobInfoMeta">—</div>
+                </div>
+                <div style="display:flex;gap:6px;flex-wrap:wrap;" id="requiredSkillsBar"></div>
+            </div>
+
+            <!-- KPIs -->
+            <div class="kpi-row" id="kpiRow">
+                <div class="kpi-card">
+                    <div class="kpi-value" id="kpiTotal">—</div>
+                    <div class="kpi-label">Candidats scorés</div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-value" id="kpiExcellent" style="color:#10b981;">—</div>
+                    <div class="kpi-label"><span class="kpi-dot" style="background:#10b981;"></span>Excellent Match</div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-value" id="kpiBon" style="color:#3b82f6;">—</div>
+                    <div class="kpi-label"><span class="kpi-dot" style="background:#3b82f6;"></span>Bon Profil</div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-value" id="kpiAvg" style="color:#6366f1;">—</div>
+                    <div class="kpi-label">Score Moyen</div>
+                </div>
+            </div>
+
+            <!-- Filter chips -->
+            <div class="filter-chips" id="filterChips">
+                <button class="chip active" data-filter="all" onclick="applyFilter('all',this)">Tous</button>
+                <button class="chip" data-filter="excellent" onclick="applyFilter('excellent',this)"><i class="fas fa-circle" style="color:#10b981;font-size:.5rem;"></i> Excellent</button>
+                <button class="chip" data-filter="good" onclick="applyFilter('good',this)"><i class="fas fa-circle" style="color:#3b82f6;font-size:.5rem;"></i> Bon Profil</button>
+                <button class="chip" data-filter="possible" onclick="applyFilter('possible',this)"><i class="fas fa-circle" style="color:#f59e0b;font-size:.5rem;"></i> Possible</button>
+                <button class="chip" data-filter="pending" onclick="applyFilter('pending',this)">En attente</button>
+                <button class="chip" data-filter="selected" onclick="applyFilter('selected',this)">Sélectionnés</button>
+            </div>
+
+            <!-- Results header -->
+            <div class="results-header">
+                <div>
+                    <div class="results-title">Classement des Candidats</div>
+                    <div class="results-meta" id="resultsMeta"></div>
+                </div>
+                <div style="font-size:.72rem;color:#94a3b8;font-weight:600;">
+                    <i class="fas fa-info-circle me-1"></i>Cliquez sur un candidat pour voir le détail du score
+                </div>
+            </div>
+
+            <!-- Candidates list -->
+            <div id="candidatesList"></div>
+        </div>
+
+        <!-- Initial empty state -->
+        <div id="emptyState" class="empty-state">
+            <div class="icon"><i class="fas fa-trophy"></i></div>
+            <h5>Sélectionnez une offre pour commencer</h5>
+            <p style="font-size:.85rem;max-width:380px;margin:8px auto 0;">Le système va analyser et classer automatiquement tous les candidats selon un score IA sur 5 dimensions.</p>
+        </div>
+
+    </main>
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="api.js?v=12"></script>
+<script src="smart-sourcing.js?v=2"></script>
+<script>
+document.getElementById('logoutBtn').addEventListener('click', async (e) => {
+    e.preventDefault();
+    await fetch(`${api.baseUrl}/auth/logout`, {method:'POST',credentials:'include'});
+    window.location.href = 'login.html';
+});
+</script>
+</body>
+</html>
+
+
+

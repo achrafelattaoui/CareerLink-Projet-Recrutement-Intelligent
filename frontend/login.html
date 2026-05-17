@@ -1,0 +1,529 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connexion - Carrerlink</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      min-height: 100vh;
+      background: #050c1a;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding: 40px 20px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* â”€â”€ ANIMATED BACKGROUND â”€â”€ */
+    .bg {
+      position: fixed; inset: 0; z-index: 0;
+      background:
+        radial-gradient(ellipse 80% 60% at 15% 5%,  rgba(0,180,255,0.14) 0%, transparent 55%),
+        radial-gradient(ellipse 60% 50% at 85% 90%, rgba(0,229,255,0.10) 0%, transparent 55%),
+        radial-gradient(ellipse 50% 40% at 50% 50%, rgba(14,165,233,0.06) 0%, transparent 60%),
+        #050c1a;
+    }
+    .particles { position: fixed; inset: 0; z-index: 0; pointer-events: none; }
+    .p {
+      position: absolute; border-radius: 50%;
+      background: rgba(14,165,233,0.5);
+      animation: rise linear infinite;
+      opacity: 0;
+    }
+    @keyframes rise {
+      0%   { transform: translateY(100vh) scale(0); opacity: 0; }
+      10%  { opacity: 1; }
+      90%  { opacity: 0.6; }
+      100% { transform: translateY(-10vh) scale(1); opacity: 0; }
+    }
+
+    /* â”€â”€ TOP SCHOOL HEADER â”€â”€ */
+    .school-header {
+      position: relative; z-index: 10;
+      display: flex; align-items: center; gap: 14px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.09);
+      border-radius: 16px;
+      padding: 12px 24px;
+      margin-bottom: 28px;
+      backdrop-filter: blur(12px);
+    }
+    .emsi-logo {
+      height: 42px; width: auto;
+      border-radius: 8px;
+    }
+    .school-info { display: flex; flex-direction: column; }
+    .school-name {
+      font-size: 0.7rem; font-weight: 700;
+      color: rgba(255,255,255,0.5);
+      text-transform: uppercase; letter-spacing: 1.2px;
+    }
+    .project-name {
+      font-size: 0.85rem; font-weight: 600;
+      color: rgba(255,255,255,0.85);
+    }
+    .school-separator {
+      width: 1px; height: 36px;
+      background: rgba(255,255,255,0.12);
+      margin: 0 4px;
+    }
+    .authors-block { display: flex; flex-direction: column; gap: 3px; }
+    .authors-label {
+      font-size: 0.65rem; color: rgba(255,255,255,0.35);
+      text-transform: uppercase; letter-spacing: 1px; font-weight: 600;
+    }
+    .authors-names {
+      font-size: 0.8rem; font-weight: 700;
+      background: linear-gradient(90deg, #38bdf8, #06b6d4);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    /* â”€â”€ CARD â”€â”€ */
+    .card {
+      position: relative; z-index: 10;
+      width: 420px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 24px;
+      padding: 36px 40px 32px;
+      backdrop-filter: blur(20px);
+      box-shadow:
+        0 0 0 1px rgba(255,255,255,0.05) inset,
+        0 40px 80px rgba(0,0,0,0.5),
+        0 0 40px rgba(14,165,233,0.08);
+    }
+
+    /* â”€â”€ BRAND â”€â”€ */
+    .brand {
+      display: flex; align-items: center; gap: 12px;
+      justify-content: center; margin-bottom: 8px;
+    }
+    .brand-icon {
+      width: 44px; height: 44px;
+      background: linear-gradient(135deg, #0ea5e9, #06b6d4, #0284c7);
+      border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      color: white; font-size: 1.15rem;
+      box-shadow: 0 0 24px rgba(14,165,233,0.6), 0 0 60px rgba(6,182,212,0.2);
+      animation: iconPulse 3s ease-in-out infinite;
+    }
+    @keyframes iconPulse {
+      0%,100% { box-shadow: 0 0 24px rgba(14,165,233,0.6), 0 0 60px rgba(6,182,212,0.2); }
+      50%      { box-shadow: 0 0 32px rgba(14,165,233,0.9), 0 0 80px rgba(6,182,212,0.35); }
+    }
+    .brand-name {
+      font-size: 1.65rem; font-weight: 900;
+      background: linear-gradient(100deg, #ffffff 20%, #7dd3fc 50%, #38bdf8 70%, #ffffff 90%);
+      background-size: 200% auto;
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text;
+      letter-spacing: -1px;
+      animation: shimmer 3s linear infinite;
+    }
+    @keyframes shimmer {
+      0%   { background-position: 200% center; }
+      100% { background-position: -200% center; }
+    }
+
+    .card-title {
+      text-align: center;
+      font-size: 1.5rem; font-weight: 800;
+      color: white; letter-spacing: -0.5px;
+      margin-top: 18px; margin-bottom: 4px;
+    }
+    .card-sub {
+      text-align: center;
+      font-size: 0.82rem; color: rgba(255,255,255,0.4);
+      margin-bottom: 24px;
+    }
+
+    /* â”€â”€ ROLE TABS â”€â”€ */
+    .role-tabs {
+      display: flex;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 12px; padding: 4px; gap: 3px; margin-bottom: 20px;
+    }
+    .role-tab {
+      flex: 1; padding: 8px 6px;
+      border: none; background: transparent;
+      border-radius: 9px;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.74rem; font-weight: 600;
+      color: rgba(255,255,255,0.35);
+      cursor: pointer; transition: all 0.2s;
+      display: flex; align-items: center; justify-content: center; gap: 5px;
+    }
+    .role-tab.active {
+      background: rgba(14,165,233,0.25);
+      color: #bae6fd;
+      border: 1px solid rgba(14,165,233,0.5);
+      box-shadow: 0 0 12px rgba(14,165,233,0.2);
+    }
+    .role-tab:hover:not(.active) { color: rgba(255,255,255,0.65); background: rgba(255,255,255,0.07); }
+
+    /* â”€â”€ FORM â”€â”€ */
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .form-group { margin-bottom: 13px; }
+    .form-group label {
+      display: block; font-size: 0.74rem; font-weight: 600;
+      color: rgba(255,255,255,0.5); margin-bottom: 6px;
+    }
+    .input-wrap { position: relative; }
+    .input-wrap i {
+      position: absolute; left: 13px; top: 50%; transform: translateY(-50%);
+      color: rgba(255,255,255,0.2); font-size: 0.78rem; pointer-events: none;
+    }
+    .input-wrap input, .input-wrap select {
+      width: 100%; padding: 10px 12px 10px 38px;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 10px;
+      font-family: 'Inter', sans-serif; font-size: 0.855rem;
+      color: white; transition: all 0.2s; -webkit-appearance: none;
+    }
+    .input-wrap input::placeholder { color: rgba(255,255,255,0.18); }
+    .input-wrap input:focus, .input-wrap select:focus {
+      outline: none;
+      border-color: rgba(14,165,233,0.75);
+      background: rgba(14,165,233,0.08);
+      box-shadow: 0 0 0 3px rgba(14,165,233,0.15);
+    }
+    .input-wrap input[type="date"] { color-scheme: dark; }
+    .input-wrap select option { background: #1e1b4b; }
+
+    /* â”€â”€ BUTTON â”€â”€ */
+    .btn-submit {
+      width: 100%; padding: 12px;
+      background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%);
+      color: white; border: none; border-radius: 11px;
+      font-family: 'Inter', sans-serif; font-size: 0.88rem; font-weight: 700;
+      cursor: pointer; transition: all 0.22s; margin-top: 6px;
+      box-shadow: 0 4px 20px rgba(14,165,233,0.5), inset 0 1px 0 rgba(255,255,255,0.15);
+    }
+    .btn-submit:hover { transform: translateY(-1px); box-shadow: 0 8px 28px rgba(14,165,233,0.6), inset 0 1px 0 rgba(255,255,255,0.15); }
+    .btn-submit:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
+    .btn-register { background: linear-gradient(135deg, #059669, #10b981) !important; box-shadow: 0 4px 20px rgba(16,185,129,0.4) !important; }
+    .btn-register:hover { box-shadow: 0 8px 28px rgba(16,185,129,0.55) !important; }
+
+    /* â”€â”€ ALERTS â”€â”€ */
+    .error-box, .success-box, .info-box {
+      border-radius: 10px; padding: 10px 14px;
+      font-size: 0.8rem; font-weight: 500;
+      margin-bottom: 14px; display: none; align-items: center; gap: 8px;
+      border: 1px solid;
+    }
+    .error-box   { background: rgba(239,68,68,0.1);  color: #fca5a5; border-color: rgba(239,68,68,0.25); }
+    .success-box { background: rgba(16,185,129,0.1); color: #6ee7b7; border-color: rgba(16,185,129,0.25); }
+    .info-box    { background: rgba(14,165,233,0.1); color: #7dd3fc; border-color: rgba(14,165,233,0.2); }
+
+    .sep { display: flex; align-items: center; gap: 10px; margin: 14px 0; }
+    .sep hr { flex: 1; border: none; border-top: 1px solid rgba(255,255,255,0.07); }
+    .sep span { font-size: 0.7rem; color: rgba(255,255,255,0.2); }
+
+    .switch-link { text-align: center; font-size: 0.8rem; color: rgba(255,255,255,0.3); }
+    .switch-link a { color: #38bdf8; font-weight: 700; text-decoration: none; }
+    .switch-link a:hover { color: #7dd3fc; }
+
+    /* â”€â”€ FOOTER â”€â”€ */
+    .page-footer {
+      position: relative; z-index: 10;
+      margin-top: 22px;
+      font-size: 0.68rem; color: rgba(255,255,255,0.18);
+      text-align: center;
+    }
+
+    @media (max-width: 480px) {
+      .card { width: 95%; padding: 28px 20px; }
+      .school-header { flex-direction: column; text-align: center; width: 95%; }
+      .school-separator { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Background -->
+<div class="bg"></div>
+<div class="particles" id="particles"></div>
+
+<!-- â”€â”€ SCHOOL HEADER â”€â”€ -->
+<div class="school-header">
+  <img src="https://upload.wikimedia.org/wikipedia/fr/4/4a/Emsi_logo.jpg" alt="EMSI" class="emsi-logo"
+       onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+  <div style="display:none; width:42px; height:42px; background:linear-gradient(135deg,#dc2626,#991b1b); border-radius:8px; align-items:center; justify-content:center; color:white; font-weight:900; font-size:0.8rem; flex-shrink:0;">EMSI</div>
+  <div class="school-info">
+    <span class="school-name">École Marocaine des Sciences de l'Ingénieur</span>
+    <span class="project-name">Projet de fin d'année 2026 — Carrerlink</span>
+  </div>
+  <div class="school-separator"></div>
+  <div class="authors-block">
+    <span class="authors-label">Réalisé par</span>
+    <span class="authors-names">Achraf Elattaoui &amp; Hiba Ait Benyadil</span>
+  </div>
+</div>
+
+<!-- â”€â”€ LOGIN CARD â”€â”€ -->
+<div class="card">
+  <div class="brand">
+    <div class="brand-icon"><i class="fas fa-briefcase"></i></div>
+    <span class="brand-name">Carrerlink</span>
+  </div>
+
+  <h2 class="card-title" id="formHeading">Bon retour !</h2>
+  <p class="card-sub" id="formSubheading">Connectez-vous à votre espace de travail</p>
+
+  <div id="authError"   class="error-box"><i class="fas fa-circle-exclamation"></i><span></span></div>
+  <div id="authSuccess" class="success-box"><i class="fas fa-circle-check"></i><span></span></div>
+  <div id="authInfo"    class="info-box"><i class="fas fa-circle-info"></i><span></span></div>
+
+  <!-- LOGIN -->
+  <div id="loginSection">
+    <div class="role-tabs">
+      <button class="role-tab active" type="button" id="btn-user"      onclick="switchRole('user')">      <i class="fas fa-user"></i> Candidat</button>
+      <button class="role-tab"        type="button" id="btn-recruiter" onclick="switchRole('recruiter')"> <i class="fas fa-user-tie"></i> Recruteur</button>
+      <button class="role-tab"        type="button" id="btn-admin"     onclick="switchRole('admin')">     <i class="fas fa-shield-alt"></i> Admin</button>
+    </div>
+    <form id="loginForm">
+      <input type="hidden" id="selectedRole" value="user">
+      <div class="form-group">
+        <label>Adresse email</label>
+        <div class="input-wrap"><i class="far fa-envelope"></i>
+          <input type="email" id="email" placeholder="vous@exemple.com" required autocomplete="email">
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Mot de passe</label>
+        <div class="input-wrap"><i class="fas fa-lock"></i>
+          <input type="password" id="password" placeholder="••••••••••" required autocomplete="current-password">
+        </div>
+      </div>
+      <button type="submit" class="btn-submit">Se connecter &nbsp;<i class="fas fa-arrow-right"></i></button>
+    </form>
+    <div class="sep"><hr><span>ou</span><hr></div>
+    <div class="switch-link" id="registerLinkContainer">Pas encore de compte ? <a href="#" onclick="showRegister()">S'inscrire</a></div>
+  </div>
+
+  <!-- REGISTER -->
+  <div id="registerSection" style="display:none;">
+    <div class="role-tabs">
+      <button class="role-tab active" type="button" id="reg-btn-user"      onclick="switchRegRole('user')">      <i class="fas fa-user"></i> Candidat</button>
+      <button class="role-tab"        type="button" id="reg-btn-recruiter" onclick="switchRegRole('recruiter')"> <i class="fas fa-user-tie"></i> Recruteur</button>
+    </div>
+    <form id="registerForm">
+      <input type="hidden" id="selectedRegRole" value="user">
+      <div class="form-row">
+        <div class="form-group">
+          <label>Prenom</label>
+          <div class="input-wrap"><i class="far fa-user"></i>
+            <input type="text" id="regPrenom" placeholder="Prenom" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Nom</label>
+          <div class="input-wrap"><i class="far fa-id-card"></i>
+            <input type="text" id="regNom" placeholder="Nom" required>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Date de naissance</label>
+        <div class="input-wrap"><i class="fas fa-calendar-alt"></i>
+          <input type="date" id="regDateNais" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Adresse email</label>
+        <div class="input-wrap"><i class="far fa-envelope"></i>
+          <input type="email" id="regEmail" placeholder="vous@exemple.com" required autocomplete="email">
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Mot de passe</label>
+        <div class="input-wrap"><i class="fas fa-lock"></i>
+          <input type="password" id="regPassword" placeholder="••••••••••" required minlength="6">
+        </div>
+      </div>
+      <div class="form-group" id="titleGroup">
+        <label>Poste actuel</label>
+        <div class="input-wrap"><i class="fas fa-briefcase"></i>
+          <input type="text" id="regTitle" placeholder="ex: Developpeur Full Stack">
+        </div>
+      </div>
+      <div class="form-group" id="locationGroup">
+        <label>Localisation</label>
+        <div class="input-wrap"><i class="fas fa-map-marker-alt"></i>
+          <input type="text" id="regLocation" placeholder="Casablanca, Maroc">
+        </div>
+      </div>
+      <div class="form-group" id="companyGroup" style="display:none;">
+        <label>Entreprise</label>
+        <div class="input-wrap"><i class="far fa-building"></i>
+          <input type="text" id="regCompany" placeholder="Nom de votre entreprise">
+        </div>
+      </div>
+      <button type="submit" class="btn-submit btn-register" id="regSubmitBtn">
+        Créer mon compte &nbsp;<i class="fas fa-user-plus"></i>
+      </button>
+    </form>
+    <div class="sep"><hr><span>ou</span><hr></div>
+    <div class="switch-link">Déjà un compte ? <a href="#" onclick="showLogin()">Se connecter</a></div>
+  </div>
+</div>
+
+<p class="page-footer">© 2026 Carrerlink · EMSI · Projet de fin d'année 4IADM5</p>
+
+<script src="config.js"></script>
+<script src="api.js?v=9"></script>
+<script> 
+/* â”€â”€ Particles â”€â”€ */
+(function() {
+  const container = document.getElementById('particles');
+  const count = 22;
+  for (let i = 0; i < count; i++) {
+    const d = document.createElement('div');
+    d.className = 'p';
+    const size = Math.random() * 4 + 2;
+    d.style.cssText = `
+      left: ${Math.random() * 100}%;
+      width: ${size}px; height: ${size}px;
+      animation-duration: ${Math.random() * 14 + 10}s;
+      animation-delay: ${Math.random() * -20}s;
+      opacity: ${Math.random() * 0.4 + 0.1};
+      background: ${Math.random() > 0.5 ? 'rgba(14,165,233,0.6)' : 'rgba(6,182,212,0.5)'};
+    `;
+    container.appendChild(d);
+  }
+})();
+
+/* â”€â”€ Role switching â”€â”€ */
+function switchRole(role) {
+  document.getElementById('selectedRole').value = role;
+  document.querySelectorAll('#loginSection .role-tab').forEach(b => b.classList.remove('active'));
+  document.getElementById('btn-' + role).classList.add('active');
+  document.getElementById('registerLinkContainer').style.display = role === 'admin' ? 'none' : 'block';
+}
+function switchRegRole(role) {
+  document.getElementById('selectedRegRole').value = role;
+  document.querySelectorAll('#registerSection .role-tab').forEach(b => b.classList.remove('active'));
+  document.getElementById('reg-btn-' + role).classList.add('active');
+  const isRec = role === 'recruiter';
+  document.getElementById('companyGroup').style.display  = isRec ? 'block' : 'none';
+  document.getElementById('titleGroup').style.display    = isRec ? 'none'  : 'block';
+  document.getElementById('locationGroup').style.display = isRec ? 'none'  : 'block';
+  document.getElementById('regCompany').required  = isRec;
+  document.getElementById('regTitle').required    = !isRec;
+  document.getElementById('regLocation').required = !isRec;
+}
+function showRegister() {
+  document.getElementById('loginSection').style.display = 'none';
+  document.getElementById('registerSection').style.display = 'block';
+  document.getElementById('formHeading').textContent = 'Creer un compte';
+  document.getElementById('formSubheading').textContent = 'Rejoignez Carrerlink des maintenant.';
+  clearAlerts();
+}   
+function showLogin() {
+  document.getElementById('registerSection').style.display = 'none';
+  document.getElementById('loginSection').style.display = 'block';
+  document.getElementById('formHeading').textContent = 'Bon retour !';
+  document.getElementById('formSubheading').textContent = 'Connectez-vous a votre espace de travail';
+  clearAlerts();
+}
+function clearAlerts() {
+  ['authError','authSuccess','authInfo'].forEach(id => document.getElementById(id).style.display = 'none');
+}
+function showError(msg) {
+  clearAlerts();
+  const el = document.getElementById('authError');
+  el.querySelector('span').textContent = msg;
+  el.style.display = 'flex';
+}
+function showSuccess(msg) {
+  clearAlerts();
+  const el = document.getElementById('authSuccess');
+  el.querySelector('span').textContent = msg;
+  el.style.display = 'flex';
+}
+
+(function() {
+  const p = new URLSearchParams(window.location.search);
+  if (p.get('verified') === '1') {
+    const email = p.get('email') || '';
+    showSuccess('Email verifie ! Votre compte est active. Connectez-vous.');
+    if (email) document.getElementById('email').value = email;
+  } else if (p.get('verified') === 'error') {
+    showError(p.get('msg') || 'Lien invalide ou expire.');
+  }
+})();
+
+document.getElementById('loginForm').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const btn = e.target.querySelector('.btn-submit');
+  const orig = btn.innerHTML;
+  btn.innerHTML = '<i class="fas fa-circle-notch fa-spin"></i> Connexion...';
+  btn.disabled = true; clearAlerts();
+  try {
+    const r = await fetch(`${PROJECT_CONFIG.BACKEND_URL}/auth/login`, {
+      method: 'POST', headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({
+        email: document.getElementById('email').value,
+        password: document.getElementById('password').value,
+        role: document.getElementById('selectedRole').value
+      }),
+      credentials: 'include'
+    });
+    const d = await r.json();
+    if (r.ok && d.success) {
+      localStorage.setItem('user', JSON.stringify(d.user));
+      showSuccess('Connexion reussie ! Redirection...');
+      setTimeout(() => window.location.href = 'index.html', 800);
+    } else { throw new Error(d.error || 'Identifiants invalides'); }
+  } catch(err) { showError(err.message); btn.innerHTML = orig; btn.disabled = false; }
+});
+
+document.getElementById('registerForm').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const btn = document.getElementById('regSubmitBtn');
+  const orig = btn.innerHTML;
+  btn.innerHTML = '<i class="fas fa-circle-notch fa-spin"></i> Creation...';
+  btn.disabled = true; clearAlerts();
+  try {
+    const role = document.getElementById('selectedRegRole').value;
+    const body = {
+      prenom: document.getElementById('regPrenom').value.trim(),
+      nom: document.getElementById('regNom').value.trim(),
+      date_naissance: document.getElementById('regDateNais').value,
+      email: document.getElementById('regEmail').value.trim(),
+      password: document.getElementById('regPassword').value,
+      role,
+      companyName: role === 'recruiter' ? document.getElementById('regCompany').value.trim() : null,
+      title:       role === 'user'      ? document.getElementById('regTitle').value.trim()   : null,
+      location:    role === 'user'      ? document.getElementById('regLocation').value.trim(): null
+    };
+    const r = await fetch(`${PROJECT_CONFIG.BACKEND_URL}/auth/register`, {
+      method: 'POST', headers: {'Content-Type':'application/json'},
+      body: JSON.stringify(body), credentials: 'include'
+    });
+    const d = await r.json();
+    if (r.ok && d.success) {
+      document.getElementById('registerForm').reset();
+      showLogin(); switchRole(body.role);
+      showSuccess(d.message || 'Compte cree ! Vous pouvez maintenant vous connecter.');
+      document.getElementById('email').value = body.email;
+    } else { throw new Error(d.error || 'Erreur lors de la creation du compte'); }
+  } catch(err) { showError(err.message); }
+  btn.innerHTML = orig; btn.disabled = false;
+});
+</script>
+</body>
+</html>
+

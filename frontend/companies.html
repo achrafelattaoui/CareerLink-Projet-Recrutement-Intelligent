@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entreprises — Carrerlink</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .app-shell{display:flex;min-height:100vh}
+        .sidebar{width:220px;min-height:100vh;background:#0f172a;display:flex;flex-direction:column;flex-shrink:0;position:fixed;top:0;left:0;bottom:0;z-index:900}
+        .sidebar-logo{padding:20px 22px;display:flex;align-items:center;gap:10px;border-bottom:1px solid rgba(255,255,255,.08);text-decoration:none}
+        .sidebar-logo .logo-icon{width:32px;height:32px;background:linear-gradient(135deg,#6366f1,#06b6d4);border-radius:8px;display:flex;align-items:center;justify-content:center;color:white;font-size:.95rem}
+        .sidebar-logo .logo-text{font-size:1rem;font-weight:800;color:white;letter-spacing:-.5px}
+        .sidebar-section{padding:16px 12px 4px;font-size:.65rem;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:#475569}
+        .sidebar-nav{padding:0 8px;flex:1;overflow-y:auto;scrollbar-width:thin;scrollbar-color:rgba(255,255,255,0.1) transparent}
+        .sidebar-nav::-webkit-scrollbar{width:4px}
+        .sidebar-nav::-webkit-scrollbar-track{background:transparent}
+        .sidebar-nav::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.1);border-radius:10px}
+        .sidebar-nav::-webkit-scrollbar-thumb:hover{background:rgba(255,255,255,0.2)}
+        .sidebar-link{display:flex;align-items:center;gap:10px;padding:9px 12px;border-radius:8px;text-decoration:none;color:#94a3b8;font-size:.875rem;font-weight:500;transition:all .18s;margin-bottom:2px}
+        .sidebar-link i{width:16px;text-align:center;font-size:.85rem}
+        .sidebar-link:hover{background:rgba(255,255,255,.06);color:white}
+        .sidebar-link.active{background:rgba(99,102,241,.2);color:#a5b4fc}
+        .sidebar-bottom{padding:12px 8px;border-top:1px solid rgba(255,255,255,.07)}
+        .sidebar-user{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:8px;background:rgba(255,255,255,.04)}
+        .sidebar-user-avatar{width:32px;height:32px;border-radius:50%;background:linear-gradient(135deg,#6366f1,#06b6d4);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:.82rem}
+        .sidebar-user-info{flex:1;overflow:hidden}
+        .sidebar-user-name{font-size:.8rem;font-weight:600;color:white;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+        .sidebar-user-role{font-size:.7rem;color:#64748b}
+        .main-area{margin-left:220px;flex:1;display:flex;flex-direction:column}
+        .topbar{height:60px;background:white;border-bottom:1px solid #e2e8f0;display:flex;align-items:center;justify-content:space-between;padding:0 28px;position:sticky;top:0;z-index:800}
+        .topbar h2{font-size:1rem;font-weight:700;color:#0f172a;margin:0}
+        .content-area{padding:28px;flex:1}
+        .table-card{background:white;border:1px solid #e2e8f0;border-radius:16px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+        .table-card-header{padding:18px 22px;border-bottom:1px solid #f1f5f9;display:flex;align-items:center;justify-content:space-between}
+        .table-card-header h5{font-size:.95rem;font-weight:700;color:#0f172a;margin:0}
+        .search-bar{display:flex;align-items:center;gap:12px;background:white;border:1.5px solid #e2e8f0;border-radius:12px;padding:10px 16px;margin-bottom:20px;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+        .search-bar i{color:#94a3b8}
+        .search-bar input{border:none;outline:none;flex:1;font-size:.875rem;color:#0f172a;background:transparent}
+        @media(max-width:1024px){.sidebar{width:64px}.sidebar-logo .logo-text,.sidebar-link span,.sidebar-section,.sidebar-user-info{display:none}.main-area{margin-left:64px}}
+        @media(max-width:640px){.sidebar{display:none}.main-area{margin-left:0}}
+    </style>
+</head>
+<body>
+<div class="app-shell">
+<aside class="sidebar">
+    <a class="sidebar-logo" href="index.html">
+        <div class="logo-icon"><i class="fas fa-briefcase"></i></div>
+        <span class="logo-text">Carrerlink</span>
+    </a>
+    <nav class="sidebar-nav">
+        <div class="sidebar-section">Principal</div>
+        <a class="sidebar-link" href="index.html"><i class="fas fa-home"></i><span>Tableau de bord</span></a>
+        <a class="sidebar-link" href="candidates.html"><i class="fas fa-users"></i><span>Candidats</span></a>
+        <a class="sidebar-link" href="jobs.html"><i class="fas fa-briefcase"></i><span>Offres</span></a>
+        <a class="sidebar-link" href="my-applications.html" id="nav-my-applications">
+            <i class="fas fa-history"></i><span>Mes candidatures</span>
+        </a>
+        <a class="sidebar-link active" href="companies.html"><i class="fas fa-building"></i><span>Entreprises</span></a>
+        <a class="sidebar-link d-none" href="recruiters.html" id="nav-recruiters"><i class="fas fa-user-tie"></i><span>Recruteurs</span></a>
+        <div class="sidebar-section" style="margin-top:8px;">Outils</div>
+        <a class="sidebar-link" href="search.html"><i class="fas fa-search"></i><span>Recherche</span></a>
+        <a class="sidebar-link" href="smart-sourcing.html" id="nav-smart-scoring"><i class="fas fa-layer-group"></i><span>Smart Sourcing</span></a>
+        <a class="sidebar-link" href="recommendations.html"><i class="fas fa-star"></i><span>Smart CV</span></a>
+        <a class="sidebar-link" href="applicants.html" id="nav-applicants"><i class="fas fa-inbox"></i><span>Candidatures</span></a>
+        <a class="sidebar-link d-none" href="analytics.html" id="nav-analytics"><i class="fas fa-chart-bar"></i><span>Tendances</span></a>
+    </nav>
+    <div class="sidebar-bottom">
+        <div class="sidebar-user">
+            <div class="sidebar-user-avatar" id="sidebarAvatar">?</div>
+            <div class="sidebar-user-info">
+                <div class="sidebar-user-name" id="sidebarName">—</div>
+                <div class="sidebar-user-role" id="sidebarRole">—</div>
+            </div>
+        </div>
+        <a class="sidebar-link mt-2" href="#" id="logoutBtn" style="color:#f87171;">
+            <i class="fas fa-sign-out-alt"></i><span>Déconnexion</span>
+        </a>
+    </div>
+</aside>
+
+<div class="main-area">
+    <header class="topbar">
+        <h2><i class="fas fa-building me-2" style="color:#f59e0b;"></i> Entreprises</h2>
+        <div class="d-flex align-items-center gap-3">
+            <span id="userInfo" style="font-size:.8rem;font-weight:600;color:#64748b;background:#f1f5f9;padding:5px 12px;border-radius:8px;"></span>
+            <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#companyModal">
+                <i class="fas fa-plus me-1"></i> Nouvelle entreprise
+            </button>
+        </div>
+    </header>
+
+    <main class="content-area">
+        <div id="statusAlert" class="alert mb-4" style="display:none;"><span id="statusMessage"></span></div>
+
+        <div class="search-bar">
+            <i class="fas fa-search"></i>
+            <input type="text" id="searchInput" placeholder="Rechercher une entreprise...">
+        </div>
+
+        <div class="table-card">
+            <div class="table-card-header">
+                <h5>Entreprises <span class="badge ms-2" style="background:#fffbeb;color:#d97706;font-size:.72rem;" id="companyCountBadge">0</span></h5>
+                <button class="btn btn-outline-primary btn-sm" onclick="loadCompanies()"><i class="fas fa-sync-alt me-1"></i>Actualiser</button>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-hover mb-0" style="font-size:.875rem;">
+                    <thead>
+                        <tr>
+                            <th>Entreprise</th>
+                            <th>Secteur</th>
+                            <th>Recruteur</th>
+                            <th>Email recruteur</th>
+                            <th style="width:120px;text-align:center;">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="companiesList">
+                        <tr><td colspan="5" class="text-center py-5 text-muted" style="font-size:.85rem;">
+                            <i class="fas fa-circle-notch fa-spin me-2"></i>Chargement...
+                        </td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+</div>
+</div>
+
+<!-- Company Modal -->
+<div class="modal fade" id="companyModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-white"><i class="fas fa-building me-2"></i><span id="modalTitle">Nouvelle entreprise</span></h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <form id="companyForm">
+                    <input type="hidden" id="companyId">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label class="form-label">Nom de l'entreprise *</label>
+                            <input type="text" class="form-control" id="companyName" placeholder="Ex : TechCorp" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Secteur d'activité</label>
+                            <input type="text" class="form-control" id="companySector" placeholder="Ex : Informatique">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Nom du recruteur</label>
+                            <input type="text" class="form-control" id="recruiterName" placeholder="Prénom Nom">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Email du recruteur</label>
+                            <input type="email" class="form-control" id="recruiterEmail" placeholder="recruteur@entreprise.com">
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label">Description</label>
+                            <textarea class="form-control" id="companyDescription" rows="3" placeholder="Décrivez l'entreprise..."></textarea>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Annuler</button>
+                <button type="button" class="btn btn-danger btn-sm" id="deleteCompanyBtn" style="display:none;" onclick="deleteCompany()">
+                    <i class="fas fa-trash me-1"></i>Supprimer
+                </button>
+                <button type="button" class="btn btn-primary" onclick="saveCompany()"><i class="fas fa-save me-1"></i>Enregistrer</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="api.js?v=12"></script>
+<script src="companies.js?v=5"></script>
+<script>
+document.getElementById('logoutBtn').addEventListener('click', async (e) => {
+    e.preventDefault();
+    await fetch(`${api.baseUrl}/auth/logout`, { method:'POST', credentials:'include' });
+    window.location.href = 'login.html';
+});
+</script>
+</body>
+</html>
+
+
+

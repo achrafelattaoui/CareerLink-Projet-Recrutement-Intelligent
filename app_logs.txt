@@ -1,0 +1,1546 @@
+STARTING APP.PY
+IMPORTED DOTENV
+IMPORTED DB
+DONE IMPORTS
+ENTERING MAIN
+CREATING APP
+[INIT] Recruiter user seeded for: karim.tazi@admmarocgroupe5.ma (password: Karim2026)
+[INIT] Recruiter user seeded for: youssef.alaoui@admmaroc.ma (password: Youssef2026)
+[INIT] Recruiter user seeded for: amina.berrada@admmarocdistribution.ma (password: Amina2026)
+[INIT] Recruiter user seeded for: salma.bennani@admmarocgroupe6.ma (password: Salma2026)
+[INIT] Recruiter user seeded for: omar.chraibi@admmarocindustrie.ma (password: Omar2026)
+[INIT] Recruiter user seeded for: khadija.elfassi@admmarocservices.ma (password: Khadija2026)
+[INIT] Recruiter user seeded for: hassan.mansouri@axaassurancemaroc.ma (password: Hassan2026)
+[INIT] Recruiter user seeded for: nadia.amrani@accormaroc.ma (password: Nadia2026)
+[INIT] Recruiter user seeded for: mehdi.idrissi@acima.ma (password: Mehdi2026)
+[INIT] Recruiter user seeded for: fatima.lahlou@acimagroupe5.ma (password: Fatima2026)
+[INIT] Recruiter user seeded for: tariq.benali@acimagroupe6.ma (password: Tariq2026)
+[INIT] Recruiter user seeded for: meryem.guessous@acimagroupe7.ma (password: Meryem2026)
+[INIT] Recruiter user seeded for: rachid.othmani@addoha.ma (password: Rachid2026)
+[INIT] Recruiter user seeded for: houda.benjelloun@africindustries.ma (password: Houda2026)
+[INIT] Recruiter user seeded for: yassine.zniber@afriquiasmdc.ma (password: Yassine2026)
+[INIT] Recruiter user seeded for: sanae.kabbaj@afriquiasmdcgroupe4.ma (password: Sanae2026)
+[INIT] Recruiter user seeded for: hicham.lazrak@afriquiasmdcgroupe5.ma (password: Hicham2026)
+[INIT] Recruiter user seeded for: imane.sbai@afriquiasmdcgroupe6.ma (password: Imane2026)
+[INIT] Recruiter user seeded for: adil.belhaj@akdital.ma (password: Adil2026)
+[INIT] Recruiter user seeded for: leila.naciri@akditaldistribution.ma (password: Leila2026)
+[INIT] Recruiter user seeded for: khalid.tahiri@akditalgroupe4.ma (password: Khalid2026)
+[INIT] Recruiter user seeded for: zineb.daoudi@akditalgroupe5.ma (password: Zineb2026)
+[INIT] Recruiter user seeded for: brahim.saidi@akditalgroupe6.ma (password: Brahim2026)
+[INIT] Recruiter user seeded for: soukaina.filali@akditalindustrie.ma (password: Soukaina2026)
+[INIT] Recruiter user seeded for: reda.kadiri@akditalservices.ma (password: Reda2026)
+[INIT] Recruiter user seeded for: asmaa.rami@akwagroup.ma (password: Asmaa2026)
+[INIT] Recruiter user seeded for: nabil.bennis@akwagroupdistribution.ma (password: Nabil2026)
+[INIT] Recruiter user seeded for: bouchra.elmalki@akwagroupindustrie.ma (password: Bouchra2026)
+[INIT] Recruiter user seeded for: ilyas.sqalli@akwagroupservices.ma (password: Ilyas2026)
+[INIT] Recruiter user seeded for: hanane.ouardi@albaridbank.ma (password: Hanane2026)
+[INIT] Recruiter user seeded for: said.berrich@albaridbankdistribution.ma (password: Said2026)
+[INIT] Recruiter user seeded for: naima.hachimi@albaridbankgroupe5.ma (password: Naima2026)
+[INIT] Recruiter user seeded for: mourad.bakri@albaridbankgroupe6.ma (password: Mourad2026)
+[INIT] Recruiter user seeded for: siham.yacoubi@albaridbankgroupe7.ma (password: Siham2026)
+[INIT] Recruiter user seeded for: othmane.jamali@albaridbankindustrie.ma (password: Othmane2026)
+[INIT] Recruiter user seeded for: majda.alaoui@albaridbankservices.ma (password: Majda2026)
+[INIT] Recruiter user seeded for: ayoub.berrada@alsamaroc.ma (password: Ayoub2026)
+[INIT] Recruiter user seeded for: wiam.tazi@alsamarocdistribution.ma (password: Wiam2026)
+[INIT] Recruiter user seeded for: anas.bennani@alsamarocgroupe5.ma (password: Anas2026)
+[INIT] Recruiter user seeded for: ibtissam.chraibi@alsamarocgroupe6.ma (password: Ibtissam2026)
+[INIT] Recruiter user seeded for: youssef.fassi@alsamarocindustrie.ma (password: Youssef2026)
+[INIT] Recruiter user seeded for: amina.mansouri@alsamarocservices.ma (password: Amina2026)
+[INIT] Recruiter user seeded for: karim.amrani@amendis.ma (password: Karim2026)
+[INIT] Recruiter user seeded for: salma.idrissi@amendisdistribution.ma (password: Salma2026)
+[INIT] Recruiter user seeded for: omar.lahlou@amendisgroupe5.ma (password: Omar2026)
+[INIT] Recruiter user seeded for: khadija.benali@amendisgroupe6.ma (password: Khadija2026)
+[INIT] Recruiter user seeded for: hassan.guessous@amendisindustrie.ma (password: Hassan2026)
+[INIT] Recruiter user seeded for: nadia.othmani@amendisservices.ma (password: Nadia2026)
+[INIT] Recruiter user seeded for: mehdi.benjelloun@aswakassalamgroupe5.ma (password: Mehdi2026)
+[INIT] Recruiter user seeded for: fatima.zniber@aswakassalamgroupe6.ma (password: Fatima2026)
+[INIT] Recruiter user seeded for: tariq.kabbaj@aswakassalamgroupe7.ma (password: Tariq2026)
+[INIT] Recruiter user seeded for: meryem.lazrak@atlantasanad.ma (password: Meryem2026)
+[INIT] Recruiter user seeded for: rachid.sbai@atlantasanaddistribution.ma (password: Rachid2026)
+[INIT] Recruiter user seeded for: houda.belhaj@atlantasanadgroupe5.ma (password: Houda2026)
+[INIT] Recruiter user seeded for: yassine.naciri@atlantasanadgroupe6.ma (password: Yassine2026)
+[INIT] Recruiter user seeded for: sanae.tahiri@atlantasanadgroupe7.ma (password: Sanae2026)
+[INIT] Recruiter user seeded for: hicham.daoudi@atlantasanadindustrie.ma (password: Hicham2026)
+[INIT] Recruiter user seeded for: imane.saidi@atlantasanadservices.ma (password: Imane2026)
+[INIT] Recruiter user seeded for: adil.filali@attijariwafabank.ma (password: Adil2026)
+[INIT] Recruiter user seeded for: leila.kadiri@attijariwafabankdistribution.ma (password: Leila2026)
+[INIT] Recruiter user seeded for: khalid.rami@attijariwafabankgroupe5.ma (password: Khalid2026)
+[INIT] Recruiter user seeded for: zineb.bennis@attijariwafabankgroupe6.ma (password: Zineb2026)
+[INIT] Recruiter user seeded for: brahim.malki@attijariwafabankgroupe7.ma (password: Brahim2026)
+[INIT] Recruiter user seeded for: soukaina.sqalli@attijariwafabankindustrie.ma (password: Soukaina2026)
+[INIT] Recruiter user seeded for: reda.ouardi@attijariwafabankservices.ma (password: Reda2026)
+[INIT] Recruiter user seeded for: asmaa.berrich@autohall.ma (password: Asmaa2026)
+[INIT] Recruiter user seeded for: nabil.hachimi@autohalldistribution.ma (password: Nabil2026)
+[INIT] Recruiter user seeded for: bouchra.bakri@autohallindustrie.ma (password: Bouchra2026)
+[INIT] Recruiter user seeded for: ilyas.yacoubi@autohallservices.ma (password: Ilyas2026)
+[INIT] Recruiter user seeded for: hanane.jamali@bmcebankofafrica.ma (password: Hanane2026)
+[INIT] Recruiter user seeded for: said.alaoui@bmcebankofafricagroupe5.ma (password: Said2026)
+[INIT] Recruiter user seeded for: naima.berrada@bmcebankofafricagroupe6.ma (password: Naima2026)
+[INIT] Recruiter user seeded for: mourad.tazi@bmcebankofafricagroupe7.ma (password: Mourad2026)
+[INIT] Recruiter user seeded for: siham.bennani@bmci.ma (password: Siham2026)
+[INIT] Recruiter user seeded for: othmane.chraibi@banquecentralepopulaire.ma (password: Othmane2026)
+[INIT] Recruiter user seeded for: majda.fassi@banquecentralepopulairedistribution.ma (password: Majda2026)
+[INIT] Recruiter user seeded for: ayoub.mansouri@banquecentralepopulaireindustrie.ma (password: Ayoub2026)
+[INIT] Recruiter user seeded for: wiam.amrani@banquecentralepopulaireservices.ma (password: Wiam2026)
+[INIT] Recruiter user seeded for: anas.idrissi@banquepopulaire.ma (password: Anas2026)
+[INIT] Recruiter user seeded for: ibtissam.lahlou@banquepopulairegroupe5.ma (password: Ibtissam2026)
+[INIT] Recruiter user seeded for: youssef.benali@banquepopulairegroupe6.ma (password: Youssef2026)
+[INIT] Recruiter user seeded for: amina.guessous@banquepopulairegroupe7.ma (password: Amina2026)
+[INIT] Recruiter user seeded for: karim.othmani@bimmaroc.ma (password: Karim2026)
+[INIT] Recruiter user seeded for: salma.benjelloun@bimmarocgroupe5.ma (password: Salma2026)
+[INIT] Recruiter user seeded for: omar.zniber@bimmarocgroupe6.ma (password: Omar2026)
+[INIT] Recruiter user seeded for: khadija.kabbaj@bimmarocgroupe7.ma (password: Khadija2026)
+[INIT] Recruiter user seeded for: hassan.lazrak@cfgbank.ma (password: Hassan2026)
+[INIT] Recruiter user seeded for: nadia.sbai@cgimaroc.ma (password: Nadia2026)
+[INIT] Recruiter user seeded for: mehdi.belhaj@cgimarocdistribution.ma (password: Mehdi2026)
+[INIT] Recruiter user seeded for: fatima.naciri@cihbank.ma (password: Fatima2026)
+[INIT] Recruiter user seeded for: youssef.tahiri@cihbankdistribution.ma (password: Youssef2026)
+[INIT] Recruiter user seeded for: sanae.daoudi@centraledanone.ma (password: Sanae2026)
+[INIT] Recruiter user seeded for: hicham.saidi@cosumar.ma (password: Hicham2026)
+[INIT] Recruiter user seeded for: imane.filali@ctm.ma (password: Imane2026)
+[INIT] Recruiter user seeded for: adil.kadiri@ctmgroupe5.ma (password: Adil2026)
+[INIT] Recruiter user seeded for: leila.rami@cdg.ma (password: Leila2026)
+[INIT] Recruiter user seeded for: khalid.bennis@derhemholding.ma (password: Khalid2026)
+[INIT] Recruiter user seeded for: zineb.malki@dianaholding.ma (password: Zineb2026)
+[INIT] Recruiter user seeded for: brahim.sqalli@eqdom.ma (password: Brahim2026)
+[INIT] Recruiter user seeded for: soukaina.ouardi@inwi.ma (password: Soukaina2026)
+[INIT] Recruiter user seeded for: reda.berrich@inwigroupe2.ma (password: Reda2026)
+[INIT] Recruiter user seeded for: asmaa.hachimi@holcim.ma (password: Asmaa2026)
+[INIT] Recruiter user seeded for: nabil.bakri@iam.ma (password: Nabil2026)
+[INIT] Recruiter user seeded for: bouchra.yacoubi@iamdistribution.ma (password: Bouchra2026)
+[INIT] Recruiter user seeded for: ilyas.jamali@labelvie.ma (password: Ilyas2026)
+[INIT] Recruiter user seeded for: hanane.alaoui@managemgroup.ma (password: Hanane2026)
+[INIT] Recruiter user seeded for: said.berrada@ocpgroup.ma (password: Said2026)
+[INIT] Recruiter user seeded for: naima.tazi@oncf.ma (password: Naima2026)
+[INIT] Recruiter user seeded for: mourad.bennani@orange.ma (password: Mourad2026)
+[INIT] Recruiter user seeded for: siham.chraibi@wafaassurance.ma (password: Siham2026)
+[INIT] Recruiter user seeded for: recruiter@gmail.com (password: Recruiter2026)
+[INIT] Recruiter user seeded for: elattaouiachraf4@gmail.com (password: Elattaouiachraf42026)
+[INIT] Generating unique passwords for 18 candidates. This may take a few seconds...
+[INIT] 18 candidate users seeded with unique passwords.
+[CYPHER] Running: RETURN 1 AS ok...
+[CYPHER] Result Count: 1
+[INFO] Connexion Neo4j réussie sur neo4j://127.0.0.1:7687
+MAPPING URLS:
+ * Serving Flask app 'app'
+ * Debug mode: on
+STARTING APP.PY
+IMPORTED DOTENV
+IMPORTED DB
+DONE IMPORTS
+ENTERING MAIN
+CREATING APP
+[INIT] Recruiter user seeded for: karim.tazi@admmarocgroupe5.ma (password: Karim2026)
+[INIT] Recruiter user seeded for: youssef.alaoui@admmaroc.ma (password: Youssef2026)
+[INIT] Recruiter user seeded for: amina.berrada@admmarocdistribution.ma (password: Amina2026)
+[INIT] Recruiter user seeded for: salma.bennani@admmarocgroupe6.ma (password: Salma2026)
+[INIT] Recruiter user seeded for: omar.chraibi@admmarocindustrie.ma (password: Omar2026)
+[INIT] Recruiter user seeded for: khadija.elfassi@admmarocservices.ma (password: Khadija2026)
+[INIT] Recruiter user seeded for: hassan.mansouri@axaassurancemaroc.ma (password: Hassan2026)
+[INIT] Recruiter user seeded for: nadia.amrani@accormaroc.ma (password: Nadia2026)
+[INIT] Recruiter user seeded for: mehdi.idrissi@acima.ma (password: Mehdi2026)
+[INIT] Recruiter user seeded for: fatima.lahlou@acimagroupe5.ma (password: Fatima2026)
+[INIT] Recruiter user seeded for: tariq.benali@acimagroupe6.ma (password: Tariq2026)
+[INIT] Recruiter user seeded for: meryem.guessous@acimagroupe7.ma (password: Meryem2026)
+[INIT] Recruiter user seeded for: rachid.othmani@addoha.ma (password: Rachid2026)
+[INIT] Recruiter user seeded for: houda.benjelloun@africindustries.ma (password: Houda2026)
+[INIT] Recruiter user seeded for: yassine.zniber@afriquiasmdc.ma (password: Yassine2026)
+[INIT] Recruiter user seeded for: sanae.kabbaj@afriquiasmdcgroupe4.ma (password: Sanae2026)
+[INIT] Recruiter user seeded for: hicham.lazrak@afriquiasmdcgroupe5.ma (password: Hicham2026)
+[INIT] Recruiter user seeded for: imane.sbai@afriquiasmdcgroupe6.ma (password: Imane2026)
+[INIT] Recruiter user seeded for: adil.belhaj@akdital.ma (password: Adil2026)
+[INIT] Recruiter user seeded for: leila.naciri@akditaldistribution.ma (password: Leila2026)
+[INIT] Recruiter user seeded for: khalid.tahiri@akditalgroupe4.ma (password: Khalid2026)
+[INIT] Recruiter user seeded for: zineb.daoudi@akditalgroupe5.ma (password: Zineb2026)
+[INIT] Recruiter user seeded for: brahim.saidi@akditalgroupe6.ma (password: Brahim2026)
+[INIT] Recruiter user seeded for: soukaina.filali@akditalindustrie.ma (password: Soukaina2026)
+[INIT] Recruiter user seeded for: reda.kadiri@akditalservices.ma (password: Reda2026)
+[INIT] Recruiter user seeded for: asmaa.rami@akwagroup.ma (password: Asmaa2026)
+[INIT] Recruiter user seeded for: nabil.bennis@akwagroupdistribution.ma (password: Nabil2026)
+[INIT] Recruiter user seeded for: bouchra.elmalki@akwagroupindustrie.ma (password: Bouchra2026)
+[INIT] Recruiter user seeded for: ilyas.sqalli@akwagroupservices.ma (password: Ilyas2026)
+[INIT] Recruiter user seeded for: hanane.ouardi@albaridbank.ma (password: Hanane2026)
+[INIT] Recruiter user seeded for: said.berrich@albaridbankdistribution.ma (password: Said2026)
+[INIT] Recruiter user seeded for: naima.hachimi@albaridbankgroupe5.ma (password: Naima2026)
+[INIT] Recruiter user seeded for: mourad.bakri@albaridbankgroupe6.ma (password: Mourad2026)
+[INIT] Recruiter user seeded for: siham.yacoubi@albaridbankgroupe7.ma (password: Siham2026)
+[INIT] Recruiter user seeded for: othmane.jamali@albaridbankindustrie.ma (password: Othmane2026)
+[INIT] Recruiter user seeded for: majda.alaoui@albaridbankservices.ma (password: Majda2026)
+[INIT] Recruiter user seeded for: ayoub.berrada@alsamaroc.ma (password: Ayoub2026)
+[INIT] Recruiter user seeded for: wiam.tazi@alsamarocdistribution.ma (password: Wiam2026)
+[INIT] Recruiter user seeded for: anas.bennani@alsamarocgroupe5.ma (password: Anas2026)
+[INIT] Recruiter user seeded for: ibtissam.chraibi@alsamarocgroupe6.ma (password: Ibtissam2026)
+[INIT] Recruiter user seeded for: youssef.fassi@alsamarocindustrie.ma (password: Youssef2026)
+[INIT] Recruiter user seeded for: amina.mansouri@alsamarocservices.ma (password: Amina2026)
+[INIT] Recruiter user seeded for: karim.amrani@amendis.ma (password: Karim2026)
+[INIT] Recruiter user seeded for: salma.idrissi@amendisdistribution.ma (password: Salma2026)
+[INIT] Recruiter user seeded for: omar.lahlou@amendisgroupe5.ma (password: Omar2026)
+[INIT] Recruiter user seeded for: khadija.benali@amendisgroupe6.ma (password: Khadija2026)
+[INIT] Recruiter user seeded for: hassan.guessous@amendisindustrie.ma (password: Hassan2026)
+[INIT] Recruiter user seeded for: nadia.othmani@amendisservices.ma (password: Nadia2026)
+[INIT] Recruiter user seeded for: mehdi.benjelloun@aswakassalamgroupe5.ma (password: Mehdi2026)
+[INIT] Recruiter user seeded for: fatima.zniber@aswakassalamgroupe6.ma (password: Fatima2026)
+[INIT] Recruiter user seeded for: tariq.kabbaj@aswakassalamgroupe7.ma (password: Tariq2026)
+[INIT] Recruiter user seeded for: meryem.lazrak@atlantasanad.ma (password: Meryem2026)
+[INIT] Recruiter user seeded for: rachid.sbai@atlantasanaddistribution.ma (password: Rachid2026)
+[INIT] Recruiter user seeded for: houda.belhaj@atlantasanadgroupe5.ma (password: Houda2026)
+[INIT] Recruiter user seeded for: yassine.naciri@atlantasanadgroupe6.ma (password: Yassine2026)
+[INIT] Recruiter user seeded for: sanae.tahiri@atlantasanadgroupe7.ma (password: Sanae2026)
+[INIT] Recruiter user seeded for: hicham.daoudi@atlantasanadindustrie.ma (password: Hicham2026)
+[INIT] Recruiter user seeded for: imane.saidi@atlantasanadservices.ma (password: Imane2026)
+[INIT] Recruiter user seeded for: adil.filali@attijariwafabank.ma (password: Adil2026)
+[INIT] Recruiter user seeded for: leila.kadiri@attijariwafabankdistribution.ma (password: Leila2026)
+[INIT] Recruiter user seeded for: khalid.rami@attijariwafabankgroupe5.ma (password: Khalid2026)
+[INIT] Recruiter user seeded for: zineb.bennis@attijariwafabankgroupe6.ma (password: Zineb2026)
+[INIT] Recruiter user seeded for: brahim.malki@attijariwafabankgroupe7.ma (password: Brahim2026)
+[INIT] Recruiter user seeded for: soukaina.sqalli@attijariwafabankindustrie.ma (password: Soukaina2026)
+[INIT] Recruiter user seeded for: reda.ouardi@attijariwafabankservices.ma (password: Reda2026)
+[INIT] Recruiter user seeded for: asmaa.berrich@autohall.ma (password: Asmaa2026)
+[INIT] Recruiter user seeded for: nabil.hachimi@autohalldistribution.ma (password: Nabil2026)
+[INIT] Recruiter user seeded for: bouchra.bakri@autohallindustrie.ma (password: Bouchra2026)
+[INIT] Recruiter user seeded for: ilyas.yacoubi@autohallservices.ma (password: Ilyas2026)
+[INIT] Recruiter user seeded for: hanane.jamali@bmcebankofafrica.ma (password: Hanane2026)
+[INIT] Recruiter user seeded for: said.alaoui@bmcebankofafricagroupe5.ma (password: Said2026)
+[INIT] Recruiter user seeded for: naima.berrada@bmcebankofafricagroupe6.ma (password: Naima2026)
+[INIT] Recruiter user seeded for: mourad.tazi@bmcebankofafricagroupe7.ma (password: Mourad2026)
+[INIT] Recruiter user seeded for: siham.bennani@bmci.ma (password: Siham2026)
+[INIT] Recruiter user seeded for: othmane.chraibi@banquecentralepopulaire.ma (password: Othmane2026)
+[INIT] Recruiter user seeded for: majda.fassi@banquecentralepopulairedistribution.ma (password: Majda2026)
+[INIT] Recruiter user seeded for: ayoub.mansouri@banquecentralepopulaireindustrie.ma (password: Ayoub2026)
+[INIT] Recruiter user seeded for: wiam.amrani@banquecentralepopulaireservices.ma (password: Wiam2026)
+[INIT] Recruiter user seeded for: anas.idrissi@banquepopulaire.ma (password: Anas2026)
+[INIT] Recruiter user seeded for: ibtissam.lahlou@banquepopulairegroupe5.ma (password: Ibtissam2026)
+[INIT] Recruiter user seeded for: youssef.benali@banquepopulairegroupe6.ma (password: Youssef2026)
+[INIT] Recruiter user seeded for: amina.guessous@banquepopulairegroupe7.ma (password: Amina2026)
+[INIT] Recruiter user seeded for: karim.othmani@bimmaroc.ma (password: Karim2026)
+[INIT] Recruiter user seeded for: salma.benjelloun@bimmarocgroupe5.ma (password: Salma2026)
+[INIT] Recruiter user seeded for: omar.zniber@bimmarocgroupe6.ma (password: Omar2026)
+[INIT] Recruiter user seeded for: khadija.kabbaj@bimmarocgroupe7.ma (password: Khadija2026)
+[INIT] Recruiter user seeded for: hassan.lazrak@cfgbank.ma (password: Hassan2026)
+[INIT] Recruiter user seeded for: nadia.sbai@cgimaroc.ma (password: Nadia2026)
+[INIT] Recruiter user seeded for: mehdi.belhaj@cgimarocdistribution.ma (password: Mehdi2026)
+[INIT] Recruiter user seeded for: fatima.naciri@cihbank.ma (password: Fatima2026)
+[INIT] Recruiter user seeded for: youssef.tahiri@cihbankdistribution.ma (password: Youssef2026)
+[INIT] Recruiter user seeded for: sanae.daoudi@centraledanone.ma (password: Sanae2026)
+[INIT] Recruiter user seeded for: hicham.saidi@cosumar.ma (password: Hicham2026)
+[INIT] Recruiter user seeded for: imane.filali@ctm.ma (password: Imane2026)
+[INIT] Recruiter user seeded for: adil.kadiri@ctmgroupe5.ma (password: Adil2026)
+[INIT] Recruiter user seeded for: leila.rami@cdg.ma (password: Leila2026)
+[INIT] Recruiter user seeded for: khalid.bennis@derhemholding.ma (password: Khalid2026)
+[INIT] Recruiter user seeded for: zineb.malki@dianaholding.ma (password: Zineb2026)
+[INIT] Recruiter user seeded for: brahim.sqalli@eqdom.ma (password: Brahim2026)
+[INIT] Recruiter user seeded for: soukaina.ouardi@inwi.ma (password: Soukaina2026)
+[INIT] Recruiter user seeded for: reda.berrich@inwigroupe2.ma (password: Reda2026)
+[INIT] Recruiter user seeded for: asmaa.hachimi@holcim.ma (password: Asmaa2026)
+[INIT] Recruiter user seeded for: nabil.bakri@iam.ma (password: Nabil2026)
+[INIT] Recruiter user seeded for: bouchra.yacoubi@iamdistribution.ma (password: Bouchra2026)
+[INIT] Recruiter user seeded for: ilyas.jamali@labelvie.ma (password: Ilyas2026)
+[INIT] Recruiter user seeded for: hanane.alaoui@managemgroup.ma (password: Hanane2026)
+[INIT] Recruiter user seeded for: said.berrada@ocpgroup.ma (password: Said2026)
+[INIT] Recruiter user seeded for: naima.tazi@oncf.ma (password: Naima2026)
+[INIT] Recruiter user seeded for: mourad.bennani@orange.ma (password: Mourad2026)
+[INIT] Recruiter user seeded for: siham.chraibi@wafaassurance.ma (password: Siham2026)
+[INIT] Recruiter user seeded for: recruiter@gmail.com (password: Recruiter2026)
+[INIT] Recruiter user seeded for: elattaouiachraf4@gmail.com (password: Elattaouiachraf42026)
+[INIT] Generating unique passwords for 18 candidates. This may take a few seconds...
+[INIT] 18 candidate users seeded with unique passwords.
+[CYPHER] Running: RETURN 1 AS ok...
+[CYPHER] Result Count: 1
+[INFO] Connexion Neo4j réussie sur neo4j://127.0.0.1:7687
+MAPPING URLS:
+[CYPHER] Running: RETURN 1 AS ok...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c:Company) RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+        MATCH (c:Company) 
+        RETURN DISTINCT toString(COALESCE(c.company_id, c.id)) as id, 
+ ...
+[CYPHER] Result Count: 100
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c:Company {recruiter_email: $email}) RETURN c.company_name AS name...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (j:Job) WHERE j.company_name_text = $company RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                MATCH (j:Job) 
+                WHERE j.company_name_text = $company
+               ...
+[CYPHER] Result Count: 3
+[CYPHER] Running: 
+        MATCH (j:Job)
+        WHERE toString(j.id) = $id OR toString(j.job_id) = $id OR j.id = $id ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (comp:Company {recruiter_email: $email})-[:POSTED]->(j:Job) RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+DEBUG: get_candidates called by Omar Chraibi role=recruiter
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                    MATCH (comp:Company)
+                    WHERE comp.recruiter_email = $email
+  ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (c)
+            WHERE (c:Candidate OR c:Candidate_Cv) AND (c.full_name IS NOT NUL...
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Running: MATCH (c:Company) RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c:Company {recruiter_email: $email}) RETURN c.company_name AS name...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+        MATCH (c:Company) 
+        RETURN DISTINCT toString(COALESCE(c.company_id, c.id)) as id, 
+ ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (j:Job) WHERE j.company_name_text = $company RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                MATCH (j:Job) 
+                WHERE j.company_name_text = $company
+               ...
+[CYPHER] Result Count: 3
+[CYPHER] Result Count: 100
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Result Count: 500
+[CYPHER] Running: 
+        MATCH (j:Job)
+        WHERE j.title IS NOT NULL
+        WITH j.title AS title, collect(j)[0...
+[CYPHER] Result Count: 39
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (comp:Company)
+            WHERE comp.recruiter_email = $email
+            RETURN...
+[CYPHER] Result Count: 1
+DEBUG: get_candidates called by Omar Chraibi role=recruiter
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                    MATCH (comp:Company)
+                    WHERE comp.recruiter_email = $email
+  ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (c)
+            WHERE (c:Candidate OR c:Candidate_Cv) AND (c.full_name IS NOT NUL...
+[CYPHER] Result Count: 500
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (comp:Company {recruiter_email: $email})-[:POSTED]->(j:Job) RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+DEBUG: get_candidates called by Omar Chraibi role=recruiter
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                    MATCH (comp:Company)
+                    WHERE comp.recruiter_email = $email
+  ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (c)
+            WHERE (c:Candidate OR c:Candidate_Cv) AND (c.full_name IS NOT NUL...
+[CYPHER] Running: MATCH (c:Company) RETURN count(c) as total...
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+        MATCH (c:Company) 
+        RETURN DISTINCT toString(COALESCE(c.company_id, c.id)) as id, 
+ ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c:Company {recruiter_email: $email}) RETURN c.company_name AS name...
+[CYPHER] Result Count: 500
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (j:Job) WHERE j.company_name_text = $company RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                MATCH (j:Job) 
+                WHERE j.company_name_text = $company
+               ...
+[CYPHER] Result Count: 100
+[CYPHER] Result Count: 3
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (comp:Company)
+            WHERE comp.recruiter_email = $email
+            RETURN...
+[CYPHER] Result Count: 1
+DEBUG: get_candidates called by Omar Chraibi role=recruiter
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                    MATCH (comp:Company)
+                    WHERE comp.recruiter_email = $email
+  ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (c)
+            WHERE (c:Candidate OR c:Candidate_Cv) AND (c.full_name IS NOT NUL...
+[CYPHER] Result Count: 500
+[CYPHER] Running: 
+        MATCH (c)
+        WHERE (c:Candidate OR c:Candidate_Cv)
+        AND (c.id = $id OR c.cv_id ...
+[CYPHER] Result Count: 0
+[DELETE ERROR] Candidate not found: 4:db843b93-2a46-4b4f-8fcc-f2e7e6278b4a:9009_1fa00188-89cf-4af1-93a9-6099fd978a82
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (comp:Company {recruiter_email: $email})-[:POSTED]->(j:Job) RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+DEBUG: get_candidates called by Omar Chraibi role=recruiter
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                    MATCH (comp:Company)
+                    WHERE comp.recruiter_email = $email
+  ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (c)
+            WHERE (c:Candidate OR c:Candidate_Cv) AND (c.full_name IS NOT NUL...
+[CYPHER] Running: MATCH (c:Company) RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+        MATCH (c:Company) 
+        RETURN DISTINCT toString(COALESCE(c.company_id, c.id)) as id, 
+ ...
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c:Company {recruiter_email: $email}) RETURN c.company_name AS name...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (j:Job) WHERE j.company_name_text = $company RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                MATCH (j:Job) 
+                WHERE j.company_name_text = $company
+               ...
+[CYPHER] Result Count: 3
+[CYPHER] Result Count: 100
+[CYPHER] Result Count: 500
+[AUTH] Login attempt for: recruiter@gmail.com (role: recruiter)
+[AUTH] User found: Recruteur Somaca role=recruiter
+[AUTH] Password FAILED
+[AUTH] Login attempt for: omar.chraibi@admmarocindustrie.ma (role: recruiter)
+[AUTH] User found: Omar Chraibi role=recruiter
+[AUTH] Password OK
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (comp:Company {recruiter_email: $email})-[:POSTED]->(j:Job) RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+DEBUG: get_candidates called by Omar Chraibi role=recruiter
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                    MATCH (comp:Company)
+                    WHERE comp.recruiter_email = $email
+  ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (c)
+            WHERE (c:Candidate OR c:Candidate_Cv) AND (c.full_name IS NOT NUL...
+[CYPHER] Running: MATCH (c:Company) RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+        MATCH (c:Company) 
+        RETURN DISTINCT toString(COALESCE(c.company_id, c.id)) as id, 
+ ...
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c:Company {recruiter_email: $email}) RETURN c.company_name AS name...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (j:Job) WHERE j.company_name_text = $company RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                MATCH (j:Job) 
+                WHERE j.company_name_text = $company
+               ...
+[CYPHER] Result Count: 3
+[CYPHER] Result Count: 100
+[CYPHER] Result Count: 500
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c:Company {recruiter_email: $email}) RETURN c.company_name AS name LIMIT 1...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (j:Job)
+            WHERE j.company_name_text = $company OR j.company = $company
+...
+[CYPHER] Result Count: 3
+[CYPHER] Running: 
+        MATCH (c)-[r:APPLIED_TO]->(j:Job)
+        WHERE (c:Candidate OR c:Candidate_Cv)
+          A...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (j:Job)
+            WHERE toString(COALESCE(j.job_id, j.id)) = $job_id
+          ...
+[CYPHER] Result Count: 1
+[GET /job/1fa00188-89cf-4af1-93a9-6099fd978a82/candidates] 1 candidat(s) pour 'Data Science 2'
+[AUTH] Login attempt for: omar.chraibi@admmarocindustrie.ma (role: user)
+[AUTH] User found: Omar Chraibi role=recruiter
+[AUTH] Password OK
+[AUTH] Role mismatch: expected user, got recruiter
+[AUTH] Login attempt for: omar.chraibi@admmarocindustrie.ma (role: recruiter)
+[AUTH] User found: Omar Chraibi role=recruiter
+[AUTH] Password OK
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (comp:Company {recruiter_email: $email})-[:POSTED]->(j:Job) RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+DEBUG: get_candidates called by Omar Chraibi role=recruiter
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                    MATCH (comp:Company)
+                    WHERE comp.recruiter_email = $email
+  ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (c)
+            WHERE (c:Candidate OR c:Candidate_Cv) AND (c.full_name IS NOT NUL...
+[CYPHER] Running: MATCH (c:Company) RETURN count(c) as total...
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+        MATCH (c:Company) 
+        RETURN DISTINCT toString(COALESCE(c.company_id, c.id)) as id, 
+ ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c:Company {recruiter_email: $email}) RETURN c.company_name AS name...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (j:Job) WHERE j.company_name_text = $company RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                MATCH (j:Job) 
+                WHERE j.company_name_text = $company
+               ...
+[CYPHER] Result Count: 100
+[CYPHER] Result Count: 3
+[CYPHER] Result Count: 500
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (comp:Company)
+            WHERE comp.recruiter_email = $email
+            RETURN...
+[CYPHER] Result Count: 1
+DEBUG: get_candidates called by Omar Chraibi role=recruiter
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                    MATCH (comp:Company)
+                    WHERE comp.recruiter_email = $email
+  ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (c)
+            WHERE (c:Candidate OR c:Candidate_Cv) AND (c.full_name IS NOT NUL...
+[CYPHER] Result Count: 500
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+        MATCH (j:Job)
+        WHERE j.title IS NOT NULL
+        WITH j.title AS title, collect(j)[0...
+[CYPHER] Result Count: 39
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (comp:Company {recruiter_email: $email})-[:POSTED]->(j:Job) RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+DEBUG: get_candidates called by Omar Chraibi role=recruiter
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                    MATCH (comp:Company)
+                    WHERE comp.recruiter_email = $email
+  ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (c)
+            WHERE (c:Candidate OR c:Candidate_Cv) AND (c.full_name IS NOT NUL...
+[CYPHER] Running: MATCH (c:Company) RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+        MATCH (c:Company) 
+        RETURN DISTINCT toString(COALESCE(c.company_id, c.id)) as id, 
+ ...
+[CYPHER] Result Count: 100
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c:Company {recruiter_email: $email}) RETURN c.company_name AS name...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (j:Job) WHERE j.company_name_text = $company RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                MATCH (j:Job) 
+                WHERE j.company_name_text = $company
+               ...
+[CYPHER] Result Count: 3
+[CYPHER] Result Count: 500
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c:Company) RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+        MATCH (c:Company) 
+        RETURN DISTINCT toString(COALESCE(c.company_id, c.id)) as id, 
+ ...
+[CYPHER] Result Count: 100
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c:Company {recruiter_email: $email}) RETURN c.company_name AS name...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (j:Job) WHERE j.company_name_text = $company RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                MATCH (j:Job) 
+                WHERE j.company_name_text = $company
+               ...
+[CYPHER] Result Count: 3
+[CYPHER] Running: 
+        MATCH (c)-[r:APPLIED_TO]->(j:Job)
+        WHERE (c:Candidate OR c:Candidate_Cv)
+          A...
+[CYPHER] Result Count: 0
+[CYPHER] Running: 
+            MATCH (j:Job)
+            WHERE toString(COALESCE(j.job_id, j.id)) = $job_id
+          ...
+[CYPHER] Result Count: 1
+[GET /job/42ad7f12-7a50-4f9f-994d-9394bf2675c5/candidates] 0 candidat(s) pour 'Data Analyst'
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c:Company) RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+        MATCH (c:Company) 
+        RETURN DISTINCT toString(COALESCE(c.company_id, c.id)) as id, 
+ ...
+[CYPHER] Result Count: 100
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c:Company {recruiter_email: $email}) RETURN c.company_name AS name...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (j:Job) WHERE j.company_name_text = $company RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                MATCH (j:Job) 
+                WHERE j.company_name_text = $company
+               ...
+[CYPHER] Result Count: 3
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c:Company) RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+        MATCH (c:Company) 
+        RETURN DISTINCT toString(COALESCE(c.company_id, c.id)) as id, 
+ ...
+[CYPHER] Result Count: 100
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c:Company {recruiter_email: $email}) RETURN c.company_name AS name...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (j:Job) WHERE j.company_name_text = $company RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                MATCH (j:Job) 
+                WHERE j.company_name_text = $company
+               ...
+[CYPHER] Result Count: 3
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (comp:Company {recruiter_email: $email})-[:POSTED]->(j:Job) RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c:Company) RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+        MATCH (c:Company) 
+        RETURN DISTINCT toString(COALESCE(c.company_id, c.id)) as id, 
+ ...
+[CYPHER] Result Count: 100
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+DEBUG: get_candidates called by Omar Chraibi role=recruiter
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c:Company {recruiter_email: $email}) RETURN c.company_name AS name...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                    MATCH (comp:Company)
+                    WHERE comp.recruiter_email = $email
+  ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (j:Job) WHERE j.company_name_text = $company RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (c)
+            WHERE (c:Candidate OR c:Candidate_Cv) AND (c.full_name IS NOT NUL...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                MATCH (j:Job) 
+                WHERE j.company_name_text = $company
+               ...
+[CYPHER] Result Count: 3
+[CYPHER] Result Count: 500
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (comp:Company {recruiter_email: $email})-[:POSTED]->(j:Job) RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+DEBUG: get_candidates called by Omar Chraibi role=recruiter
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                    MATCH (comp:Company)
+                    WHERE comp.recruiter_email = $email
+  ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (c)
+            WHERE (c:Candidate OR c:Candidate_Cv) AND (c.full_name IS NOT NUL...
+[CYPHER] Running: MATCH (c:Company) RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+        MATCH (c:Company) 
+        RETURN DISTINCT toString(COALESCE(c.company_id, c.id)) as id, 
+ ...
+[CYPHER] Result Count: 500
+[CYPHER] Result Count: 100
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c:Company {recruiter_email: $email}) RETURN c.company_name AS name...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (j:Job) WHERE j.company_name_text = $company RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                MATCH (j:Job) 
+                WHERE j.company_name_text = $company
+               ...
+[CYPHER] Result Count: 3
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (comp:Company {recruiter_email: $email})-[:POSTED]->(j:Job) RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c:Company) RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+        MATCH (c:Company) 
+        RETURN DISTINCT toString(COALESCE(c.company_id, c.id)) as id, 
+ ...
+[CYPHER] Result Count: 100
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (comp:Company {recruiter_email: $email})-[:POSTED]->(j:Job) RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+DEBUG: get_candidates called by Omar Chraibi role=recruiter
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                    MATCH (comp:Company)
+                    WHERE comp.recruiter_email = $email
+  ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (c)
+            WHERE (c:Candidate OR c:Candidate_Cv) AND (c.full_name IS NOT NUL...
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c:Company {recruiter_email: $email}) RETURN c.company_name AS name...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (j:Job) WHERE j.company_name_text = $company RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                MATCH (j:Job) 
+                WHERE j.company_name_text = $company
+               ...
+[CYPHER] Result Count: 3
+[CYPHER] Running: MATCH (c:Company) RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+        MATCH (c:Company) 
+        RETURN DISTINCT toString(COALESCE(c.company_id, c.id)) as id, 
+ ...
+[CYPHER] Result Count: 500
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Result Count: 100
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (comp:Company {recruiter_email: $email})-[:POSTED]->(j:Job) RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+DEBUG: get_candidates called by Omar Chraibi role=recruiter
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                    MATCH (comp:Company)
+                    WHERE comp.recruiter_email = $email
+  ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (c)
+            WHERE (c:Candidate OR c:Candidate_Cv) AND (c.full_name IS NOT NUL...
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (comp:Company {recruiter_email: $email})-[:POSTED]->(j:Job) RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+DEBUG: get_candidates called by Omar Chraibi role=recruiter
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                    MATCH (comp:Company)
+                    WHERE comp.recruiter_email = $email
+  ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (c)
+            WHERE (c:Candidate OR c:Candidate_Cv) AND (c.full_name IS NOT NUL...
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Result Count: 500
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (comp:Company {recruiter_email: $email})-[:POSTED]->(j:Job) RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Result Count: 500
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (comp:Company {recruiter_email: $email})-[:POSTED]->(j:Job) RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+DEBUG: get_candidates called by Omar Chraibi role=recruiter
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                    MATCH (comp:Company)
+                    WHERE comp.recruiter_email = $email
+  ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (c)
+            WHERE (c:Candidate OR c:Candidate_Cv) AND (c.full_name IS NOT NUL...
+[CYPHER] Running: MATCH (c:Company) RETURN count(c) as total...
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+        MATCH (c:Company) 
+        RETURN DISTINCT toString(COALESCE(c.company_id, c.id)) as id, 
+ ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c:Company {recruiter_email: $email}) RETURN c.company_name AS name...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (j:Job) WHERE j.company_name_text = $company RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                MATCH (j:Job) 
+                WHERE j.company_name_text = $company
+               ...
+[CYPHER] Result Count: 3
+[CYPHER] Result Count: 100
+[CYPHER] Result Count: 500
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c:Company {recruiter_email: $email}) RETURN c.company_name AS name LIMIT 1...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (j:Job)
+            WHERE j.company_name_text = $company OR j.company = $company
+...
+[CYPHER] Result Count: 3
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (comp:Company {recruiter_email: $email})-[:POSTED]->(j:Job) RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+DEBUG: get_candidates called by Omar Chraibi role=recruiter
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                    MATCH (comp:Company)
+                    WHERE comp.recruiter_email = $email
+  ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (c)
+            WHERE (c:Candidate OR c:Candidate_Cv) AND (c.full_name IS NOT NUL...
+[CYPHER] Running: MATCH (c:Company) RETURN count(c) as total...
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+        MATCH (c:Company) 
+        RETURN DISTINCT toString(COALESCE(c.company_id, c.id)) as id, 
+ ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c:Company {recruiter_email: $email}) RETURN c.company_name AS name...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (j:Job) WHERE j.company_name_text = $company RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                MATCH (j:Job) 
+                WHERE j.company_name_text = $company
+               ...
+[CYPHER] Result Count: 3
+[CYPHER] Result Count: 100
+[CYPHER] Result Count: 500
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (comp:Company {recruiter_email: $email})-[:POSTED]->(j:Job) RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+DEBUG: get_candidates called by Omar Chraibi role=recruiter
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                    MATCH (comp:Company)
+                    WHERE comp.recruiter_email = $email
+  ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (c)
+            WHERE (c:Candidate OR c:Candidate_Cv) AND (c.full_name IS NOT NUL...
+[CYPHER] Running: MATCH (c:Company) RETURN count(c) as total...
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+        MATCH (c:Company) 
+        RETURN DISTINCT toString(COALESCE(c.company_id, c.id)) as id, 
+ ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c:Company {recruiter_email: $email}) RETURN c.company_name AS name...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (j:Job) WHERE j.company_name_text = $company RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                MATCH (j:Job) 
+                WHERE j.company_name_text = $company
+               ...
+[CYPHER] Result Count: 3
+[CYPHER] Result Count: 100
+[CYPHER] Result Count: 500
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+        MATCH (j:Job)
+        WHERE j.title IS NOT NULL
+        WITH j.title AS title, collect(j)[0...
+[CYPHER] Result Count: 39
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (comp:Company {recruiter_email: $email})-[:POSTED]->(j:Job) RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+DEBUG: get_candidates called by Omar Chraibi role=recruiter
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                    MATCH (comp:Company)
+                    WHERE comp.recruiter_email = $email
+  ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (c)
+            WHERE (c:Candidate OR c:Candidate_Cv) AND (c.full_name IS NOT NUL...
+[CYPHER] Running: MATCH (c:Company) RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+        MATCH (c:Company) 
+        RETURN DISTINCT toString(COALESCE(c.company_id, c.id)) as id, 
+ ...
+[CYPHER] Result Count: 100
+[CYPHER] Result Count: 500
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c:Company {recruiter_email: $email}) RETURN c.company_name AS name...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (j:Job) WHERE j.company_name_text = $company RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                MATCH (j:Job) 
+                WHERE j.company_name_text = $company
+               ...
+[CYPHER] Result Count: 3
+[CYPHER] Running: 
+        MATCH (c)-[r:APPLIED_TO]->(j:Job)
+        WHERE (c:Candidate OR c:Candidate_Cv)
+          A...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (j:Job)
+            WHERE toString(COALESCE(j.job_id, j.id)) = $job_id
+          ...
+[CYPHER] Result Count: 1
+[GET /job/1fa00188-89cf-4af1-93a9-6099fd978a82/candidates] 1 candidat(s) pour 'Data Science 2'
+[CYPHER] Running: 
+        MATCH (c)-[r:APPLIED_TO]->(j:Job)
+        WHERE (c:Candidate OR c:Candidate_Cv)
+          A...
+[CYPHER] Result Count: 0
+[CYPHER] Running: 
+            MATCH (j:Job)
+            WHERE toString(COALESCE(j.job_id, j.id)) = $job_id
+          ...
+[CYPHER] Result Count: 1
+[GET /job/42ad7f12-7a50-4f9f-994d-9394bf2675c5/candidates] 0 candidat(s) pour 'Data Analyst'
+[CYPHER] Running: 
+        MATCH (c)-[r:APPLIED_TO]->(j:Job)
+        WHERE (c:Candidate OR c:Candidate_Cv)
+          A...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (j:Job)
+            WHERE toString(COALESCE(j.job_id, j.id)) = $job_id
+          ...
+[CYPHER] Result Count: 1
+[GET /job/1fa00188-89cf-4af1-93a9-6099fd978a82/candidates] 1 candidat(s) pour 'Data Science 2'
+[CYPHER] Running: 
+        MATCH (c)
+        WHERE (c:Candidate OR c:Candidate_Cv)
+        AND (c.id = $id OR c.cv_id ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (comp:Company {recruiter_email: $email})-[:POSTED]->(j:Job) RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+DEBUG: get_candidates called by Omar Chraibi role=recruiter
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                    MATCH (comp:Company)
+                    WHERE comp.recruiter_email = $email
+  ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (c)
+            WHERE (c:Candidate OR c:Candidate_Cv) AND (c.full_name IS NOT NUL...
+[CYPHER] Result Count: 500
+[CYPHER] Running: MATCH (c:Company) RETURN count(c) as total...
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+        MATCH (c:Company) 
+        RETURN DISTINCT toString(COALESCE(c.company_id, c.id)) as id, 
+ ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c:Company {recruiter_email: $email}) RETURN c.company_name AS name...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (j:Job) WHERE j.company_name_text = $company RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                MATCH (j:Job) 
+                WHERE j.company_name_text = $company
+               ...
+[CYPHER] Result Count: 100
+[CYPHER] Result Count: 3
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (comp:Company {recruiter_email: $email})-[:POSTED]->(j:Job) RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+DEBUG: get_candidates called by Omar Chraibi role=recruiter
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                    MATCH (comp:Company)
+                    WHERE comp.recruiter_email = $email
+  ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (c)
+            WHERE (c:Candidate OR c:Candidate_Cv) AND (c.full_name IS NOT NUL...
+[CYPHER] Running: MATCH (c:Company) RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+        MATCH (c:Company) 
+        RETURN DISTINCT toString(COALESCE(c.company_id, c.id)) as id, 
+ ...
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c:Company {recruiter_email: $email}) RETURN c.company_name AS name...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (j:Job) WHERE j.company_name_text = $company RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                MATCH (j:Job) 
+                WHERE j.company_name_text = $company
+               ...
+[CYPHER] Result Count: 3
+[CYPHER] Result Count: 100
+[CYPHER] Result Count: 500
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c:Company {recruiter_email: $email}) RETURN c.company_name AS name LIMIT 1...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (j:Job)
+            WHERE j.company_name_text = $company OR j.company = $company
+...
+[CYPHER] Result Count: 3
+[CYPHER] Running: 
+        MATCH (c)-[r:APPLIED_TO]->(j:Job)
+        WHERE (c:Candidate OR c:Candidate_Cv)
+          A...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (j:Job)
+            WHERE toString(COALESCE(j.job_id, j.id)) = $job_id
+          ...
+[CYPHER] Result Count: 1
+[GET /job/1fa00188-89cf-4af1-93a9-6099fd978a82/candidates] 1 candidat(s) pour 'Data Science 2'
+[CYPHER] Running: 
+        MATCH (c)-[r:APPLIED_TO]->(j:Job)
+        WHERE (c:Candidate OR c:Candidate_Cv)
+          A...
+[CYPHER] Result Count: 0
+[CYPHER] Running: 
+            MATCH (j:Job)
+            WHERE toString(COALESCE(j.job_id, j.id)) = $job_id
+          ...
+[CYPHER] Result Count: 1
+[GET /job/42ad7f12-7a50-4f9f-994d-9394bf2675c5/candidates] 0 candidat(s) pour 'Data Analyst'
+[CYPHER] Running: 
+        MATCH (c)-[r:APPLIED_TO]->(j:Job)
+        WHERE (c:Candidate OR c:Candidate_Cv)
+          A...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (j:Job)
+            WHERE toString(COALESCE(j.job_id, j.id)) = $job_id
+          ...
+[CYPHER] Result Count: 1
+[GET /job/1fa00188-89cf-4af1-93a9-6099fd978a82/candidates] 1 candidat(s) pour 'Data Science 2'
+[CYPHER] Running: 
+        MATCH (c)
+        WHERE (c:Candidate OR c:Candidate_Cv)
+        AND (c.id = $id OR c.cv_id ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+        MATCH (c)-[r:APPLIED_TO]->(j:Job)
+        WHERE (c:Candidate OR c:Candidate_Cv)
+          A...
+[CYPHER] Result Count: 1
+[SELECT] 'achraf elattaoui' sélectionné pour 'Data Science 2'
+[CYPHER] Running: 
+        MATCH (c)
+        WHERE (c:Candidate OR c:Candidate_Cv)
+        AND (c.id = $id OR c.cv_id ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+        MATCH (c)-[r:APPLIED_TO]->(j:Job)
+        WHERE (c:Candidate OR c:Candidate_Cv)
+          A...
+[CYPHER] Result Count: 0
+[CYPHER] Running: 
+            MATCH (j:Job)
+            WHERE toString(COALESCE(j.job_id, j.id)) = $job_id
+          ...
+[CYPHER] Result Count: 1
+[GET /job/42ad7f12-7a50-4f9f-994d-9394bf2675c5/candidates] 0 candidat(s) pour 'Data Analyst'
+[CYPHER] Running: 
+        MATCH (c)-[r:APPLIED_TO]->(j:Job)
+        WHERE (c:Candidate OR c:Candidate_Cv)
+          A...
+[CYPHER] Result Count: 0
+[CYPHER] Running: 
+            MATCH (j:Job)
+            WHERE toString(COALESCE(j.job_id, j.id)) = $job_id
+          ...
+[CYPHER] Result Count: 1
+[GET /job/2615/candidates] 0 candidat(s) pour 'Customer Support Agent'
+[AUTH] Login attempt for: hiba.aitbenyadil@emsi-edu.ma (role: user)
+[AUTH] User found: Hiba Ait Benyadil role=user
+[AUTH] Password OK
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (j:Job) RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c:Company) RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c:Company) RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+        MATCH (c:Company) 
+        RETURN DISTINCT toString(COALESCE(c.company_id, c.id)) as id, 
+ ...
+[CYPHER] Result Count: 100
+[CYPHER] Running: MATCH (j:Job) RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (j:Job)
+            OPTIONAL MATCH (comp:Company)-[:POSTED]->(j)
+            RETU...
+[CYPHER] Result Count: 100
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c:Company) RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+        MATCH (c:Company) 
+        RETURN DISTINCT toString(COALESCE(c.company_id, c.id)) as id, 
+ ...
+[CYPHER] Result Count: 100
+[CYPHER] Running: MATCH (j:Job) RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (j:Job)
+            OPTIONAL MATCH (comp:Company)-[:POSTED]->(j)
+            RETU...
+[CYPHER] Result Count: 100
+[CYPHER] Running: 
+        MATCH (j:Job)
+        WHERE toString(j.id) = $id OR toString(j.job_id) = $id OR j.id = $id ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (s:Skill) RETURN DISTINCT toLower(COALESCE(s.skill_name, s.name)) as name...
+[CYPHER] Result Count: 115
+[Apply Upload] Detected 15 tech skills from CV.
+[CYPHER] Running: 
+        MERGE (c:Candidate_Cv {user_id: $user_id})
+        ON CREATE SET
+            c.cv_id       ...
+[CYPHER] Result Count: 1
+[Apply Upload] Candidate saved: {'cv_id': None, 'saved_name': 'achraf elattaoui', 'saved_email': 'elattaouiachraf4@gmail.com'}
+[CYPHER] Running: 
+                MATCH (c:Candidate_Cv {user_id: $user_id})
+                UNWIND $skills AS skill_...
+[CYPHER] Result Count: 0
+[Apply Upload] Linked 15 skills.
+[CYPHER] Running: 
+        MATCH (c:Candidate_Cv {user_id: $user_id})
+        MATCH (j:Job)
+        WHERE toString(COA...
+[CYPHER] Result Count: 1
+[Apply Upload] SUCCESS: 'achraf elattaoui' applied to 'Data Analyst' (ADM Maroc Industrie)
+[AUTH] Login attempt for: omar.chraibi@admmarocindustrie.ma (role: recruiter)
+[AUTH] User found: Omar Chraibi role=recruiter
+[AUTH] Password OK
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (comp:Company {recruiter_email: $email})-[:POSTED]->(j:Job) RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+DEBUG: get_candidates called by Omar Chraibi role=recruiter
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                    MATCH (comp:Company)
+                    WHERE comp.recruiter_email = $email
+  ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c) WHERE c:Candidate OR c:Candidate_Cv RETURN count(c) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (c)
+            WHERE (c:Candidate OR c:Candidate_Cv) AND (c.full_name IS NOT NUL...
+[CYPHER] Running: MATCH (c:Company) RETURN count(c) as total...
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+        MATCH (c:Company) 
+        RETURN DISTINCT toString(COALESCE(c.company_id, c.id)) as id, 
+ ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c:Company {recruiter_email: $email}) RETURN c.company_name AS name...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (j:Job) WHERE j.company_name_text = $company RETURN count(j) as total...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+                MATCH (j:Job) 
+                WHERE j.company_name_text = $company
+               ...
+[CYPHER] Result Count: 3
+[CYPHER] Result Count: 100
+[CYPHER] Result Count: 500
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c:Company {recruiter_email: $email}) RETURN c.company_name AS name LIMIT 1...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (j:Job)
+            WHERE j.company_name_text = $company OR j.company = $company
+...
+[CYPHER] Result Count: 3
+[CYPHER] Running: 
+        MATCH (c)-[r:APPLIED_TO]->(j:Job)
+        WHERE (c:Candidate OR c:Candidate_Cv)
+          A...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (j:Job)
+            WHERE toString(COALESCE(j.job_id, j.id)) = $job_id
+          ...
+[CYPHER] Result Count: 1
+[GET /job/42ad7f12-7a50-4f9f-994d-9394bf2675c5/candidates] 1 candidat(s) pour 'Data Analyst'
+[CYPHER] Running: 
+        MATCH (c)
+        WHERE (c:Candidate OR c:Candidate_Cv)
+        AND (c.id = $id OR c.cv_id ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+        MATCH (c)-[r:APPLIED_TO]->(j:Job)
+        WHERE (c:Candidate OR c:Candidate_Cv)
+          A...
+[CYPHER] Result Count: 1
+[REJECT] 'achraf elattaoui' rejeté pour 'Data Analyst'
+[CYPHER] Running: 
+        MATCH (c)
+        WHERE (c:Candidate OR c:Candidate_Cv)
+        AND (c.id = $id OR c.cv_id ...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (u:User) WHERE elementId(u) = $eid RETURN u.email AS email...
+[CYPHER] Result Count: 1
+[CYPHER] Running: MATCH (c:Company {recruiter_email: $email}) RETURN c.company_name AS name LIMIT 1...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (j:Job)
+            WHERE j.company_name_text = $company OR j.company = $company
+...
+[CYPHER] Result Count: 3
+[CYPHER] Running: 
+        MATCH (c)-[r:APPLIED_TO]->(j:Job)
+        WHERE (c:Candidate OR c:Candidate_Cv)
+          A...
+[CYPHER] Result Count: 1
+[CYPHER] Running: 
+            MATCH (j:Job)
+            WHERE toString(COALESCE(j.job_id, j.id)) = $job_id
+          ...
+[CYPHER] Result Count: 1
+[GET /job/42ad7f12-7a50-4f9f-994d-9394bf2675c5/candidates] 1 candidat(s) pour 'Data Analyst'
+STARTING APP.PY
+IMPORTED DOTENV
+IMPORTED DB
+DONE IMPORTS
+ENTERING MAIN
+CREATING APP
+[INIT] Recruiter user seeded for: karim.tazi@admmarocgroupe5.ma (password: Karim2026)
+[INIT] Recruiter user seeded for: youssef.alaoui@admmaroc.ma (password: Youssef2026)
+[INIT] Recruiter user seeded for: amina.berrada@admmarocdistribution.ma (password: Amina2026)
+[INIT] Recruiter user seeded for: salma.bennani@admmarocgroupe6.ma (password: Salma2026)
+[INIT] Recruiter user seeded for: omar.chraibi@admmarocindustrie.ma (password: Omar2026)
+[INIT] Recruiter user seeded for: khadija.elfassi@admmarocservices.ma (password: Khadija2026)
+[INIT] Recruiter user seeded for: hassan.mansouri@axaassurancemaroc.ma (password: Hassan2026)
+[INIT] Recruiter user seeded for: nadia.amrani@accormaroc.ma (password: Nadia2026)
+[INIT] Recruiter user seeded for: mehdi.idrissi@acima.ma (password: Mehdi2026)
+[INIT] Recruiter user seeded for: fatima.lahlou@acimagroupe5.ma (password: Fatima2026)
+[INIT] Recruiter user seeded for: tariq.benali@acimagroupe6.ma (password: Tariq2026)
+[INIT] Recruiter user seeded for: meryem.guessous@acimagroupe7.ma (password: Meryem2026)
+[INIT] Recruiter user seeded for: rachid.othmani@addoha.ma (password: Rachid2026)
+[INIT] Recruiter user seeded for: houda.benjelloun@africindustries.ma (password: Houda2026)
+[INIT] Recruiter user seeded for: yassine.zniber@afriquiasmdc.ma (password: Yassine2026)
+[INIT] Recruiter user seeded for: sanae.kabbaj@afriquiasmdcgroupe4.ma (password: Sanae2026)
+[INIT] Recruiter user seeded for: hicham.lazrak@afriquiasmdcgroupe5.ma (password: Hicham2026)
+[INIT] Recruiter user seeded for: imane.sbai@afriquiasmdcgroupe6.ma (password: Imane2026)
+[INIT] Recruiter user seeded for: adil.belhaj@akdital.ma (password: Adil2026)
+[INIT] Recruiter user seeded for: leila.naciri@akditaldistribution.ma (password: Leila2026)
+[INIT] Recruiter user seeded for: khalid.tahiri@akditalgroupe4.ma (password: Khalid2026)
+[INIT] Recruiter user seeded for: zineb.daoudi@akditalgroupe5.ma (password: Zineb2026)
+[INIT] Recruiter user seeded for: brahim.saidi@akditalgroupe6.ma (password: Brahim2026)
+[INIT] Recruiter user seeded for: soukaina.filali@akditalindustrie.ma (password: Soukaina2026)
+[INIT] Recruiter user seeded for: reda.kadiri@akditalservices.ma (password: Reda2026)
+[INIT] Recruiter user seeded for: asmaa.rami@akwagroup.ma (password: Asmaa2026)
+[INIT] Recruiter user seeded for: nabil.bennis@akwagroupdistribution.ma (password: Nabil2026)
+[INIT] Recruiter user seeded for: bouchra.elmalki@akwagroupindustrie.ma (password: Bouchra2026)
+[INIT] Recruiter user seeded for: ilyas.sqalli@akwagroupservices.ma (password: Ilyas2026)
+[INIT] Recruiter user seeded for: hanane.ouardi@albaridbank.ma (password: Hanane2026)
+[INIT] Recruiter user seeded for: said.berrich@albaridbankdistribution.ma (password: Said2026)
+[INIT] Recruiter user seeded for: naima.hachimi@albaridbankgroupe5.ma (password: Naima2026)
+[INIT] Recruiter user seeded for: mourad.bakri@albaridbankgroupe6.ma (password: Mourad2026)
+[INIT] Recruiter user seeded for: siham.yacoubi@albaridbankgroupe7.ma (password: Siham2026)
+[INIT] Recruiter user seeded for: othmane.jamali@albaridbankindustrie.ma (password: Othmane2026)
+[INIT] Recruiter user seeded for: majda.alaoui@albaridbankservices.ma (password: Majda2026)
+[INIT] Recruiter user seeded for: ayoub.berrada@alsamaroc.ma (password: Ayoub2026)
+[INIT] Recruiter user seeded for: wiam.tazi@alsamarocdistribution.ma (password: Wiam2026)
+[INIT] Recruiter user seeded for: anas.bennani@alsamarocgroupe5.ma (password: Anas2026)
+[INIT] Recruiter user seeded for: ibtissam.chraibi@alsamarocgroupe6.ma (password: Ibtissam2026)
+[INIT] Recruiter user seeded for: youssef.fassi@alsamarocindustrie.ma (password: Youssef2026)
+[INIT] Recruiter user seeded for: amina.mansouri@alsamarocservices.ma (password: Amina2026)
+[INIT] Recruiter user seeded for: karim.amrani@amendis.ma (password: Karim2026)
+[INIT] Recruiter user seeded for: salma.idrissi@amendisdistribution.ma (password: Salma2026)
+[INIT] Recruiter user seeded for: omar.lahlou@amendisgroupe5.ma (password: Omar2026)
+[INIT] Recruiter user seeded for: khadija.benali@amendisgroupe6.ma (password: Khadija2026)
+[INIT] Recruiter user seeded for: hassan.guessous@amendisindustrie.ma (password: Hassan2026)
+[INIT] Recruiter user seeded for: nadia.othmani@amendisservices.ma (password: Nadia2026)
+[INIT] Recruiter user seeded for: mehdi.benjelloun@aswakassalamgroupe5.ma (password: Mehdi2026)
+[INIT] Recruiter user seeded for: fatima.zniber@aswakassalamgroupe6.ma (password: Fatima2026)
+[INIT] Recruiter user seeded for: tariq.kabbaj@aswakassalamgroupe7.ma (password: Tariq2026)
+[INIT] Recruiter user seeded for: meryem.lazrak@atlantasanad.ma (password: Meryem2026)
+[INIT] Recruiter user seeded for: rachid.sbai@atlantasanaddistribution.ma (password: Rachid2026)
+[INIT] Recruiter user seeded for: houda.belhaj@atlantasanadgroupe5.ma (password: Houda2026)
+[INIT] Recruiter user seeded for: yassine.naciri@atlantasanadgroupe6.ma (password: Yassine2026)
+[INIT] Recruiter user seeded for: sanae.tahiri@atlantasanadgroupe7.ma (password: Sanae2026)
+[INIT] Recruiter user seeded for: hicham.daoudi@atlantasanadindustrie.ma (password: Hicham2026)
+[INIT] Recruiter user seeded for: imane.saidi@atlantasanadservices.ma (password: Imane2026)
+[INIT] Recruiter user seeded for: adil.filali@attijariwafabank.ma (password: Adil2026)
+[INIT] Recruiter user seeded for: leila.kadiri@attijariwafabankdistribution.ma (password: Leila2026)
+[INIT] Recruiter user seeded for: khalid.rami@attijariwafabankgroupe5.ma (password: Khalid2026)
+[INIT] Recruiter user seeded for: zineb.bennis@attijariwafabankgroupe6.ma (password: Zineb2026)
+[INIT] Recruiter user seeded for: brahim.malki@attijariwafabankgroupe7.ma (password: Brahim2026)
+[INIT] Recruiter user seeded for: soukaina.sqalli@attijariwafabankindustrie.ma (password: Soukaina2026)
+[INIT] Recruiter user seeded for: reda.ouardi@attijariwafabankservices.ma (password: Reda2026)
+[INIT] Recruiter user seeded for: asmaa.berrich@autohall.ma (password: Asmaa2026)
+[INIT] Recruiter user seeded for: nabil.hachimi@autohalldistribution.ma (password: Nabil2026)
+[INIT] Recruiter user seeded for: bouchra.bakri@autohallindustrie.ma (password: Bouchra2026)
+[INIT] Recruiter user seeded for: ilyas.yacoubi@autohallservices.ma (password: Ilyas2026)
+[INIT] Recruiter user seeded for: hanane.jamali@bmcebankofafrica.ma (password: Hanane2026)
+[INIT] Recruiter user seeded for: said.alaoui@bmcebankofafricagroupe5.ma (password: Said2026)
+[INIT] Recruiter user seeded for: naima.berrada@bmcebankofafricagroupe6.ma (password: Naima2026)
+[INIT] Recruiter user seeded for: mourad.tazi@bmcebankofafricagroupe7.ma (password: Mourad2026)
+[INIT] Recruiter user seeded for: siham.bennani@bmci.ma (password: Siham2026)
+[INIT] Recruiter user seeded for: othmane.chraibi@banquecentralepopulaire.ma (password: Othmane2026)
+[INIT] Recruiter user seeded for: majda.fassi@banquecentralepopulairedistribution.ma (password: Majda2026)
+[INIT] Recruiter user seeded for: ayoub.mansouri@banquecentralepopulaireindustrie.ma (password: Ayoub2026)
+[INIT] Recruiter user seeded for: wiam.amrani@banquecentralepopulaireservices.ma (password: Wiam2026)
+[INIT] Recruiter user seeded for: anas.idrissi@banquepopulaire.ma (password: Anas2026)
+[INIT] Recruiter user seeded for: ibtissam.lahlou@banquepopulairegroupe5.ma (password: Ibtissam2026)
+[INIT] Recruiter user seeded for: youssef.benali@banquepopulairegroupe6.ma (password: Youssef2026)
+[INIT] Recruiter user seeded for: amina.guessous@banquepopulairegroupe7.ma (password: Amina2026)
+[INIT] Recruiter user seeded for: karim.othmani@bimmaroc.ma (password: Karim2026)
+[INIT] Recruiter user seeded for: salma.benjelloun@bimmarocgroupe5.ma (password: Salma2026)
+[INIT] Recruiter user seeded for: omar.zniber@bimmarocgroupe6.ma (password: Omar2026)
+[INIT] Recruiter user seeded for: khadija.kabbaj@bimmarocgroupe7.ma (password: Khadija2026)
+[INIT] Recruiter user seeded for: hassan.lazrak@cfgbank.ma (password: Hassan2026)
+[INIT] Recruiter user seeded for: nadia.sbai@cgimaroc.ma (password: Nadia2026)
